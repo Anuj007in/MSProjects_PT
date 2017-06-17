@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="SRGA4ActivateInactivate" Id="f9fdc8e7-4cb4-4991-ae27-6213c1b04182" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e5db3d2d-62a8-49cf-9b14-23c3b4e18f9c.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="7db4f829-c672-477d-9ce9-11ca9df525d5" Version="1.1" Url="{{WebServer1}}/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <TransactionTimer Name="SRGA Inactivate Pre action body">
+      <Items>
+        <Comment CommentText="session exp-portsal sigin again" />
+        <Request Method="GET" Guid="b1b17c8e-ce0b-401f-80a5-e6a531b3e565" Version="1.1" Url="{{WebServer1}}/Account/SignIn" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.microsoftonline.com/USGAB2CTEST.onmicrosoft.com/oauth2/authorize" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="b2589986-04af-49bd-a84c-0e8d8ae6dea1" Version="1.1" Url="{{WebServer2}}/usgab2ctest.onmicrosoft.com/login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer2}}/te/usgab2ctest.onmicrosoft.com/oauth2/authresp?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNjdmYjljYy1kY2E4LTQ0MDEtYmY4YS0zZWFmNWI1NDVmZDIvIiwiaWF0IjoxNDM1NjkwNDQ0LCJuYmYiOjE0MzU2OTA0NDQsImV4cCI6MTQzNTY5NDM0NCwidmVyIjoiMS4wIiwidGlkIjoiZDY3ZmI5Y2MtZGNhOC00NDAxLWJmOGEtM2VhZjViNTQ1ZmQyIiwib2lkIjoiOTIxODcwMWEtMTM4My00YWFjLTkwYjctYThhODBjNzYxZTg2IiwidXBuIjoibXJhamFtX2RlbG9pdHRlLmNvbUBVU0dBQjJDVEVTVC5vbm1pY3Jvc29mdC5jb20iLCJwdWlkIjoiMTAwMzNGRkY5MEI4MUNGNiIsInN1YiI6IlNGSFZMV08tWUFyeUpPZWVFSnpWUDV1ZjY5S0c5aVVXV21xdmNIRk1kdDgiLCJnaXZlbl9uYW1lIjoiTWFuZWVzaCIsImZhbWlseV9uYW1lIjoiUmFqYW0iLCJuYW1lIjoiTWFuZWVzaCIsImFtciI6WyJwd2QiXSwidW5pcXVlX25hbWUiOiJtcmFqYW1fZGVsb2l0dGUuY29tQFVTR0FCMkNURVNULm9ubWljcm9zb2Z0LmNvbSIsIm5vbmNlIjoiNDBHY0V4bE9CVkFVekh3WFVtZDFKdz09In0.MWBoqpcoY4Y9virqL4MoHgcyBeYxMbTqszNc4jeC48ZuHHvVTCOum94fCAdOcUnCTv0tFUPaCHEu0pladM5xQmTRWBbJ2XOxf1iJ-0zO5s3WJuIQEya9gZxTjxBzVYzldZLWXXyr_q0IR2Y20aGg5EkexLB4jCLNTicvm7zwTPnda_E1-5eneeRX1GuK3Rc-dxLd-jbyFUDJEJKWaatvUUEU0cTOY6ta3tyQ7_3O60458hoFd4q0XiWexC2Qo1yesefoPY_vQGQX0LOWpa3KIj2FLHcTjzkww87igjOMzAwzex0VcblWa0vwiJZGCt9-mL4dcMvftYsB7C2df07NOQ&amp;state=eyJUIjoiZjFiNDdmYjUtNTYzMS00Y2YyLThiY2ItNWRiZDVhZjM0NzIzIiwiUiI6IjNjMzgxMzM4LTAxNGItNDdmMS1hNjMxLTYzZjEyMGE1NzgzNSJ9&amp;session_state=e3a7002c-da4a-4e76-a947-b6d8938048d2" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer2}}/USGAB2CTEST.onmicrosoft.com/oauth2/authorize?client_id=bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4&amp;redirect_uri=https:%2f%2flogin.microsoftonline.com%2fte%2fusgab2ctest.onmicrosoft.com%2foauth2%2fauthresp&amp;response_type=id_token&amp;scope=email+openid&amp;response_mode=query&amp;nonce=40GcExlOBVAUzHwXUmd1Jw%3d%3d&amp;nux=1&amp;nca=1&amp;domain_hint=USGAB2CTEST.onmicrosoft.com&amp;mkt=en-US&amp;lc=1033&amp;state=eyJUIjoiZjFiNDdmYjUtNTYzMS00Y2YyLThiY2ItNWRiZDVhZjM0NzIzIiwiUiI6IjNjMzgxMzM4LTAxNGItNDdmMS1hNjMxLTYzZjEyMGE1NzgzNSJ9" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <FormPostHttpBody>
+            <FormPostParameter Name="login" Value="{{SRGADS.SRGA4UserLogin#csv.ï»¿USGASuperAdminUserName}}" RecordedValue="mrajam@deloitte.com" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="passwd" Value="{{SRGADS.SRGA4UserLogin#csv.Password}}" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctx" Value="{{$HIDDEN1.ctx}}" RecordedValue="3wEBD09BdXRoMkF1dGhvcml6ZQEPT0F1dGgyQXV0aG9yaXplARt1c2dhYjJjdGVzdC5vbm1pY3Jvc29mdC5jb20BAQEVb3BlbmlkY29ubmVjdC5pZHRva2VuAAABASRiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQAAQxlbWFpbCBvcGVuaWQAAAAAAAAAAAABARoAAAABUGh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbS90ZS91c2dhYjJjdGVzdC5vbm1pY3Jvc29mdC5jb20vb2F1dGgyL2F1dGhyZXNwAQ0BA2NpZAEkMzlmYjE0NWQtZmI1My00ZDA5LThkZTMtYjc2Njc0ZTY5NmQ3AQpEb21haW5IaW50ARtVU0dBQjJDVEVTVC5vbm1pY3Jvc29mdC5jb20BCWVycm9yX3VyaQFQaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tL3RlL3VzZ2FiMmN0ZXN0Lm9ubWljcm9zb2Z0LmNvbS9vYXV0aDIvYXV0aHJlc3ABD2luY2x1ZGVfYXRfaGFzaAEBMQELaW50ZXJhY3RpdmUBATEBAkxjAQQxMDMzAQNNa3QBBWVuLVVTAQNuY2EBATEBBU5vbmNlARg0MEdjRXhsT0JWQVV6SHdYVW1kMUp3PT0BAnJjAXRleUpVSWpvaVpqRmlORGRtWWpVdE5UWXpNUzAwWTJZeUxUaGlZMkl0TldSaVpEVmhaak0wTnpJeklpd2lVaUk2SWpOak16Z3hNek00TFRBeE5HSXRORGRtTVMxaE5qTXhMVFl6WmpFeU1HRTFOemd6TlNKOQEMUmVzcG9uc2VNb2RlAQVxdWVyeQEJc2Vzc2lvbklkASRlM2E3MDAyYy1kYTRhLTRlNzYtYTk0Ny1iNmQ4OTM4MDQ4ZDIBD2xpbWl0X3Rva2Vuc2l6ZQEBMe01" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="flowToken" Value="{{$HIDDEN1.flowToken}}" RecordedValue="AAABAAEAiL9Kn2Z27UubvWFPbm0gLeE6vITYmXFo-s4h8dEToBKZ3S4AOR7uhLIqLTBcQmqzUppNdh011MBOg5QLHnrtnYRpY4C4IgpAtoELozdK5XogAA" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n1" Value="35795" RecordedValue="35795" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n2" Value="-1435690621000" RecordedValue="-1435690621000" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n3" Value="-1435690621000" RecordedValue="-1435690621000" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n4" Value="40783" RecordedValue="40783" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n5" Value="40783" RecordedValue="40783" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n6" Value="40783" RecordedValue="40783" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n7" Value="40783" RecordedValue="40783" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n8" Value="NaN" RecordedValue="NaN" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n9" Value="40783" RecordedValue="40783" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n10" Value="40784" RecordedValue="40784" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n11" Value="40785" RecordedValue="40785" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n12" Value="40869" RecordedValue="40869" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n13" Value="40785" RecordedValue="40785" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n14" Value="46827" RecordedValue="46827" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n15" Value="70" RecordedValue="70" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n16" Value="46912" RecordedValue="46912" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n17" Value="46922" RecordedValue="46922" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n18" Value="46940" RecordedValue="46940" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n19" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam1.n19}}" UrlEncode="True" />
+            <FormPostParameter Name="n20" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam2.n20}}" UrlEncode="True" />
+            <FormPostParameter Name="n21" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam3.n21}}" UrlEncode="True" />
+            <FormPostParameter Name="n22" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam4.n22}}" UrlEncode="True" />
+            <FormPostParameter Name="n23" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam5.n23}}" UrlEncode="True" />
+            <FormPostParameter Name="n24" Value="293.1179327873051" RecordedValue="293.1179327873051" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n25" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam6.n25}}" UrlEncode="True" />
+            <FormPostParameter Name="n26" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam7.n26}}" UrlEncode="True" />
+            <FormPostParameter Name="n27" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam8.n27}}" UrlEncode="True" />
+            <FormPostParameter Name="n28" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam9.n28}}" UrlEncode="True" />
+            <FormPostParameter Name="n29" Value="26.106634370269603" RecordedValue="26.106634370269603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n30" Value="0.0418150149344001" RecordedValue="0.0418150149344001" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n31" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam10.n31}}" UrlEncode="True" />
+            <FormPostParameter Name="n32" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam11.n32}}" UrlEncode="True" />
+            <FormPostParameter Name="n33" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam12.n33}}" UrlEncode="True" />
+            <FormPostParameter Name="n34" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam13.n34}}" UrlEncode="True" />
+            <FormPostParameter Name="n35" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam14.n35}}" UrlEncode="True" />
+            <FormPostParameter Name="n36" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam15.n36}}" UrlEncode="True" />
+            <FormPostParameter Name="n37" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam16.n37}}" UrlEncode="True" />
+            <FormPostParameter Name="n38" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam17.n38}}" UrlEncode="True" />
+            <FormPostParameter Name="n39" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam18.n39}}" UrlEncode="True" />
+            <FormPostParameter Name="n40" Value="11178.341038700176" RecordedValue="11178.341038700176" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n41" Value="11395.480329076564" RecordedValue="11395.480329076564" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n42" Value="11074.322387682968" RecordedValue="11074.322387682968" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="n43" Value="11144.91221507819" RecordedValue="11144.91221507819" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="type" Value="11" RecordedValue="11" CorrelationBinding="{{FormPostParam19.type}}" UrlEncode="True" />
+            <FormPostParameter Name="LoginOptions" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam20.LoginOptions}}" UrlEncode="True" />
+            <FormPostParameter Name="NewUser" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam21.NewUser}}" UrlEncode="True" />
+            <FormPostParameter Name="idsbho" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam22.idsbho}}" UrlEncode="True" />
+            <FormPostParameter Name="PwdPad" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="sso" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="vv" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="uiver" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam23.uiver}}" UrlEncode="True" />
+            <FormPostParameter Name="i12" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam24.i12}}" UrlEncode="True" />
+            <FormPostParameter Name="i13" Value="Firefox" RecordedValue="Firefox" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="i14" Value="11.0" RecordedValue="11.0" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="i15" Value="1416" RecordedValue="1416" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="i16" Value="559" RecordedValue="559" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="i20" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="POST" Guid="064feb66-3648-4c28-be33-c282a6d96112" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <FormPostHttpBody>
+            <FormPostParameter Name="state" Value="{{$HIDDEN1.state}}" RecordedValue="OpenIdConnect.AuthenticationProperties=GpZRISaGxYUzIh3M79yJ8uIVQdrEHEDZswr6TS2kiMW0nkzE1JmFp1KLaNitnTF7P7tOQzsKc7hZbl7CsO7qC2ONdBLeRVwrTilDIhrK_GLY3igX8VVMyDY9uWUnepYdM-wqoku2RIx3KchyMW1XZ7NgsnNY1pc7jRV8BqoigfTgz7d1JR96XIRD5Sa35Oe-hP1pvQfSstty7OYvHwie1_xIvig" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="access_token" Value="{{$HIDDEN1.access_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZDY3ZmI5Y2MtZGNhOC00NDAxLWJmOGEtM2VhZjViNTQ1ZmQyLyIsImF1ZCI6Imh0dHA6Ly91c2dhZ2hpbndlYmF6dXJldGVzdC5jbG91ZGFwcC5uZXQvIy9ob21lL2dvbGYiLCJleHAiOjE0MzY1MjQyOTEsIm5iZiI6MTQzNjUyMDY5MSwib2lkIjoiOTIxODcwMWEtMTM4My00YWFjLTkwYjctYThhODBjNzYxZTg2IiwiZ2l2ZW5fbmFtZSI6Ik1hbmVlc2giLCJmYW1pbHlfbmFtZSI6IlJhamFtIiwibmFtZSI6Ik1hbmVlc2giLCJzdWIiOiJnYzFDYk56ZjZQME5WWnhzakw5dTlvdnFLYVQzaGpPcS9VV2plVzJTdU9jPSIsInN0cmVldEFkZHJlc3MiOiJNYWRoYXB1ciIsInN0YXRlIjoiQXJpem9uYSIsInBvc3RhbENvZGUiOiI0MjQzMCIsImpvYlRpdGxlIjoiQ29uc3VsdGFudCIsImV4dGVuc2lvbl9DcGltX0dISU5JRCI6Ijc2NTQ0MjExMjEiLCJleHRlbnNpb25fQ3BpbV9HSElORU1BSUwiOiJtcmFqYW1AZGVsb2l0dGUuY29tIiwiY2l0eSI6Ikh5ZGVyYWJhZCIsImVtYWlscyI6WyJtcmFqYW1AZGVsb2l0dGUuY29tIl0sIm5vbmNlIjoiNjM1NzIxMTc0ODUwMjQ1OTY5Lk9XSXlZekJoWmpZdFl6TmxaQzAwWkdRNUxXSXlaakF0WVRZd1pqWTNZV0pqT1dVMk16bGpNemhrT1RNdFlXTTRZUzAwTnpnNUxXSm1NRGN0TlRaaE1HSXhaR1l4T0RsayIsInZlciI6IjEuMCJ9.O3HKaba4BSspEm_UKajf7HdZGMyAnP80e_7YAJPDBXWN_XAXlx_YBwlDizWHNTuhibwMQmmVZ7mifVii2-3Kphwldyael8RuxRe6lxtaFsyeZRuOB2BT_b1mGlga5OEUiTE50jeRLSO1eYnO3HAyPP12WeX7B5SVCTq4ovCd_0H_jfzdOzHpFhRXiPyq4VXJwrocSWjkphspH7pkBy0kAjL48eZzaoeDs1VVgldP8976BJy8WdlnUhClI273UWATMV6RF5j2TMEgO6r-UPszAK-NQ403Yp5K3s3n4fQhsrCtnxmJSeKdb_gbZgc53qPPgyLmu1bt7HSRGPB0Ra2jTQ" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="token_type" Value="{{$HIDDEN1.token_type}}" RecordedValue="Bearer" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="code" Value="{{$HIDDEN1.code}}" RecordedValue="AAQfQmvuDy8WtUv-sd0TBwWV_kf53-CIYJWLNfJxf5HS3s8ln2hvrO71-UjTeeR7b1DRJlWsv0CqXW-MteDCqfIMomIYjfxqNgBSQ2Do31Ik81CJMpT_hRmxCZPu6DdbWyCo1MrWAW9JUgp_YAXrECrvXfa2gs3i8GdlTFY10Vz2_0gqwhOLmdOMGa9HU8aRE_nfRU8FgCWRrUU2tPrGiqlRqaP1jDr9fCSk8URDzJgY2E_t3NqxUhns3k1rWjSCmzjQ_vOlQ0X06MSUHE8R8uYv3i1uBhxlc-ynjY4hZNBriUHwdUuVCNc_rNvGfBo5GjmT3B5e_w9sau5rPJm--a1dSnsjVWn6yAcTHvyAiB0xjqCwaYDeDOVCdydrxlsRn86dbQyufY_Z7e7iAYhp6P2Yd07GW5W73Xntk6HMYNLnFuT4aLJlw19pwcJpnJssIoyD7YfWhj_Am-ZbTNMJ1ALOjPCBTXh1YeX9gDT4YNXYqAbV8H3-Hnm6DJRhgmDmG6MIiQiR-cqM1ZgCB4Xey51CKoijpKCZMfCme4DPczaSZekBhI4chRrgGkUh-sSjG-mKx1TO82dCEVt5eDYUVVLMXJT7R7ouiNtbMLp_8L1FSa7yfRJZB1CxpFQhRx-PzwgMXHR2uugG1GfmTcWKb7RJVhWzrY3tgbP8DDy_5y5GaCbqMDIHbvTbvG-nUgaY3LXgOWt8c30iMknJ-VV2wKryS_6pTVvfzxDN5VccRo5vQUPBc0-TSlTbARr2-jho7lkopNBBoeY3V6dBbO2xwitTGM3XSxN-UMPmi6U0mq9W-MW1r2nYen06v77aBu7TkoqFqpERdTQyPKRy23ZzyQR1W23pIbxw3La430vxW8PXc4Rlz4mKn3wZCMiW3hHt0_-225g_4U19kyi9vQHrzSiq0fK9GOlOij3x0ObZbUNV5zkEwEoyviNhtXYE8QOOd7VnIFJA8xyOaFYMUm0CAvfeaDYaecSYIxRoXEC5IaAYhDIJ0901iZ-r25Sxr7J3pw8eozX7wqiXn7M24tFMjlIZvCsiHwXQv4Y9IjNJWdPwyt2QZ6QV6yKbNoSbz0c_qjglcc-DRdHQSWpTljugpQpbH8-SPlrh-LkRhTaaEygWk-8qDaWl7EPrKC-RqxIUEKkQ2Pl4Y1YILFFlCLbUQ33ZquvR1A4BEW85YDhGnkNfscuFST9uDu2VHQoBnTuAwhrFbz6_nr9HWrOIwovcTGHrwJpM_f5sdEy4U-9SBd6J4KpDNl75WlhwaSTmfrYHlGuPzwJCOAE3vPpvwDpqAtNM6gMtZsxWJtHRgOqTRUn7DOE13mGH48wXacmOR4hW1aoMgA6DWNeaISafYZsYEuuzCnFc4tFg1KILZr6HiUwgs5YqU4e8F25qut1nFCzWLFUiqSUyFRPjtpitZkaQid_WVqj409eqTqsJikezfF7RvNlFT_KeHNd1dAfPXEbsV1IMmBQRa4Ou8mGysSnF_5ahxQ4b2xgzwnYwfLV8aTFHNiSF0DltGc6ew4WDrCO8_q2gwalMJ4admtrA6hZOa5dKapsaZKx4pwO3oUtCgNnLvfnaq6ctsDPT5PooVyLy6QDPDqBgxVkoYlMdR2WprhMyJRvkJk3-paPRyavln_UMmDWCMHT7uXOF3MEsRzseU9BgSaekN3SJJ5UUhjXEfqwZkhmcUxWUoCAU27omruDG3RWbv3qRa1GpmeuZaZ8qenkmftQDSApihzX0-sC8Nl5XKiAh7XL1rhiEmiX7M4lJYoSlDS9CLuU4FDui3RJN4RIwx-UdaN8dzK6kt6TOvudJAcbzM2Ef8nJO8XOB-8WQmEGh-orQyKHg1ZTplc3L2rsGDXvVLns_UoS7CtTU1p_PeynbC8Um-hMNs-ppyAcStaXMilTb7zEGfcAO4Vd5wIYBjsseM0WWbsXFQk5ZgId8NcpCd8G9FdFqs-RNi5ofxNrSQ6p-GZxDwzhbckqP44j4Zmn714gAcU-NU-UbmGirtRnj6YBH835vigjNGPrh4xeOCQjtIZdFlkZJvNa5dWudeMmsEjlkAPkA4zUtfkE0W-OmLK_pRW9WG6QXAeFGIHDFQ5yOailTdUvQcdASK3gQQO1kNbkzBdQeV2cnQ22kEZU9y_9mjve22__ywa5dXNZaUdk7abptqHYDaBGNxfm_M86cQeRwN-2mmkJCT-D4R63UIPOvHmdp9MBY8fSItAxyXP4Ij0nbN0A515YkEJZMhql60c8oCRlsINR4u61V8vOpti1IccGAoUhZIoc_EO_L3SgJmF9SC7sGnTm644a1uR06SVZpT9itG2XoIRZ_jH7X9pSeR2VfttlT-8KVsj3h1l3slN0fdvaSllAzsqwDVfVORcfOGtsqfRcLbDpg8bfhXj6SJlDuSsyCjCxWULUXEk2nBh9B3GdGKy1DYabsQFJSGAAP_x_JYLQpajJQpgXohuzZl8CtsDLEXKAIURLZyEeqa4_llSfuE62_uikNLDbgSb8P_jqqynRk8RInfERRUqjG_U0RU50frsB6ST2SkmxhjSyy8S101EcYMGOG6zvwhxH9x-jd3lEL6pOgdvEwRcBnE_Ukv_mwzsvaJoxeb_RespH6XVKpzKdmq51uP-n50-enYJd-_hAiixmGM1qLC3w6qXfUfWaPB-3MG11ngnqufI4PVKIqQlJe0wY56JR30ZnSnYF9qKX6BEhq7woIgwTAJ7tzRd-3uwRA3qxULuQBduPkShdLMfo9_rMycpEQwdKNn9h51HZVVXgqBl5YODDfhsqzVE1eNziynOHIlbzqdZWlWmAnedw3Kt6F44kSKEjiG_PpDOuFYb0n" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="id_token" Value="{{$HIDDEN1.id_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJleHAiOjE0MzY1MjQyOTEsIm5iZiI6MTQzNjUyMDY5MSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tL2Q2N2ZiOWNjLWRjYTgtNDQwMS1iZjhhLTNlYWY1YjU0NWZkMi8iLCJhY3IiOiJiMmNfMV9iMmNzaWduaW4iLCJzdWIiOiJnYzFDYk56ZjZQME5WWnhzakw5dTlvdnFLYVQzaGpPcS9VV2plVzJTdU9jPSIsImF1ZCI6ImU0Y2I3MDJkLTkzMjQtNGNmYi1hYTBhLTZmODE2OGVjYWE3OSIsIm5vbmNlIjoiNjM1NzIxMTc0ODUwMjQ1OTY5Lk9XSXlZekJoWmpZdFl6TmxaQzAwWkdRNUxXSXlaakF0WVRZd1pqWTNZV0pqT1dVMk16bGpNemhrT1RNdFlXTTRZUzAwTnpnNUxXSm1NRGN0TlRaaE1HSXhaR1l4T0RsayIsImlhdCI6MTQzNjUyMDY5MSwiYXV0aF90aW1lIjoxNDM2NTIwNjkxLCJvaWQiOiI5MjE4NzAxYS0xMzgzLTRhYWMtOTBiNy1hOGE4MGM3NjFlODYiLCJnaXZlbl9uYW1lIjoiTWFuZWVzaCIsImZhbWlseV9uYW1lIjoiUmFqYW0iLCJuYW1lIjoiTWFuZWVzaCIsInN0cmVldEFkZHJlc3MiOiJNYWRoYXB1ciIsInN0YXRlIjoiQXJpem9uYSIsInBvc3RhbENvZGUiOiI0MjQzMCIsImpvYlRpdGxlIjoiQ29uc3VsdGFudCIsImV4dGVuc2lvbl9DcGltX0dISU5JRCI6Ijc2NTQ0MjExMjEiLCJleHRlbnNpb25fQ3BpbV9HSElORU1BSUwiOiJtcmFqYW1AZGVsb2l0dGUuY29tIiwiY2l0eSI6Ikh5ZGVyYWJhZCIsImVtYWlscyI6WyJtcmFqYW1AZGVsb2l0dGUuY29tIl0sImNfaGFzaCI6ImxRNEJMTk80RDl1TmJ0S002V2EtY3ciLCJhdF9oYXNoIjoiemZqVDNVa0RScUlOR25hMEhGRXU3dyJ9.cmzqUX7YnwKtYJBR8ZsK6FUTNDXgQKa0xZMnJOlQQ94VPqzzSZDKxT5DS1vzErbxNawnJrgSQ3kboWWwoiHjcXY5S_dwHJAYnDDHG--FSRrRKwq1n7pj3l_xrb4g8vHY4W3WY80-mP26ZPaTglUunFVt7BJXGS5-tzjwMIiOf2U1VDvFSvlWneuiL5Onp6gImwRH8wE_vJ1x5d0OZKMblJP7-7YRBMQJ2rXgmBd9W6MH29Aivq0rDeX0lQ67qCoM4ma4y3JJ_rQ5RkMyJPr2AR8rEnBgnDRRU6nbRBxG64BVkdzCD_oFcFzyMoCAWH2FS64M_PFWH8Vdc_GcTj8mQA" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="ab7b3526-7b1a-426f-9b14-eb52203fd8af" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9788bb2d-caef-4991-ba4d-b59af5a5b0d9" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="73a832d0-6bdd-4b9b-a1b6-71bfb3ba6f76" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d0424d07-067b-45db-ba60-ac823f57d250" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="96ba029e-290e-4907-8fb7-d376593e526c" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4c21ca6e-f922-4927-9b52-8c70742de934" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="Bearertoken" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;Token&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractUserID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="{&quot;UserId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="," />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractRoleID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;UserRoleId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="}" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="31af9ccc-caad-4721-b7fd-fb408cc54caf" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="5747" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b121b341-f9c5-442b-8380-924bf4e71aa3" Version="1.1" Url="{{WebServer1}}/Account/GetDashboardUserRole/{{ExtractUserID}}" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="35c741e2-5831-497f-adfb-fd834685d6c1" Version="1.1" Url="{{WebServer1}}/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1d432c1e-7a8d-47dc-afaf-c530be06cf36" Version="1.1" Url="{{WebServer1}}/Dashboard/USGADashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1a7f7965-53af-4c5c-bb53-600eb3df8b93" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d236b358-b8d4-44f4-97d6-3ab92169bb06" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f7c28933-d998-48f8-a645-1b65c0bfd499" Version="1.1" Url="{{WebServer1}}/app/main/views/DirectiveTemplates/dashboardmessages.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="434905c9-fa83-410c-9b41-81c0f98197ae" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home/usgadashboard" ReportingName="" IgnoreHttpStatusCode="False" />
+        <Request Method="GET" Guid="d3b5964e-9a6f-4412-ada6-4e3bb95414bf" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6c7fe732-afcf-44d2-8d0c-8c5e73c179ae" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="5747" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7342a280-cc89-4ba7-8e8c-8a49272ee333" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Organisations" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="efcf5b68-3703-4d0f-88e1-bf298c5b8070" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Members" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="playerType" Value="Has%20Handicap" RecordedValue="Has%20Handicap" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="500a982b-fdfb-4b21-bbaa-8a37a699370d" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Scores" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <RequestPlugins>
+            <RequestPlugin Classname="DateCurrent.DateTimeToContext, DateCurrent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="Save current date time to context parameter" Description="Saves date time of call to a context parameter">
+              <RuleParameters>
+                <RuleParameter Name="ParameterName" Value="DT" />
+                <RuleParameter Name="DateTimeFormat" Value="MM-dd-yyyy" />
+              </RuleParameters>
+            </RequestPlugin>
+          </RequestPlugins>
+          <QueryStringParameters>
+            <QueryStringParameter Name="date" Value="07-10-2015" RecordedValue="07-10-2015" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9e7673aa-d609-49e7-836c-4ba1c64908a1" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Courses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="11b1dae5-6d6e-4d26-9bbe-b3c379b31a16" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/MessageBoard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="ca475f76-271e-4f43-bf31-3ddc8b38eff2" Version="1.1" Url="{{WebServer1}}/Error/LogExceptionDetails" ThinkTime="28" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">ewAiAG0AZQBzAHMAYQBnAGUAIgA6AHsAIgBkAGEAdABhACIAOgAiADsAIwBEAE0AOgAwADAAOQA7ACMAXAByAFwAbgBEAGEAdABhAGIAYQBzAGUARQBuAHQAaQB0AHkARABlAHQAYQBpAGwAcwA6ACAAdQBzAHAAXwBDAG8AdQByAHMAZQBTAHUAbQBtAGEAcgB5AFwAcgBcAG4AQQBjAHQAaQBvAG4AUABlAHIAZgBvAHIAbQBlAGQAOgAgAEcAZQB0AFMAYwBvAHIAZQBzAFwAcgBcAG4AVgBhAGwAaQBkAGEAdABpAG8AbgBFAHIAcgBvAHIAOgAgAEwAbwBnAGcAZQBkAC0AaQBuACAAdQBzAGUAcgBpAGQAIABkAG8AZQBzAG4AJwB0ACAAbQBhAHQAYwBoACAAdwBpAHQAaAAgAHAAYQBzAHMAZQBkACAAVQBzAGUAcgBSAG8AbABlAEkAZAAuAFwAcgBcAG4AIgAsACIAcwB0AGEAdAB1AHMAIgA6ADQAMQAyACwAIgBjAG8AbgBmAGkAZwAiADoAewAiAG0AZQB0AGgAbwBkACIAOgAiAEcARQBUACIALAAiAHQAcgBhAG4AcwBmAG8AcgBtAFIAZQBxAHUAZQBzAHQAIgA6AFsAbgB1AGwAbABdACwAIgB0AHIAYQBuAHMAZgBvAHIAbQBSAGUAcwBwAG8AbgBzAGUAIgA6AFsAbgB1AGwAbABdACwAIgB1AHIAbAAiADoAIgBoAHQAdABwADoALwAvAHUAcwBnAGEAdwBlAGIAYQBwAGkAcwBpAHQALgBjAGwAbwB1AGQAYQBwAHAALgBuAGUAdAAvAGEAcABpAC8AVQBzAGUAcgBEAGEAcwBoAGIAbwBhAHIAZAAvAEMAbwB1AHIAcwBlAHMAPwBVAHMAZQByAFIAbwBsAGUASQBkAD0AMgA5ADcAJgBhAHMAcwBvAGMAaQBhAHQAaQBvAG4ASQBkAD0AMAAiACwAIgBoAGUAYQBkAGUAcgBzACIAOgB7ACIAQQBjAGMAZQBwAHQAIgA6ACIAYQBwAHAAbABpAGMAYQB0AGkAbwBuAC8AagBzAG8AbgAsACAAdABlAHgAdAAvAHAAbABhAGkAbgAsACAAKgAvACoAIgAsACIAQQBjAGMAZQBzAHMALQBDAG8AbgB0AHIAbwBsAC0AQQBsAGwAbwB3AC0ASABlAGEAZABlAHIAcwAiADoAIgAqACIALAAiAEEAdQB0AGgAbwByAGkAegBhAHQAaQBvAG4AIgA6ACIAQgBlAGEAcgBlAHIAIABlAHkASgAwAGUAWABBAGkATwBpAEoASwBWADEAUQBpAEwAQwBKAGgAYgBHAGMAaQBPAGkASgBTAFUAegBJADEATgBpAEkAcwBJAG0AdABwAFoAQwBJADYASQBrAGwAawBWAEcAOQByAFoAVwA1AFQAYQBXAGQAdQBhAFcANQBuAFMAMgBWADUAUQAyADkAdQBkAEcARgBwAGIAbQBWAHkASQBuADAALgBlAHkASgBsAGUASABBAGkATwBqAEUAMABNAHoAWQAxAE0AagBRAHkATwBUAEUAcwBJAG0ANQBpAFoAaQBJADYATQBUAFEAegBOAGoAVQB5AE0ARABZADUATQBTAHcAaQBkAG0AVgB5AEkAagBvAGkATQBTADQAdwBJAGkAdwBpAGEAWABOAHoASQBqAG8AaQBhAEgAUgAwAGMASABNADYATAB5ADkAcwBiADIAZABwAGIAaQA1AHQAYQBXAE4AeQBiADMATgB2AFoAbgBSAHYAYgBtAHgAcABiAG0AVQB1AFkAMgA5AHQATAAyAFEAMgBOADIAWgBpAE8AVwBOAGoATABXAFIAagBZAFQAZwB0AE4ARABRAHcATQBTADEAaQBaAGoAaABoAEwAVABOAGwAWQBXAFkAMQBZAGoAVQAwAE4AVwBaAGsATQBpADgAaQBMAEMASgBoAFkAMwBJAGkATwBpAEoAaQBNAG0ATgBmAE0AVgA5AGkATQBtAE4AegBhAFcAZAB1AGEAVwA0AGkATABDAEoAegBkAFcASQBpAE8AaQBKAG4AWQB6AEYARABZAGsANQA2AFoAagBaAFEATQBFADUAVwBXAG4AaAB6AGEAawB3ADUAZABUAGwAdgBkAG4ARgBMAFkAVgBRAHoAYQBHAHAAUABjAFMAOQBWAFYAMgBwAGwAVgB6AEoAVABkAFUAOQBqAFAAUwBJAHMASQBtAEYAMQBaAEMASQA2AEkAbQBVADAAWQAyAEkAMwBNAEQASgBrAEwAVABrAHoATQBqAFEAdABOAEcATgBtAFkAaQAxAGgAWQBUAEIAaABMAFQAWgBtAE8ARABFADIATwBHAFYAagBZAFcARQAzAE8AUwBJAHMASQBtADUAdgBiAG0ATgBsAEkAagBvAGkATgBqAE0AMQBOAHoASQB4AE0AVABjADAATwBEAFUAdwBNAGoAUQAxAE8AVABZADUATABrADkAWABTAFgAbABaAGUAawBKAG8AVwBtAHAAWgBkAEYAbAA2AFQAbQB4AGEAUQB6AEEAdwBXAGsAZABSAE4AVQB4AFgAUwBYAGwAYQBhAGsARgAwAFcAVgBSAFoAZAAxAHAAcQBXAFQATgBaAFYAMABwAHEAVAAxAGQAVgBNAGsAMQA2AGIARwBwAE4AZQBtAGgAcgBUADEAUgBOAGQARgBsAFgAVABUAFIAWgBVAHoAQQB3AFQAbgBwAG4ATgBVAHgAWABTAG0AMQBOAFIARwBOADAAVABsAFIAYQBhAEUAMQBIAFMAWABoAGEAUgAxAGwANABUADAAUgBzAGEAeQBJAHMASQBtAGwAaABkAEMASQA2AE0AVABRAHoATgBqAFUAeQBNAEQAWQA1AE0AUwB3AGkAWQBYAFYAMABhAEYAOQAwAGEAVwAxAGwASQBqAG8AeABOAEQATQAyAE4AVABJAHcATgBqAGsAeABMAEMASgB2AGEAVwBRAGkATwBpAEkANQBNAGoARQA0AE4AegBBAHgAWQBTADAAeABNAHoAZwB6AEwAVABSAGgAWQBXAE0AdABPAFQAQgBpAE4AeQAxAGgATwBHAEUANABNAEcATQAzAE4AagBGAGwATwBEAFkAaQBMAEMASgBuAGEAWABaAGwAYgBsADkAdQBZAFcAMQBsAEkAagBvAGkAVABXAEYAdQBaAFcAVgB6AGEAQwBJAHMASQBtAFoAaABiAFcAbABzAGUAVgA5AHUAWQBXADEAbABJAGoAbwBpAFUAbQBGAHEAWQBXADAAaQBMAEMASgB1AFkAVwAxAGwASQBqAG8AaQBUAFcARgB1AFoAVwBWAHoAYQBDAEkAcwBJAG4ATgAwAGMAbQBWAGwAZABFAEYAawBaAEgASgBsAGMAMwBNAGkATwBpAEoATgBZAFcAUgBvAFkAWABCADEAYwBpAEkAcwBJAG4ATgAwAFkAWABSAGwASQBqAG8AaQBRAFgASgBwAGUAbQA5AHUAWQBTAEkAcwBJAG4AQgB2AGMAMwBSAGgAYgBFAE4AdgBaAEcAVQBpAE8AaQBJADAATQBqAFEAegBNAEMASQBzAEkAbQBwAHYAWQBsAFIAcABkAEcAeABsAEkAagBvAGkAUQAyADkAdQBjADMAVgBzAGQARwBGAHUAZABDAEkAcwBJAG0AVgA0AGQARwBWAHUAYwAyAGwAdgBiAGwAOQBEAGMARwBsAHQAWAAwAGQASQBTAFUANQBKAFIAQwBJADYASQBqAGMAMgBOAFQAUQAwAE0AagBFAHgATQBqAEUAaQBMAEMASgBsAGUASABSAGwAYgBuAE4AcABiADIANQBmAFEAMwBCAHAAYgBWADkASABTAEUAbABPAFIAVQAxAEIAUwBVAHcAaQBPAGkASgB0AGMAbQBGAHEAWQBXADEAQQBaAEcAVgBzAGIAMgBsADAAZABHAFUAdQBZADIAOQB0AEkAaQB3AGkAWQAyAGwAMABlAFMASQA2AEkAawBoADUAWgBHAFYAeQBZAFcASgBoAFoAQwBJAHMASQBtAFYAdABZAFcAbABzAGMAeQBJADYAVwB5AEoAdABjAG0ARgBxAFkAVwAxAEEAWgBHAFYAcwBiADIAbAAwAGQARwBVAHUAWQAyADkAdABJAGwAMABzAEkAbQBOAGYAYQBHAEYAegBhAEMASQA2AEkAbQB4AFIATgBFAEoATQBUAGsAOAAwAFIARABsADEAVABtAEoAMABTADAAMAAyAFYAMgBFAHQAWQAzAGMAaQBMAEMASgBoAGQARgA5AG8AWQBYAE4AbwBJAGoAbwBpAGUAbQBaAHEAVgBEAE4AVgBhADAAUgBTAGMAVQBsAE8AUgAyADUAaABNAEUAaABHAFIAWABVADMAZAB5AEoAOQAuAGMAbQB6AHEAVQBYADcAWQBuAHcASwB0AFkASgBCAFIAOABaAHMASwA2AEYAVQBUAE4ARABYAGcAUQBLAGEAMAB4AFoATQBuAEoATwBsAFEAUQA5ADQAVgBQAHEAegB6AFMAWgBEAEsAeABUADUARABTADEAdgB6AEUAcgBiAHgATgBhAHcAbgBKAHIAZwBTAFEAMwBrAGIAbwBXAFcAdwBvAGkASABqAGMAWABZADUAUwBfAGQAdwBIAEoAQQBZAG4ARABEAEgARwAtAC0ARgBTAFIAcgBSAEsAdwBxADEAbgA3AHAAagAzAGwAXwB4AHIAYgA0AGcAOAB2AEgAWQA0AFcAMwBXAFkAOAAwAC0AbQBQADIANgBaAFAAYQBUAGcAbABVAHUAbgBGAFYAdAA3AEIASgBYAEcAUwA1AC0AdAB6AGoAdwBNAEkAaQBPAGYAMgBVADEAVgBEAHYARgBTAHYAbABXAG4AZQB1AGkATAA1AE8AbgBwADYAZwBJAG0AdwBSAEgAOAB3AEUAXwB2AEoAMQB4ADUAZAAwAE8AWgBLAE0AYgBsAEoAUAA3AC0ANwBZAFIAQgBNAFEASgAyAHIAWABnAG0AQgBkADkAVwA2AE0ASAAyADkAQQBpAHYAcQAwAHIARABlAFgAMABsAFEANgA3AHEAQwBvAE0ANABtAGEANAB5ADMASgBKAF8AcgBRADUAUgBrAE0AeQBKAFAAcgAyAEEAUgA4AHIARQBuAEIAZwBuAEQAUgBSAFUANgBuAGIAUgBCAHgARwA2ADQAQgBWAGsAZAB6AEMARABfAG8ARgBjAEYAegB5AE0AbwBDAEEAVwBIADIARgBTADYANABNAF8AUABGAFcASAA4AFYAZABjAF8ARwBjAFQAagA4AG0AUQBBACIAfQAsACIAJABfAGIAbABvAGMAawBzACIAOgBbAHsAIgBfAGkAZAAiADoAIgBtAGEAaQBuACIALAAiAF8AcgBlAGYAcwAiADoAMgAsACIAaQBuAHMAdABhAG4AYwBlAHMAIgA6AFsAbgB1AGwAbABdACwAIgBfAHIAZQBzAHQAbwByAGUARgBvAGMAdQBzACIAOgB7AH0AfQBdAH0ALAAiAHMAdABhAHQAdQBzAFQAZQB4AHQAIgA6ACIARABhAHQAYQAgAFYAYQBsAGkAZABhAHQAaQBvAG4AIABFAHgAYwBlAHAAdABpAG8AbgAiAH0AfQA=</StringHttpBody>
+        </Request>
+        <Comment CommentText="Dashboard loaded" />
+        <Comment CommentText="Pass Association Number for search and hit Search " />
+        <Request Method="GET" Guid="3178d95a-1cab-4d4e-8eef-9b2977837217" Version="1.1" Url="{{WebServer3}}/api/Associations" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractAssociationID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="{&quot;AssociationId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="," />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="AssociationNumber" Value="{{SRGADSData.SRGA4AssoData#csv.AssociationNumber}}" RecordedValue="232" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ae235743-2101-4b81-b63c-ff8f52699786" Version="1.1" Url="{{WebServer1}}/Srga/SrgaSearchResults" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2853f2d7-1ee9-402b-bc34-5e5c662b8ca1" Version="1.1" Url="{{WebServer1}}/App/Main/views/DirectiveTemplates/dirPagination.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+        </Request>
+        <Request Method="POST" Guid="1a1f7836-d220-46b4-b4bb-46aea6d8a993" Version="1.1" Url="{{WebServer3}}/api/associations/Search" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEEAcwBzAG8AYwBpAGEAdABpAG8AbgBOAHUAbQBiAGUAcgAiADoAewB7AFMAUgBHAEEARABTAEQAYQB0AGEALgBTAFIARwBBADQAQQBzAHMAbwBEAGEAdABhACMAYwBzAHYALgBBAHMAcwBvAGMAaQBhAHQAaQBvAG4ATgB1AG0AYgBlAHIAfQB9ACwAIgBTAGsAaQBwAEkAdABlAG0AIgA6ADAALAAiAFAAYQBnAGUAUwBpAHoAZQAiADoANQAwADAAfQA=</StringHttpBody>
+        </Request>
+        <Comment CommentText="Association detail page open" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Inactivate called">
+      <Items>
+        <Comment CommentText="Select the association and click on the Inactivate button" />
+        <Comment CommentText="CLick Inactivate from pop up" />
+        <Request Method="POST" Guid="962785b7-f300-4d8c-afc9-314b79059785" Version="1.1" Url="{{WebServer3}}/api/Associations/ChangeStatus" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/srgasearchresults" />
+          </Headers>
+          <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEMAaABhAG4AZwBlAFMAdABhAHQAdQBzAFIAZQBxAHUAZQBzAHQAcwBJAG4AcAB1AHQAcwAiADoAWwB7ACIAQQBzAHMAbwBjAGkAYQB0AGkAbwBuAEkAZAAiADoAewB7AEUAeAB0AHIAYQBjAHQAQQBzAHMAbwBjAGkAYQB0AGkAbwBuAEkARAB9AH0ALAAiAEEAYwB0AGkAbwBuACIAOgAiAEkAbgBhAGMAdABpAHYAYQB0AGUAIgB9AF0AfQA=</StringHttpBody>
+        </Request>
+        <Request Method="POST" Guid="43b64b59-4829-4a50-b6ff-435647d69fb7" Version="1.1" Url="{{WebServer3}}/api/associations/Search" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/srgasearchresults" />
+          </Headers>
+          <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEEAcwBzAG8AYwBpAGEAdABpAG8AbgBOAHUAbQBiAGUAcgAiADoAewB7AFMAUgBHAEEARABTAEQAYQB0AGEALgBTAFIARwBBADQAQQBzAHMAbwBEAGEAdABhACMAYwBzAHYALgBBAHMAcwBvAGMAaQBhAHQAaQBvAG4ATgB1AG0AYgBlAHIAfQB9ACwAIgBTAGsAaQBwAEkAdABlAG0AIgA6ADAALAAiAFAAYQBnAGUAUwBpAHoAZQAiADoANQAwADAAfQA=</StringHttpBody>
+        </Request>
+        <Comment CommentText="Association Inactivated" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Sign out">
+      <Items>
+        <Comment CommentText="CLick on Sign out link" />
+        <Request Method="GET" Guid="275445b4-2f6c-48c8-ac0b-8ccfd2d101d9" Version="1.1" Url="{{WebServer1}}/Account/SignOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1f474849-1c2a-4785-aeff-da9ef579e398" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="3e8efbc4-f5db-4b89-87a0-6f654d67300b" Version="1.1" Url="{{WebServer1}}/Base/Load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="text/html" />
+                <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="viewUrl" Value="/App/Main/views/home/home.cshtml" RecordedValue="/App/Main/views/home/home.cshtml" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+        </Request>
+        <Request Method="GET" Guid="52f74aab-03ea-4903-a8db-67fa98dbd020" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0a9fb234-3b4b-48ff-a8f4-e383e82a3ba9" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b9ea879b-cc55-4c67-b7a0-2d373139b7a3" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="67a05b8d-d373-42f3-9b3e-ae59a0a8f1e8" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7eaea228-e0ae-4432-8dff-c6b3b59a1065" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7f11ec45-095d-423c-90e5-2f1a0c01afa2" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="SRGA Activation Code">
+      <Items>
+        <Request Method="GET" Guid="7db4f829-c672-477d-9ce9-11ca9df525d5" Version="1.1" Url="{{WebServer1}}/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+        <Comment CommentText="session exp-portsal sigin again" />
+        <Request Method="POST" Guid="064feb66-3648-4c28-be33-c282a6d96112" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="400" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <FormPostHttpBody>
+            <FormPostParameter Name="state" Value="{{$HIDDEN1.state}}" RecordedValue="OpenIdConnect.AuthenticationProperties=GpZRISaGxYUzIh3M79yJ8uIVQdrEHEDZswr6TS2kiMW0nkzE1JmFp1KLaNitnTF7P7tOQzsKc7hZbl7CsO7qC2ONdBLeRVwrTilDIhrK_GLY3igX8VVMyDY9uWUnepYdM-wqoku2RIx3KchyMW1XZ7NgsnNY1pc7jRV8BqoigfTgz7d1JR96XIRD5Sa35Oe-hP1pvQfSstty7OYvHwie1_xIvig" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="access_token" Value="{{$HIDDEN1.access_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZDY3ZmI5Y2MtZGNhOC00NDAxLWJmOGEtM2VhZjViNTQ1ZmQyLyIsImF1ZCI6Imh0dHA6Ly91c2dhZ2hpbndlYmF6dXJldGVzdC5jbG91ZGFwcC5uZXQvIy9ob21lL2dvbGYiLCJleHAiOjE0MzY1MjQyOTEsIm5iZiI6MTQzNjUyMDY5MSwib2lkIjoiOTIxODcwMWEtMTM4My00YWFjLTkwYjctYThhODBjNzYxZTg2IiwiZ2l2ZW5fbmFtZSI6Ik1hbmVlc2giLCJmYW1pbHlfbmFtZSI6IlJhamFtIiwibmFtZSI6Ik1hbmVlc2giLCJzdWIiOiJnYzFDYk56ZjZQME5WWnhzakw5dTlvdnFLYVQzaGpPcS9VV2plVzJTdU9jPSIsInN0cmVldEFkZHJlc3MiOiJNYWRoYXB1ciIsInN0YXRlIjoiQXJpem9uYSIsInBvc3RhbENvZGUiOiI0MjQzMCIsImpvYlRpdGxlIjoiQ29uc3VsdGFudCIsImV4dGVuc2lvbl9DcGltX0dISU5JRCI6Ijc2NTQ0MjExMjEiLCJleHRlbnNpb25fQ3BpbV9HSElORU1BSUwiOiJtcmFqYW1AZGVsb2l0dGUuY29tIiwiY2l0eSI6Ikh5ZGVyYWJhZCIsImVtYWlscyI6WyJtcmFqYW1AZGVsb2l0dGUuY29tIl0sIm5vbmNlIjoiNjM1NzIxMTc0ODUwMjQ1OTY5Lk9XSXlZekJoWmpZdFl6TmxaQzAwWkdRNUxXSXlaakF0WVRZd1pqWTNZV0pqT1dVMk16bGpNemhrT1RNdFlXTTRZUzAwTnpnNUxXSm1NRGN0TlRaaE1HSXhaR1l4T0RsayIsInZlciI6IjEuMCJ9.O3HKaba4BSspEm_UKajf7HdZGMyAnP80e_7YAJPDBXWN_XAXlx_YBwlDizWHNTuhibwMQmmVZ7mifVii2-3Kphwldyael8RuxRe6lxtaFsyeZRuOB2BT_b1mGlga5OEUiTE50jeRLSO1eYnO3HAyPP12WeX7B5SVCTq4ovCd_0H_jfzdOzHpFhRXiPyq4VXJwrocSWjkphspH7pkBy0kAjL48eZzaoeDs1VVgldP8976BJy8WdlnUhClI273UWATMV6RF5j2TMEgO6r-UPszAK-NQ403Yp5K3s3n4fQhsrCtnxmJSeKdb_gbZgc53qPPgyLmu1bt7HSRGPB0Ra2jTQ" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="token_type" Value="{{$HIDDEN1.token_type}}" RecordedValue="Bearer" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="code" Value="{{$HIDDEN1.code}}" RecordedValue="AAQfQmvuDy8WtUv-sd0TBwWV_kf53-CIYJWLNfJxf5HS3s8ln2hvrO71-UjTeeR7b1DRJlWsv0CqXW-MteDCqfIMomIYjfxqNgBSQ2Do31Ik81CJMpT_hRmxCZPu6DdbWyCo1MrWAW9JUgp_YAXrECrvXfa2gs3i8GdlTFY10Vz2_0gqwhOLmdOMGa9HU8aRE_nfRU8FgCWRrUU2tPrGiqlRqaP1jDr9fCSk8URDzJgY2E_t3NqxUhns3k1rWjSCmzjQ_vOlQ0X06MSUHE8R8uYv3i1uBhxlc-ynjY4hZNBriUHwdUuVCNc_rNvGfBo5GjmT3B5e_w9sau5rPJm--a1dSnsjVWn6yAcTHvyAiB0xjqCwaYDeDOVCdydrxlsRn86dbQyufY_Z7e7iAYhp6P2Yd07GW5W73Xntk6HMYNLnFuT4aLJlw19pwcJpnJssIoyD7YfWhj_Am-ZbTNMJ1ALOjPCBTXh1YeX9gDT4YNXYqAbV8H3-Hnm6DJRhgmDmG6MIiQiR-cqM1ZgCB4Xey51CKoijpKCZMfCme4DPczaSZekBhI4chRrgGkUh-sSjG-mKx1TO82dCEVt5eDYUVVLMXJT7R7ouiNtbMLp_8L1FSa7yfRJZB1CxpFQhRx-PzwgMXHR2uugG1GfmTcWKb7RJVhWzrY3tgbP8DDy_5y5GaCbqMDIHbvTbvG-nUgaY3LXgOWt8c30iMknJ-VV2wKryS_6pTVvfzxDN5VccRo5vQUPBc0-TSlTbARr2-jho7lkopNBBoeY3V6dBbO2xwitTGM3XSxN-UMPmi6U0mq9W-MW1r2nYen06v77aBu7TkoqFqpERdTQyPKRy23ZzyQR1W23pIbxw3La430vxW8PXc4Rlz4mKn3wZCMiW3hHt0_-225g_4U19kyi9vQHrzSiq0fK9GOlOij3x0ObZbUNV5zkEwEoyviNhtXYE8QOOd7VnIFJA8xyOaFYMUm0CAvfeaDYaecSYIxRoXEC5IaAYhDIJ0901iZ-r25Sxr7J3pw8eozX7wqiXn7M24tFMjlIZvCsiHwXQv4Y9IjNJWdPwyt2QZ6QV6yKbNoSbz0c_qjglcc-DRdHQSWpTljugpQpbH8-SPlrh-LkRhTaaEygWk-8qDaWl7EPrKC-RqxIUEKkQ2Pl4Y1YILFFlCLbUQ33ZquvR1A4BEW85YDhGnkNfscuFST9uDu2VHQoBnTuAwhrFbz6_nr9HWrOIwovcTGHrwJpM_f5sdEy4U-9SBd6J4KpDNl75WlhwaSTmfrYHlGuPzwJCOAE3vPpvwDpqAtNM6gMtZsxWJtHRgOqTRUn7DOE13mGH48wXacmOR4hW1aoMgA6DWNeaISafYZsYEuuzCnFc4tFg1KILZr6HiUwgs5YqU4e8F25qut1nFCzWLFUiqSUyFRPjtpitZkaQid_WVqj409eqTqsJikezfF7RvNlFT_KeHNd1dAfPXEbsV1IMmBQRa4Ou8mGysSnF_5ahxQ4b2xgzwnYwfLV8aTFHNiSF0DltGc6ew4WDrCO8_q2gwalMJ4admtrA6hZOa5dKapsaZKx4pwO3oUtCgNnLvfnaq6ctsDPT5PooVyLy6QDPDqBgxVkoYlMdR2WprhMyJRvkJk3-paPRyavln_UMmDWCMHT7uXOF3MEsRzseU9BgSaekN3SJJ5UUhjXEfqwZkhmcUxWUoCAU27omruDG3RWbv3qRa1GpmeuZaZ8qenkmftQDSApihzX0-sC8Nl5XKiAh7XL1rhiEmiX7M4lJYoSlDS9CLuU4FDui3RJN4RIwx-UdaN8dzK6kt6TOvudJAcbzM2Ef8nJO8XOB-8WQmEGh-orQyKHg1ZTplc3L2rsGDXvVLns_UoS7CtTU1p_PeynbC8Um-hMNs-ppyAcStaXMilTb7zEGfcAO4Vd5wIYBjsseM0WWbsXFQk5ZgId8NcpCd8G9FdFqs-RNi5ofxNrSQ6p-GZxDwzhbckqP44j4Zmn714gAcU-NU-UbmGirtRnj6YBH835vigjNGPrh4xeOCQjtIZdFlkZJvNa5dWudeMmsEjlkAPkA4zUtfkE0W-OmLK_pRW9WG6QXAeFGIHDFQ5yOailTdUvQcdASK3gQQO1kNbkzBdQeV2cnQ22kEZU9y_9mjve22__ywa5dXNZaUdk7abptqHYDaBGNxfm_M86cQeRwN-2mmkJCT-D4R63UIPOvHmdp9MBY8fSItAxyXP4Ij0nbN0A515YkEJZMhql60c8oCRlsINR4u61V8vOpti1IccGAoUhZIoc_EO_L3SgJmF9SC7sGnTm644a1uR06SVZpT9itG2XoIRZ_jH7X9pSeR2VfttlT-8KVsj3h1l3slN0fdvaSllAzsqwDVfVORcfOGtsqfRcLbDpg8bfhXj6SJlDuSsyCjCxWULUXEk2nBh9B3GdGKy1DYabsQFJSGAAP_x_JYLQpajJQpgXohuzZl8CtsDLEXKAIURLZyEeqa4_llSfuE62_uikNLDbgSb8P_jqqynRk8RInfERRUqjG_U0RU50frsB6ST2SkmxhjSyy8S101EcYMGOG6zvwhxH9x-jd3lEL6pOgdvEwRcBnE_Ukv_mwzsvaJoxeb_RespH6XVKpzKdmq51uP-n50-enYJd-_hAiixmGM1qLC3w6qXfUfWaPB-3MG11ngnqufI4PVKIqQlJe0wY56JR30ZnSnYF9qKX6BEhq7woIgwTAJ7tzRd-3uwRA3qxULuQBduPkShdLMfo9_rMycpEQwdKNn9h51HZVVXgqBl5YODDfhsqzVE1eNziynOHIlbzqdZWlWmAnedw3Kt6F44kSKEjiG_PpDOuFYb0n" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="id_token" Value="{{$HIDDEN1.id_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJleHAiOjE0MzY1MjQyOTEsIm5iZiI6MTQzNjUyMDY5MSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tL2Q2N2ZiOWNjLWRjYTgtNDQwMS1iZjhhLTNlYWY1YjU0NWZkMi8iLCJhY3IiOiJiMmNfMV9iMmNzaWduaW4iLCJzdWIiOiJnYzFDYk56ZjZQME5WWnhzakw5dTlvdnFLYVQzaGpPcS9VV2plVzJTdU9jPSIsImF1ZCI6ImU0Y2I3MDJkLTkzMjQtNGNmYi1hYTBhLTZmODE2OGVjYWE3OSIsIm5vbmNlIjoiNjM1NzIxMTc0ODUwMjQ1OTY5Lk9XSXlZekJoWmpZdFl6TmxaQzAwWkdRNUxXSXlaakF0WVRZd1pqWTNZV0pqT1dVMk16bGpNemhrT1RNdFlXTTRZUzAwTnpnNUxXSm1NRGN0TlRaaE1HSXhaR1l4T0RsayIsImlhdCI6MTQzNjUyMDY5MSwiYXV0aF90aW1lIjoxNDM2NTIwNjkxLCJvaWQiOiI5MjE4NzAxYS0xMzgzLTRhYWMtOTBiNy1hOGE4MGM3NjFlODYiLCJnaXZlbl9uYW1lIjoiTWFuZWVzaCIsImZhbWlseV9uYW1lIjoiUmFqYW0iLCJuYW1lIjoiTWFuZWVzaCIsInN0cmVldEFkZHJlc3MiOiJNYWRoYXB1ciIsInN0YXRlIjoiQXJpem9uYSIsInBvc3RhbENvZGUiOiI0MjQzMCIsImpvYlRpdGxlIjoiQ29uc3VsdGFudCIsImV4dGVuc2lvbl9DcGltX0dISU5JRCI6Ijc2NTQ0MjExMjEiLCJleHRlbnNpb25fQ3BpbV9HSElORU1BSUwiOiJtcmFqYW1AZGVsb2l0dGUuY29tIiwiY2l0eSI6Ikh5ZGVyYWJhZCIsImVtYWlscyI6WyJtcmFqYW1AZGVsb2l0dGUuY29tIl0sImNfaGFzaCI6ImxRNEJMTk80RDl1TmJ0S002V2EtY3ciLCJhdF9oYXNoIjoiemZqVDNVa0RScUlOR25hMEhGRXU3dyJ9.cmzqUX7YnwKtYJBR8ZsK6FUTNDXgQKa0xZMnJOlQQ94VPqzzSZDKxT5DS1vzErbxNawnJrgSQ3kboWWwoiHjcXY5S_dwHJAYnDDHG--FSRrRKwq1n7pj3l_xrb4g8vHY4W3WY80-mP26ZPaTglUunFVt7BJXGS5-tzjwMIiOf2U1VDvFSvlWneuiL5Onp6gImwRH8wE_vJ1x5d0OZKMblJP7-7YRBMQJ2rXgmBd9W6MH29Aivq0rDeX0lQ67qCoM4ma4y3JJ_rQ5RkMyJPr2AR8rEnBgnDRRU6nbRBxG64BVkdzCD_oFcFzyMoCAWH2FS64M_PFWH8Vdc_GcTj8mQA" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="ab7b3526-7b1a-426f-9b14-eb52203fd8af" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9788bb2d-caef-4991-ba4d-b59af5a5b0d9" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="73a832d0-6bdd-4b9b-a1b6-71bfb3ba6f76" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d0424d07-067b-45db-ba60-ac823f57d250" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="96ba029e-290e-4907-8fb7-d376593e526c" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="31af9ccc-caad-4721-b7fd-fb408cc54caf" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="5747" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b121b341-f9c5-442b-8380-924bf4e71aa3" Version="1.1" Url="{{WebServer1}}/Account/GetDashboardUserRole/{{ExtractUserID}}" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="False" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="35c741e2-5831-497f-adfb-fd834685d6c1" Version="1.1" Url="{{WebServer1}}/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1d432c1e-7a8d-47dc-afaf-c530be06cf36" Version="1.1" Url="{{WebServer1}}/Dashboard/USGADashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1a7f7965-53af-4c5c-bb53-600eb3df8b93" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d236b358-b8d4-44f4-97d6-3ab92169bb06" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f7c28933-d998-48f8-a645-1b65c0bfd499" Version="1.1" Url="{{WebServer1}}/app/main/views/DirectiveTemplates/dashboardmessages.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="434905c9-fa83-410c-9b41-81c0f98197ae" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home/usgadashboard" ReportingName="" IgnoreHttpStatusCode="False" />
+        <Request Method="GET" Guid="d3b5964e-9a6f-4412-ada6-4e3bb95414bf" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6c7fe732-afcf-44d2-8d0c-8c5e73c179ae" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="5747" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7342a280-cc89-4ba7-8e8c-8a49272ee333" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Organisations" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="efcf5b68-3703-4d0f-88e1-bf298c5b8070" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Members" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="playerType" Value="Has%20Handicap" RecordedValue="Has%20Handicap" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="500a982b-fdfb-4b21-bbaa-8a37a699370d" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Scores" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <RequestPlugins>
+            <RequestPlugin Classname="DateCurrent.DateTimeToContext, DateCurrent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="Save current date time to context parameter" Description="Saves date time of call to a context parameter">
+              <RuleParameters>
+                <RuleParameter Name="ParameterName" Value="DT" />
+                <RuleParameter Name="DateTimeFormat" Value="MM-dd-yyyy" />
+              </RuleParameters>
+            </RequestPlugin>
+          </RequestPlugins>
+          <QueryStringParameters>
+            <QueryStringParameter Name="date" Value="07-10-2015" RecordedValue="07-10-2015" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9e7673aa-d609-49e7-836c-4ba1c64908a1" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/Courses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="11b1dae5-6d6e-4d26-9bbe-b3c379b31a16" Version="1.1" Url="{{WebServer3}}/api/UserDashboard/MessageBoard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="297" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="ca475f76-271e-4f43-bf31-3ddc8b38eff2" Version="1.1" Url="{{WebServer1}}/Error/LogExceptionDetails" ThinkTime="28" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">ewAiAG0AZQBzAHMAYQBnAGUAIgA6AHsAIgBkAGEAdABhACIAOgAiADsAIwBEAE0AOgAwADAAOQA7ACMAXAByAFwAbgBEAGEAdABhAGIAYQBzAGUARQBuAHQAaQB0AHkARABlAHQAYQBpAGwAcwA6ACAAdQBzAHAAXwBDAG8AdQByAHMAZQBTAHUAbQBtAGEAcgB5AFwAcgBcAG4AQQBjAHQAaQBvAG4AUABlAHIAZgBvAHIAbQBlAGQAOgAgAEcAZQB0AFMAYwBvAHIAZQBzAFwAcgBcAG4AVgBhAGwAaQBkAGEAdABpAG8AbgBFAHIAcgBvAHIAOgAgAEwAbwBnAGcAZQBkAC0AaQBuACAAdQBzAGUAcgBpAGQAIABkAG8AZQBzAG4AJwB0ACAAbQBhAHQAYwBoACAAdwBpAHQAaAAgAHAAYQBzAHMAZQBkACAAVQBzAGUAcgBSAG8AbABlAEkAZAAuAFwAcgBcAG4AIgAsACIAcwB0AGEAdAB1AHMAIgA6ADQAMQAyACwAIgBjAG8AbgBmAGkAZwAiADoAewAiAG0AZQB0AGgAbwBkACIAOgAiAEcARQBUACIALAAiAHQAcgBhAG4AcwBmAG8AcgBtAFIAZQBxAHUAZQBzAHQAIgA6AFsAbgB1AGwAbABdACwAIgB0AHIAYQBuAHMAZgBvAHIAbQBSAGUAcwBwAG8AbgBzAGUAIgA6AFsAbgB1AGwAbABdACwAIgB1AHIAbAAiADoAIgBoAHQAdABwADoALwAvAHUAcwBnAGEAdwBlAGIAYQBwAGkAcwBpAHQALgBjAGwAbwB1AGQAYQBwAHAALgBuAGUAdAAvAGEAcABpAC8AVQBzAGUAcgBEAGEAcwBoAGIAbwBhAHIAZAAvAEMAbwB1AHIAcwBlAHMAPwBVAHMAZQByAFIAbwBsAGUASQBkAD0AMgA5ADcAJgBhAHMAcwBvAGMAaQBhAHQAaQBvAG4ASQBkAD0AMAAiACwAIgBoAGUAYQBkAGUAcgBzACIAOgB7ACIAQQBjAGMAZQBwAHQAIgA6ACIAYQBwAHAAbABpAGMAYQB0AGkAbwBuAC8AagBzAG8AbgAsACAAdABlAHgAdAAvAHAAbABhAGkAbgAsACAAKgAvACoAIgAsACIAQQBjAGMAZQBzAHMALQBDAG8AbgB0AHIAbwBsAC0AQQBsAGwAbwB3AC0ASABlAGEAZABlAHIAcwAiADoAIgAqACIALAAiAEEAdQB0AGgAbwByAGkAegBhAHQAaQBvAG4AIgA6ACIAQgBlAGEAcgBlAHIAIABlAHkASgAwAGUAWABBAGkATwBpAEoASwBWADEAUQBpAEwAQwBKAGgAYgBHAGMAaQBPAGkASgBTAFUAegBJADEATgBpAEkAcwBJAG0AdABwAFoAQwBJADYASQBrAGwAawBWAEcAOQByAFoAVwA1AFQAYQBXAGQAdQBhAFcANQBuAFMAMgBWADUAUQAyADkAdQBkAEcARgBwAGIAbQBWAHkASQBuADAALgBlAHkASgBsAGUASABBAGkATwBqAEUAMABNAHoAWQAxAE0AagBRAHkATwBUAEUAcwBJAG0ANQBpAFoAaQBJADYATQBUAFEAegBOAGoAVQB5AE0ARABZADUATQBTAHcAaQBkAG0AVgB5AEkAagBvAGkATQBTADQAdwBJAGkAdwBpAGEAWABOAHoASQBqAG8AaQBhAEgAUgAwAGMASABNADYATAB5ADkAcwBiADIAZABwAGIAaQA1AHQAYQBXAE4AeQBiADMATgB2AFoAbgBSAHYAYgBtAHgAcABiAG0AVQB1AFkAMgA5AHQATAAyAFEAMgBOADIAWgBpAE8AVwBOAGoATABXAFIAagBZAFQAZwB0AE4ARABRAHcATQBTADEAaQBaAGoAaABoAEwAVABOAGwAWQBXAFkAMQBZAGoAVQAwAE4AVwBaAGsATQBpADgAaQBMAEMASgBoAFkAMwBJAGkATwBpAEoAaQBNAG0ATgBmAE0AVgA5AGkATQBtAE4AegBhAFcAZAB1AGEAVwA0AGkATABDAEoAegBkAFcASQBpAE8AaQBKAG4AWQB6AEYARABZAGsANQA2AFoAagBaAFEATQBFADUAVwBXAG4AaAB6AGEAawB3ADUAZABUAGwAdgBkAG4ARgBMAFkAVgBRAHoAYQBHAHAAUABjAFMAOQBWAFYAMgBwAGwAVgB6AEoAVABkAFUAOQBqAFAAUwBJAHMASQBtAEYAMQBaAEMASQA2AEkAbQBVADAAWQAyAEkAMwBNAEQASgBrAEwAVABrAHoATQBqAFEAdABOAEcATgBtAFkAaQAxAGgAWQBUAEIAaABMAFQAWgBtAE8ARABFADIATwBHAFYAagBZAFcARQAzAE8AUwBJAHMASQBtADUAdgBiAG0ATgBsAEkAagBvAGkATgBqAE0AMQBOAHoASQB4AE0AVABjADAATwBEAFUAdwBNAGoAUQAxAE8AVABZADUATABrADkAWABTAFgAbABaAGUAawBKAG8AVwBtAHAAWgBkAEYAbAA2AFQAbQB4AGEAUQB6AEEAdwBXAGsAZABSAE4AVQB4AFgAUwBYAGwAYQBhAGsARgAwAFcAVgBSAFoAZAAxAHAAcQBXAFQATgBaAFYAMABwAHEAVAAxAGQAVgBNAGsAMQA2AGIARwBwAE4AZQBtAGgAcgBUADEAUgBOAGQARgBsAFgAVABUAFIAWgBVAHoAQQB3AFQAbgBwAG4ATgBVAHgAWABTAG0AMQBOAFIARwBOADAAVABsAFIAYQBhAEUAMQBIAFMAWABoAGEAUgAxAGwANABUADAAUgBzAGEAeQBJAHMASQBtAGwAaABkAEMASQA2AE0AVABRAHoATgBqAFUAeQBNAEQAWQA1AE0AUwB3AGkAWQBYAFYAMABhAEYAOQAwAGEAVwAxAGwASQBqAG8AeABOAEQATQAyAE4AVABJAHcATgBqAGsAeABMAEMASgB2AGEAVwBRAGkATwBpAEkANQBNAGoARQA0AE4AegBBAHgAWQBTADAAeABNAHoAZwB6AEwAVABSAGgAWQBXAE0AdABPAFQAQgBpAE4AeQAxAGgATwBHAEUANABNAEcATQAzAE4AagBGAGwATwBEAFkAaQBMAEMASgBuAGEAWABaAGwAYgBsADkAdQBZAFcAMQBsAEkAagBvAGkAVABXAEYAdQBaAFcAVgB6AGEAQwBJAHMASQBtAFoAaABiAFcAbABzAGUAVgA5AHUAWQBXADEAbABJAGoAbwBpAFUAbQBGAHEAWQBXADAAaQBMAEMASgB1AFkAVwAxAGwASQBqAG8AaQBUAFcARgB1AFoAVwBWAHoAYQBDAEkAcwBJAG4ATgAwAGMAbQBWAGwAZABFAEYAawBaAEgASgBsAGMAMwBNAGkATwBpAEoATgBZAFcAUgBvAFkAWABCADEAYwBpAEkAcwBJAG4ATgAwAFkAWABSAGwASQBqAG8AaQBRAFgASgBwAGUAbQA5AHUAWQBTAEkAcwBJAG4AQgB2AGMAMwBSAGgAYgBFAE4AdgBaAEcAVQBpAE8AaQBJADAATQBqAFEAegBNAEMASQBzAEkAbQBwAHYAWQBsAFIAcABkAEcAeABsAEkAagBvAGkAUQAyADkAdQBjADMAVgBzAGQARwBGAHUAZABDAEkAcwBJAG0AVgA0AGQARwBWAHUAYwAyAGwAdgBiAGwAOQBEAGMARwBsAHQAWAAwAGQASQBTAFUANQBKAFIAQwBJADYASQBqAGMAMgBOAFQAUQAwAE0AagBFAHgATQBqAEUAaQBMAEMASgBsAGUASABSAGwAYgBuAE4AcABiADIANQBmAFEAMwBCAHAAYgBWADkASABTAEUAbABPAFIAVQAxAEIAUwBVAHcAaQBPAGkASgB0AGMAbQBGAHEAWQBXADEAQQBaAEcAVgBzAGIAMgBsADAAZABHAFUAdQBZADIAOQB0AEkAaQB3AGkAWQAyAGwAMABlAFMASQA2AEkAawBoADUAWgBHAFYAeQBZAFcASgBoAFoAQwBJAHMASQBtAFYAdABZAFcAbABzAGMAeQBJADYAVwB5AEoAdABjAG0ARgBxAFkAVwAxAEEAWgBHAFYAcwBiADIAbAAwAGQARwBVAHUAWQAyADkAdABJAGwAMABzAEkAbQBOAGYAYQBHAEYAegBhAEMASQA2AEkAbQB4AFIATgBFAEoATQBUAGsAOAAwAFIARABsADEAVABtAEoAMABTADAAMAAyAFYAMgBFAHQAWQAzAGMAaQBMAEMASgBoAGQARgA5AG8AWQBYAE4AbwBJAGoAbwBpAGUAbQBaAHEAVgBEAE4AVgBhADAAUgBTAGMAVQBsAE8AUgAyADUAaABNAEUAaABHAFIAWABVADMAZAB5AEoAOQAuAGMAbQB6AHEAVQBYADcAWQBuAHcASwB0AFkASgBCAFIAOABaAHMASwA2AEYAVQBUAE4ARABYAGcAUQBLAGEAMAB4AFoATQBuAEoATwBsAFEAUQA5ADQAVgBQAHEAegB6AFMAWgBEAEsAeABUADUARABTADEAdgB6AEUAcgBiAHgATgBhAHcAbgBKAHIAZwBTAFEAMwBrAGIAbwBXAFcAdwBvAGkASABqAGMAWABZADUAUwBfAGQAdwBIAEoAQQBZAG4ARABEAEgARwAtAC0ARgBTAFIAcgBSAEsAdwBxADEAbgA3AHAAagAzAGwAXwB4AHIAYgA0AGcAOAB2AEgAWQA0AFcAMwBXAFkAOAAwAC0AbQBQADIANgBaAFAAYQBUAGcAbABVAHUAbgBGAFYAdAA3AEIASgBYAEcAUwA1AC0AdAB6AGoAdwBNAEkAaQBPAGYAMgBVADEAVgBEAHYARgBTAHYAbABXAG4AZQB1AGkATAA1AE8AbgBwADYAZwBJAG0AdwBSAEgAOAB3AEUAXwB2AEoAMQB4ADUAZAAwAE8AWgBLAE0AYgBsAEoAUAA3AC0ANwBZAFIAQgBNAFEASgAyAHIAWABnAG0AQgBkADkAVwA2AE0ASAAyADkAQQBpAHYAcQAwAHIARABlAFgAMABsAFEANgA3AHEAQwBvAE0ANABtAGEANAB5ADMASgBKAF8AcgBRADUAUgBrAE0AeQBKAFAAcgAyAEEAUgA4AHIARQBuAEIAZwBuAEQAUgBSAFUANgBuAGIAUgBCAHgARwA2ADQAQgBWAGsAZAB6AEMARABfAG8ARgBjAEYAegB5AE0AbwBDAEEAVwBIADIARgBTADYANABNAF8AUABGAFcASAA4AFYAZABjAF8ARwBjAFQAagA4AG0AUQBBACIAfQAsACIAJABfAGIAbABvAGMAawBzACIAOgBbAHsAIgBfAGkAZAAiADoAIgBtAGEAaQBuACIALAAiAF8AcgBlAGYAcwAiADoAMgAsACIAaQBuAHMAdABhAG4AYwBlAHMAIgA6AFsAbgB1AGwAbABdACwAIgBfAHIAZQBzAHQAbwByAGUARgBvAGMAdQBzACIAOgB7AH0AfQBdAH0ALAAiAHMAdABhAHQAdQBzAFQAZQB4AHQAIgA6ACIARABhAHQAYQAgAFYAYQBsAGkAZABhAHQAaQBvAG4AIABFAHgAYwBlAHAAdABpAG8AbgAiAH0AfQA=</StringHttpBody>
+        </Request>
+        <Comment CommentText="Dashboard loaded" />
+        <Comment CommentText="Pass Association Number for search and hit Search " />
+        <Request Method="GET" Guid="3178d95a-1cab-4d4e-8eef-9b2977837217" Version="1.1" Url="{{WebServer3}}/api/Associations" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractAssociationID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="{&quot;AssociationId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="," />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="AssociationNumber" Value="{{SRGADSData.SRGA4AssoData#csv.AssociationNumber}}" RecordedValue="232" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ae235743-2101-4b81-b63c-ff8f52699786" Version="1.1" Url="{{WebServer1}}/Srga/SrgaSearchResults" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2853f2d7-1ee9-402b-bc34-5e5c662b8ca1" Version="1.1" Url="{{WebServer1}}/App/Main/views/DirectiveTemplates/dirPagination.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+        </Request>
+        <Request Method="POST" Guid="1a1f7836-d220-46b4-b4bb-46aea6d8a993" Version="1.1" Url="{{WebServer3}}/api/associations/Search" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home/usgadashboard" />
+          </Headers>
+          <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEEAcwBzAG8AYwBpAGEAdABpAG8AbgBOAHUAbQBiAGUAcgAiADoAewB7AFMAUgBHAEEARABTAEQAYQB0AGEALgBTAFIARwBBADQAQQBzAHMAbwBEAGEAdABhACMAYwBzAHYALgBBAHMAcwBvAGMAaQBhAHQAaQBvAG4ATgB1AG0AYgBlAHIAfQB9ACwAIgBTAGsAaQBwAEkAdABlAG0AIgA6ADAALAAiAFAAYQBnAGUAUwBpAHoAZQAiADoANQAwADAAfQA=</StringHttpBody>
+        </Request>
+        <Comment CommentText="Association detail page open" />
+        <TransactionTimer Name="Activation called">
+          <Items>
+            <Comment CommentText="Select the association and click on the Activate button/Link" />
+            <Comment CommentText="Click Activate from pop up" />
+            <Request Method="POST" Guid="962785b7-f300-4d8c-afc9-314b79059785" Version="1.1" Url="{{WebServer3}}/api/Associations/ChangeStatus" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="application/json, text/plain, */*" />
+                <Header Name="Referer" Value="{{WebServer1}}/#/home/srgasearchresults" />
+              </Headers>
+              <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEMAaABhAG4AZwBlAFMAdABhAHQAdQBzAFIAZQBxAHUAZQBzAHQAcwBJAG4AcAB1AHQAcwAiADoAWwB7ACIAQQBzAHMAbwBjAGkAYQB0AGkAbwBuAEkAZAAiADoAewB7AEUAeAB0AHIAYQBjAHQAQQBzAHMAbwBjAGkAYQB0AGkAbwBuAEkARAB9AH0ALAAiAEEAYwB0AGkAbwBuACIAOgAiAEEAYwB0AGkAdgBhAHQAZQAiAH0AXQB9AA==</StringHttpBody>
+            </Request>
+            <Request Method="POST" Guid="43b64b59-4829-4a50-b6ff-435647d69fb7" Version="1.1" Url="{{WebServer3}}/api/associations/Search" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="application/json, text/plain, */*" />
+                <Header Name="Referer" Value="{{WebServer1}}/#/home/srgasearchresults" />
+              </Headers>
+              <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEEAcwBzAG8AYwBpAGEAdABpAG8AbgBOAHUAbQBiAGUAcgAiADoAewB7AFMAUgBHAEEARABTAEQAYQB0AGEALgBTAFIARwBBADQAQQBzAHMAbwBEAGEAdABhACMAYwBzAHYALgBBAHMAcwBvAGMAaQBhAHQAaQBvAG4ATgB1AG0AYgBlAHIAfQB9ACwAIgBTAGsAaQBwAEkAdABlAG0AIgA6ADAALAAiAFAAYQBnAGUAUwBpAHoAZQAiADoANQAwADAAfQA=</StringHttpBody>
+            </Request>
+            <Comment CommentText="Association Inactivated" />
+          </Items>
+        </TransactionTimer>
+        <TransactionTimer Name="Sign out post Activating SRGA">
+          <Items>
+            <Comment CommentText="CLick on Sign out link" />
+            <Request Method="GET" Guid="275445b4-2f6c-48c8-ac0b-8ccfd2d101d9" Version="1.1" Url="{{WebServer1}}/Account/SignOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="1f474849-1c2a-4785-aeff-da9ef579e398" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home" ReportingName="" IgnoreHttpStatusCode="False">
+              <DependentRequests>
+                <Request Method="GET" Guid="3e8efbc4-f5db-4b89-87a0-6f654d67300b" Version="1.1" Url="{{WebServer1}}/Base/Load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+                  <Headers>
+                    <Header Name="Accept" Value="text/html" />
+                    <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+                  </Headers>
+                  <QueryStringParameters>
+                    <QueryStringParameter Name="viewUrl" Value="/App/Main/views/home/home.cshtml" RecordedValue="/App/Main/views/home/home.cshtml" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  </QueryStringParameters>
+                </Request>
+              </DependentRequests>
+            </Request>
+            <Request Method="GET" Guid="52f74aab-03ea-4903-a8db-67fa98dbd020" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="0a9fb234-3b4b-48ff-a8f4-e383e82a3ba9" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="b9ea879b-cc55-4c67-b7a0-2d373139b7a3" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="application/json, text/plain, */*" />
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="67a05b8d-d373-42f3-9b3e-ae59a0a8f1e8" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="7eaea228-e0ae-4432-8dff-c6b3b59a1065" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="application/json, text/plain, */*" />
+                <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="7f11ec45-095d-423c-90e5-2f1a0c01afa2" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </Items>
+        </TransactionTimer>
+      </Items>
+    </TransactionTimer>
+  </Items>
+  <DataSources>
+    <DataSource Name="SRGADS" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\CSV Data\SRGA4UserLogin.csv">
+      <Tables>
+        <DataSourceTable Name="SRGA4UserLogin#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+    <DataSource Name="SRGADSData" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\CSV Data\SRGA4AssoData.csv">
+      <Tables>
+        <DataSourceTable Name="SRGA4AssoData#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://usgaghinwebazuretest.cloudapp.net" />
+    <ContextParameter Name="WebServer2" Value="https://login.microsoftonline.com" />
+    <ContextParameter Name="WebServer3" Value="http://usgawebapidev.cloudapp.net" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="PluginToAddAuthBearerInAllRequest.AddHeadersreq, PluginToAddAuthBearerInAllRequest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="AddHeadersreq" Description="" />
+  </WebTestPlugins>
+</WebTest>

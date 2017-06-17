@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="72814ab1-f055-40f0-a46a-cbb1af22ae0b" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.d1b5e4fa-c7d8-40b2-af3b-1efbf5b1b0eb.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="a0fe8b70-24f3-4ebf-a155-5c7194708eea" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="75d3466d-f429-4941-a826-8eca820a5b1a" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="1c425df8-5460-42cb-b4bd-c32343b67994" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8ecab52f-398d-4d7d-8143-881f17324e38" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/fonts/opensans-bold-webfont.eot" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="eeab714b-322d-49c5-9413-b29c321d3009" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5d05c2a0-431a-42d9-9ef6-7b44c7490b26" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Base/Load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="viewUrl" Value="/App/Main/views/home/home.cshtml" RecordedValue="/App/Main/views/home/home.cshtml" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9a3d6750-c1a8-4ce2-96d5-692cfd1f5aee" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="65d5fbf3-09d6-4031-ac92-6fa8dfbb2708" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="11f32233-b79c-4857-9f41-72a3599f911c" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3c504748-b9e1-4e60-978f-a3106f470e43" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Account/UserContext/0" ThinkTime="36" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5d78c939-9023-4508-8050-6ff3600367c9" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Scripts/angular.min.js.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f2b13596-4a7c-4231-8d3e-d212d36bb13e" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Scripts/angular-animate.min.js.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ecd38f4f-2a8c-4b1d-b31c-70a611e2f4da" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/Scripts/angular-sanitize.min.js.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8a6ad0a2-1b7f-42b4-b9fc-752a471591a9" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/Main/vendor/angular-file-upload.min.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="45acce80-7f65-47bd-86c3-bb8d6a6c27de" Version="1.1" Url="http://usga-ghin-wfe-q1.cloudapp.net/App/Main/vendor/es5-shim.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2d9802da-b47f-45cf-a0a0-f54dfc582ef6" Version="1.1" Url="https://cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.4/stacktrace.js.map" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://usga-ghin-wfe-q1.cloudapp.net/#/home" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

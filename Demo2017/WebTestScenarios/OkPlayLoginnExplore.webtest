@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="OkPlayLoginnExplore" Id="72270e11-5680-4220-9671-8ff1dce147e4" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.2453e80f-0617-4640-a02a-afe899e1f584.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="a7c31042-31bd-4cf9-8f66-e2866e3e4084" Version="1.1" Url="https://www.okplay.in/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="f1d4a8ac-4ec8-4018-96d5-444ef1feadf1" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a4f43883-e6b7-4161-90a0-eba3973b6043" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="aeafefc2-ad65-49ba-84e5-a11b11cda1b2" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e53ede90-fb6b-4a53-baab-63f55ceff44d" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="96707433-c35c-4fce-a45c-3f2d13965236" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ccc58e15-40cb-4ce9-acaf-e9a85163deb3" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6411c217-3f56-4311-92d2-8e0374b31ae4" Version="1.1" Url="https://www.okplay.in/hdflvplayer/hdplayer.swf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="8badd85b-fcd4-4134-a57b-ce82b0f98449" Version="1.1" Url="https://www.okplay.in/hdflvplayer/hdplayer.swf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="611a40b8-ae1e-4e97-ae39-1fd485a9a978" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="89a0ce22-79c6-4321-b63a-ddd71548e304" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b4288ccb-eaf2-4b49-85c4-7f8b52339f27" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/ufonts.com_american-typewriter.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ff48d11f-7f0c-4214-887b-6cf7941a52fa" Version="1.1" Url="https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMupm9E4gBdgiUiSJePew_SQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f190b371-4f56-4268-a11d-f8839384a22b" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/american-typewriter-bold.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="57535068-5db5-4550-8c8d-e66774e7d48f" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="94e6359d-30c1-4140-be7f-5b3f6b01c3aa" Version="1.1" Url="https://www.okplay.in/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="49cb5972-56c0-4b0a-9732-ebb87a89cd73" Version="1.1" Url="https://www.okplay.in/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="749dafc0-92c5-4750-a6e3-fbd9b0312b33" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e9e25e5e-9283-4411-8dc2-7905d1cfe077" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f944546c-55e8-4ccc-8db7-d068d6c17fca" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="66678d04-92ba-4cad-b260-75b6d1556a27" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="038c06c7-037a-4a63-b698-d8696947a135" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="aeb85c90-82bc-4e31-8f60-b9913e646bd0" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a3f86fc4-54a9-43a0-883c-3c81688cdbb8" Version="1.1" Url="https://www.okplay.in/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5c56cd42-39f1-47ff-9ecd-1c4cf4b8f4b7" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="cdd7e441-64f1-4e76-b128-67c3d5de8a1e" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a104b09b-77f3-4fa4-9b6b-242827e79a00" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/ufonts.com_american-typewriter.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4b40d0e1-e4da-4c6b-a2ec-1a69713897ea" Version="1.1" Url="https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMupm9E4gBdgiUiSJePew_SQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="93eb9ac6-869e-4505-9f6c-20e3395fd3c8" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/american-typewriter-bold.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1622f5d0-b054-4224-89de-182c20e1823e" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="3cdf7d3b-5442-4053-a138-400385bc9c56" Version="1.1" Url="https://www.okplay.in/hdflvplayer/hdplayer.swf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a5a67562-9887-4277-bea2-ae672c0a38d4" Version="1.1" Url="https://www.okplay.in/hdflvplayer/hdplayer.swf" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://www.okplay.in/" />
+      </Headers>
+    </Request>
+    <Comment CommentText="home page loaded" />
+    <Comment CommentText="click login link" />
+    <Request Method="GET" Guid="81fd8ba5-5e21-4b8e-b20b-b37cf6fc8e87" Version="1.1" Url="https://www.okplay.in/sociallogin/index/index/" ThinkTime="23" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.form_key" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; /&gt;&#xD;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Comment CommentText="pop up open-eneter cred" />
+    <Request Method="POST" Guid="c1f0ceb1-553d-4441-863c-b1625368fbb1" Version="1.1" Url="https://www.okplay.in/sociallogin/popup/login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Accept" Value="text/javascript, text/html, application/xml, text/xml, */*" />
+        <Header Name="Referer" Value="https://www.okplay.in/" />
+      </Headers>
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Invalid login or password" />
+            <RuleParameter Name="IgnoreCase" Value="True" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="False" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="form_key" Value="{{FormPostParam1.form_key}}" RecordedValue="K5H26ViHqFgSNupP" CorrelationBinding="{{FormPostParam1.form_key}}" UrlEncode="True" />
+        <FormPostParameter Name="socialogin_email" Value="{{UsersDB.OkPlayCred#csv.email}}" RecordedValue="pttesttwo12@gmail.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="socialogin_password" Value="{{UsersDB.OkPlayCred#csv.password}}" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="send" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Comment CommentText="lohgged in" />
+    <Comment CommentText="search train" />
+    <Request Method="GET" Guid="0c157cce-7634-418b-93a1-ab34d84824d2" Version="1.1" Url="https://www.okplay.in/catalogsearch/ajax/suggest/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Accept" Value="text/javascript, text/html, application/xml, text/xml, */*" />
+        <Header Name="Referer" Value="https://www.okplay.in/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="q" Value="{{SearchDB.OkPlaySearch#csv.title}}" RecordedValue="train" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="533923fa-ffb9-4f18-b8fb-7979532e30e4" Version="1.1" Url="https://www.okplay.in/catalogsearch/result/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="877db203-3e7d-4919-8536-d3586659be25" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ff6d4741-129f-46d1-83e9-ccfd24449816" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="67fa3eb9-bb2e-4819-baa1-9edd628d0111" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="339da64b-ce89-45cf-9e2f-41f8e786e55f" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="812ea642-dc71-459d-b025-7f62c3160472" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0ebafe35-aead-421d-a68e-e1055b9cbf1b" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2cdd080b-a67b-48c6-8847-25d85aad3188" Version="1.1" Url="https://www.okplay.in/catalogsearch/result/" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="{{SearchDB.OkPlaySearch#csv.title}}" RecordedValue="train" CorrelationBinding="{{QueryStringParam49.q}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="submit" Value="Submit+Query" RecordedValue="Submit+Query" CorrelationBinding="{{QueryStringParam50.submit}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0db34b03-68d0-4a2f-b5a7-4216b3696ec9" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c1b2c7db-48f5-4e14-ad89-7f8637ca9ca4" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="10a8ab47-2fdc-4bb8-a12d-9a11d366a304" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="b0f5ebb4-0458-4f55-a4ed-7c688ba09bfd" Version="1.1" Url="https://www.google-analytics.com/collect" ThinkTime="23" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+          </Headers>
+          <StringHttpBody ContentType="text/plain" InsertByteOrderMark="False">dgA9ADEAJgBfAHYAPQBqADQANwAmAGEAPQA3ADgAMgA2ADMANQAwADcAMQAmAHQAPQBwAGEAZwBlAHYAaQBlAHcAJgBjAHUAPQBJAE4AUgAmAF8AcwA9ADEAJgBkAGwAPQBoAHQAdABwAHMAJQAzAEEAJQAyAEYAJQAyAEYAdwB3AHcALgBvAGsAcABsAGEAeQAuAGkAbgAlADIARgBjAGEAdABhAGwAbwBnAHMAZQBhAHIAYwBoACUAMgBGAHIAZQBzAHUAbAB0ACUAMgBGACUAMwBGAHEAJQAzAEQAewB7AFMAZQBhAHIAYwBoAEQAQgAuAE8AawBQAGwAYQB5AFMAZQBhAHIAYwBoACMAYwBzAHYALgB0AGkAdABsAGUAfQB9ACUAMgA2AHMAdQBiAG0AaQB0ACUAMwBEAFMAdQBiAG0AaQB0ACUAMgBCAFEAdQBlAHIAeQAmAGQAcAA9AGgAdAB0AHAAcwAlADMAQQAlADIARgAlADIARgB3AHcAdwAuAG8AawBwAGwAYQB5AC4AaQBuACUAMgBGAGMAYQB0AGEAbABvAGcAcwBlAGEAcgBjAGgAJQAyAEYAcgBlAHMAdQBsAHQAJQAyAEYAJQAzAEYAcQAlADMARAB7AHsAUwBlAGEAcgBjAGgARABCAC4ATwBrAFAAbABhAHkAUwBlAGEAcgBjAGgAIwBjAHMAdgAuAHQAaQB0AGwAZQB9AH0AJQAyADYAcwB1AGIAbQBpAHQAJQAzAEQAUwB1AGIAbQBpAHQAJQAyAEIAUQB1AGUAcgB5ACYAdQBsAD0AZQBuAC0AdQBzACYAZABlAD0AdQB0AGYALQA4ACYAZAB0AD0AUwBlAGEAcgBjAGgAJQAyADAAcgBlAHMAdQBsAHQAcwAlADIAMABmAG8AcgAlADMAQQAlADIAMAAnAHsAewBTAGUAYQByAGMAaABEAEIALgBPAGsAUABsAGEAeQBTAGUAYQByAGMAaAAjAGMAcwB2AC4AdABpAHQAbABlAH0AfQAnACYAcwBkAD0AMgA0AC0AYgBpAHQAJgBzAHIAPQAxADcAMAA3AHgAOQA2ADAAJgB2AHAAPQAxADIAOAA2AHgAOAAwADUAJgBqAGUAPQAxACYAZgBsAD0AMgA0AC4AMAAlADIAMAByADAAJgBfAHUAPQBTAEMAQwBBAEEAQQBRAEsASQB+ACYAagBpAGQAPQAmAGMAaQBkAD0ANQA4ADgANAA5ADEAMAA1ADYALgAxADQAOAA3ADIAMgAyADAAOAA1ACYAdABpAGQAPQBVAEEALQA2ADcAMwA3ADcAMQA2ADIALQAxACYAZwB0AG0APQBHAFQATQAtAEsAWAAzAEIATgBWACYAaQBsADEAcABpADEAbgBtAD0AVwBvAGIAYgBsAGUAJQAyADAAVwBhAGcAbwBuACYAaQBsADEAcABpADEAaQBkAD0AUwAwADAAMQBfADMAMgA0ADAAJgBpAGwAMQBwAGkAMQBwAHIAPQAyADgAMQAuADAAMAAwADAAJgBpAGwAMQBwAGkAMQBiAHIAPQBPAEsAJQAyADAAUABsAGEAeQAmAGkAbAAxAHAAaQAxAGMAYQA9ACYAaQBsADEAcABpADEAcABzAD0AMQAmAGkAbAAxAHAAaQAyAG4AbQA9AE0AeQAlADIAMABGAGkAcgBzAHQAJQAyADAAVAByAGEAaQBuACYAaQBsADEAcABpADIAaQBkAD0AUwAwADAAMQBfADMAMgA4ADAAJgBpAGwAMQBwAGkAMgBwAHIAPQA3ADQAOAAuADAAMAAwADAAJgBpAGwAMQBwAGkAMgBiAHIAPQBPAEsAJQAyADAAUABsAGEAeQAmAGkAbAAxAHAAaQAyAGMAYQA9ACYAaQBsADEAcABpADIAcABzAD0AMgAmAGkAbAAxAHAAaQAzAG4AbQA9AEcAbwBhAGwAJQAyADAAUABvAHMAdAAmAGkAbAAxAHAAaQAzAGkAZAA9AFMAMAAwADEAXwA2ADYAMAAwACYAaQBsADEAcABpADMAcAByAD0ANgA2ADMAMAAuADAAMAAwADAAJgBpAGwAMQBwAGkAMwBiAHIAPQBPAEsAJQAyADAAUABsAGEAeQAmAGkAbAAxAHAAaQAzAGMAYQA9ACYAaQBsADEAcABpADMAcABzAD0AMwAmAGkAbAAxAHAAaQA0AG4AbQA9AEYAdQBuACUAMgAwAE8AbgAlADIAMABXAGgAZQBlAGwAcwAlADIAMABTAGkAbgBnAGwAZQAmAGkAbAAxAHAAaQA0AGkAZAA9AFMAMAAwADEAXwA4ADAANAAwACYAaQBsADEAcABpADQAcAByAD0ANQA3ADUANwAuADAAMAAwADAAJgBpAGwAMQBwAGkANABiAHIAPQBPAEsAJQAyADAAUABsAGEAeQAmAGkAbAAxAHAAaQA0AGMAYQA9ACYAaQBsADEAcABpADQAcABzAD0ANAAmAGkAbAAxAHAAaQA1AG4AbQA9AEYAdQBuACUAMgAwAE8AbgAlADIAMABXAGgAZQBlAGwAcwAlADIAMABEAG8AdQBiAGwAZQAmAGkAbAAxAHAAaQA1AGkAZAA9AFMAMAAwADEAXwA4ADAANQAwACYAaQBsADEAcABpADUAcAByAD0ANwAwADIAOAAuADAAMAAwADAAJgBpAGwAMQBwAGkANQBiAHIAPQBPAEsAJQAyADAAUABsAGEAeQAmAGkAbAAxAHAAaQA1AGMAYQA9ACYAaQBsADEAcABpADUAcABzAD0ANQAmAGkAbAAxAHAAaQA2AG4AbQA9AEYAdQBuACUAMgAwAE8AbgAlADIAMABXAGgAZQBlAGwAcwAlADIAMABEAG8AdQBiAGwAZQAlADIAMAAtACUAMgAwAFkAZQBsAGwAbwB3ACYAaQBsADEAcABpADYAaQBkAD0AUwAwADAAMQBfADgAMAA1ADAAQQAmAGkAbAAxAHAAaQA2AHAAcgA9ADcAMAAyADgALgAwADAAMAAwACYAaQBsADEAcABpADYAYgByAD0ATwBLACUAMgAwAFAAbABhAHkAJgBpAGwAMQBwAGkANgBjAGEAPQAmAGkAbAAxAHAAaQA2AHAAcwA9ADYAJgBpAGwAMQBwAGkANwBuAG0APQBCAGkAZwAlADIAMABMAG8AYwBvAG0AbwB0AGkAdgBlACYAaQBsADEAcABpADcAaQBkAD0AUwAwADAAMgBfADAAOAA5AF8AMAAyADcAJgBpAGwAMQBwAGkANwBwAHIAPQAxADIANgAwAC4AMAAwADAAMAAmAGkAbAAxAHAAaQA3AGIAcgA9AE0AaQBjAC0AbwAtAE0AaQBjACYAaQBsADEAcABpADcAYwBhAD0AJgBpAGwAMQBwAGkANwBwAHMAPQA3ACYAaQBsADEAcABpADgAbgBtAD0AUwBtAGEAbABsACUAMgAwAEwAbwBjAG8AbQBvAHQAaQB2AGUAJgBpAGwAMQBwAGkAOABpAGQAPQBTADAAMAAyAF8AMAA4ADkAXwAwADcAMAAmAGkAbAAxAHAAaQA4AHAAcgA9ADgAMQAwAC4AMAAwADAAMAAmAGkAbAAxAHAAaQA4AGIAcgA9AE0AaQBjAC0AbwAtAE0AaQBjACYAaQBsADEAcABpADgAYwBhAD0AJgBpAGwAMQBwAGkAOABwAHMAPQA4ACYAaQBsADEAcABpADkAbgBtAD0ARABlAGwAdQB4AGUAJQAyADAAVAByAGEAaQBuACUAMgAwAFMAZQB0ACYAaQBsADEAcABpADkAaQBkAD0AUwAwADAAMwBfADgAOQA5ADAAOQAmAGkAbAAxAHAAaQA5AHAAcgA9ADMANgA5ADAALgAwADAAMAAwACYAaQBsADEAcABpADkAYgByAD0AVABvAGwAbwAmAGkAbAAxAHAAaQA5AGMAYQA9ACYAaQBsADEAcABpADkAcABzAD0AOQAmAGkAbAAxAHAAaQAxADAAbgBtAD0ARgBpAHIAcwB0ACUAMgAwAEYAcgBpAGUAbgBkAHMAJQAyADAAVAByAGEAaQBuACUAMgAwAGEAbgBkACUAMgAwAEMARAAmAGkAbAAxAHAAaQAxADAAaQBkAD0AUwAwADAAMwBfAFQATAAwADAAMgAzACYAaQBsADEAcABpADEAMABwAHIAPQAzADMAOQAwAC4AMAAwADAAMAAmAGkAbAAxAHAAaQAxADAAYgByAD0AVABvAGwAbwAmAGkAbAAxAHAAaQAxADAAYwBhAD0AJgBpAGwAMQBwAGkAMQAwAHAAcwA9ADEAMAAmAGkAbAAxAHAAaQAxADEAbgBtAD0AUwBwAGkAcgBvACUAMgAwAEIAbwB1AG4AYwBlAHIAJgBpAGwAMQBwAGkAMQAxAGkAZAA9AFMAMAAwADcAXwBUAFAAOQA4ADMAJgBpAGwAMQBwAGkAMQAxAHAAcgA9ADMAMQA3ADQALgAwADAAMAAwACYAaQBsADEAcABpADEAMQBiAHIAPQBNAG8AbwBrAGkAZQAmAGkAbAAxAHAAaQAxADEAYwBhAD0AJgBpAGwAMQBwAGkAMQAxAHAAcwA9ADEAMQAmAGkAbAAxAHAAaQAxADIAbgBtAD0AVAByAGEAaQBuAHMAJQAyADAAQgBvAHgAJgBpAGwAMQBwAGkAMQAyAGkAZAA9AFMAMAAxADEAXwBDAEEAMAAwADIAOAAmAGkAbAAxAHAAaQAxADIAcAByAD0ANQA5ADkALgAwADAAMAAwACYAaQBsADEAcABpADEAMgBiAHIAPQBDAGwAaQBjAHMAJgBpAGwAMQBwAGkAMQAyAGMAYQA9ACYAaQBsADEAcABpADEAMgBwAHMAPQAxADIAJgBpAGwAMQBwAGkAMQAzAG4AbQA9AFMAdQByAGUAcwBoAG8AdAAlADIAMABDAHIAbwBzAHMAYgBvAHcAJgBpAGwAMQBwAGkAMQAzAGkAZAA9AFMAMAAxADMAXwAxADYAMgBfADEAJgBpAGwAMQBwAGkAMQAzAHAAcgA9ADkAMQAyAC4AMAAwADAAMAAmAGkAbAAxAHAAaQAxADMAYgByAD0AUABlAHQAcgBvAG4AJgBpAGwAMQBwAGkAMQAzAGMAYQA9ACYAaQBsADEAcABpADEAMwBwAHMAPQAxADMAJgBpAGwAMQBwAGkAMQA0AG4AbQA9AFMAdQByAGUAcwBoAG8AdAAlADIAMABIAGEAbgBkAGIAbwB3ACYAaQBsADEAcABpADEANABpAGQAPQBTADAAMQAzAF8AMQA2ADIAXwAyACYAaQBsADEAcABpADEANABwAHIAPQA3ADUANgAuADAAMAAwADAAJgBpAGwAMQBwAGkAMQA0AGIAcgA9AFAAZQB0AHIAbwBuACYAaQBsADEAcABpADEANABjAGEAPQAmAGkAbAAxAHAAaQAxADQAcABzAD0AMQA0ACYAaQBsADEAcABpADEANQBuAG0APQBTAHUAcgBlAHMAaABvAHQAJQAyADAAUgBpAGYAbABlACYAaQBsADEAcABpADEANQBpAGQAPQBTADAAMQAzAF8AMQA2ADIAXwAzACYAaQBsADEAcABpADEANQBwAHIAPQAxADMAMAA4AC4AMAAwADAAMAAmAGkAbAAxAHAAaQAxADUAYgByAD0AUABlAHQAcgBvAG4AJgBpAGwAMQBwAGkAMQA1AGMAYQA9ACYAaQBsADEAcABpADEANQBwAHMAPQAxADUAJgB6AD0AMQA3ADMANQA3ADMANwAxADAA</StringHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam49.q" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;q=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam50.submit" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;submit=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="q" Value="{{SearchDB.OkPlaySearch#csv.title}}" RecordedValue="train" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="submit" Value="Submit+Query" RecordedValue="Submit+Query" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="train result page displayed" />
+    <Comment CommentText="result page displayed" />
+    <Comment CommentText="select a item" />
+    <Request Method="GET" Guid="77a245e9-266e-4e39-9a64-82445984b0bd" Version="1.1" Url="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a4a640b1-6f68-4b59-8dfc-03a1581054ae" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="25b01b97-0fbf-42ee-a6a6-d4944fbf1784" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0fc9e485-ba7e-44f8-8714-5e736b37f7ca" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7e1405e5-539c-40de-bf24-79c5df98b88a" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="499ea47d-75de-4eb9-ae90-a1a44ea63f41" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ace569b6-358b-44e7-8098-e25c09a7211d" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="de2e73cb-ad87-40e1-a227-316eeccebc17" Version="1.1" Url="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ce922c7b-2b25-411e-8c2b-6ae3281ecd8d" Version="1.1" Url="https://www.okplay.in/media/catalog/product/videos/1924/Whats_Clics_commercial_-_English_no_link_visible_.flv" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="017fbe9c-6f91-48ea-89a9-6c62a8bc26b0" Version="1.1" Url="https://www.okplay.in/hdflvplayer/hdplayer.swf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="fe9778c9-495d-4ca8-bd5a-a942411788e6" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9c6a34e0-e2cc-4560-bb7e-c9111de91ddf" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2032cc85-8d06-4040-996e-ebfccfcbf2df" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/catalogsearch/result/?q={{SearchDB.OkPlaySearch#csv.title}}&amp;submit=Submit+Query" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="de1eafc4-5f59-4d43-b3d8-24084788e18e" Version="1.1" Url="https://www.okplay.in/undefined" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.okplay.in/no-route/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="210004cf-aa31-4571-84b1-42c1b7da1364" Version="1.1" Url="https://www.okplay.in/" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+      </Headers>
+    </Request>
+    <Comment CommentText="detail page with add to vart button" />
+    <Comment CommentText="click add to cart" />
+    <Request Method="POST" Guid="f2de1719-8e1f-4f59-9b2e-ea5e946abfaf" Version="1.1" Url="https://www.okplay.in/checkout/cart/add/uenc/aHR0cHM6Ly93d3cub2twbGF5LmluL3RyYWlucy1ib3guaHRtbA,,/product/1924/form_key/{{FormPostParam1.form_key}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.okplay.in/checkout/cart/" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="235d9668-5298-4ef5-8448-4e82c09e6d26" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a2aa5493-0531-4b7f-999a-f78a0a5a8106" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="9f757498-d0b5-4ff6-8b0c-631961f1653f" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="fc44ca80-7f00-4883-afbf-9986c2a54948" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4efd83eb-de92-48b8-9768-b2be4da7e95c" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e10dd2b9-fb63-4b2d-81cb-37876260bb8d" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c9b28978-1397-4a38-bf99-666b6b4cb18b" Version="1.1" Url="https://www.okplay.in/checkout/cart/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="45741aaa-2e73-4c79-8f9e-7cae7fc99049" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5a083585-67c1-4177-8800-7faf4183a44f" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="99374e6b-bf9f-4a90-b0f7-f712a5ad5340" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="059bd89e-ebc0-49b9-8c8b-1ec7b36d1b7c" Version="1.1" Url="https://www.paypal.com/checkoutnow/2/iclogs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="msg" Value="{%22step%22:+%22JS_LOAD_CHECKOUT_JS%22,+%22status%22:+%22SUCCESS%22}" RecordedValue="{%22step%22:+%22JS_LOAD_CHECKOUT_JS%22,+%22status%22:+%22SUCCESS%22}" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4b486278-8e7b-4739-a035-826d3caa45e5" Version="1.1" Url="https://www.paypal.com/checkoutnow/2/iclogs" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="merchantID" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cb" Value="1487223212196" RecordedValue="1487223212196" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="msg" Value="%7B%22step%22%3A%22JS_INIT%22%2C%22merchant%22%3A%22www.okplay.in%22%2C%22version%22%3A%221.1%22%7D" RecordedValue="%7B%22step%22%3A%22JS_INIT%22%2C%22merchant%22%3A%22www.okplay.in%22%2C%22version%22%3A%221.1%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/{{SearchDB.OkPlaySearch#csv.title}}s-box.html" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="options[4288]" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="options[3512]" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="qty" Value="{{QuantityAddtoCart.OkPlayQunatity#csv.qty}}" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="options[4994]" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zipcode" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="product" Value="1924" RecordedValue="1924" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="related_product" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="111ac424-1352-4fc4-b832-a9d7877e827e" Version="1.1" Url="https://www.paypal.com/webapps/hermes/bridge" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+      </Headers>
+    </Request>
+    <Comment CommentText="SO" />
+    <Request Method="GET" Guid="0de73326-f778-4a3c-ac75-15daa1309c3f" Version="1.1" Url="https://www.paypal.com/checkoutnow/2/iclogs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="merchantID" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cb" Value="1487223226400" RecordedValue="1487223226400" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="msg" Value="%7B%22step%22%3A%22JS_ERROR%22%2C%22errmsg%22%3A%22Unable%20to%20get%20property%20'ownerDocument'%20of%20undefined%20or%20null%20reference%22%2C%22url%22%3A%22https%3A%2F%2Fwww.okplay.in%2Fjs%2Fsmartwave%2Fjquery%2Fjquery-1.10.2.min.js%22%2C%22merchant%22%3A%22www.okplay.in%22%2C%22version%22%3A%221.1%22%7D" RecordedValue="%7B%22step%22%3A%22JS_ERROR%22%2C%22errmsg%22%3A%22Unable%20to%20get%20property%20'ownerDocument'%20of%20undefined%20or%20null%20reference%22%2C%22url%22%3A%22https%3A%2F%2Fwww.okplay.in%2Fjs%2Fsmartwave%2Fjquery%2Fjquery-1.10.2.min.js%22%2C%22merchant%22%3A%22www.okplay.in%22%2C%22version%22%3A%221.1%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="44e1398f-320f-40b9-b168-3e7bdb135229" Version="1.1" Url="https://www.okplay.in/customer/account/logout/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.okplay.in/customer/account/logoutSuccess/" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="63a81c4d-ac92-4634-aaab-4d886d6553fa" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a79a0a7e-b24c-44fe-8570-2fc7bd0949db" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="12189862-a11f-4f06-91ba-2d1c9b545134" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f8aa3cd4-de60-44e7-9867-160075805f38" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="822dfa7f-83a2-4f9f-9bd9-d5f21afcf9d6" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5baee162-33a5-4f2d-a906-70f24f02ab85" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f199453c-c812-47f8-9c72-dd163205c4b1" Version="1.1" Url="https://www.okplay.in/customer/account/logoutSuccess/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1bdec5cb-41f8-434b-b14b-2f2dd73afae9" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/lato-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="86a37b9d-a2d9-4ab4-aaf7-17f2dc2ec6db" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/Lato-Italic.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="129ebc89-5b38-433f-a429-dc481908e762" Version="1.1" Url="https://www.okplay.in/skin/frontend/default/ma_pisces_toys/fonts/museosans-500-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.okplay.in/customer/account/logoutSuccess/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.okplay.in/checkout/cart/" />
+      </Headers>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="UsersDB" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\DataSource\OkPlayCred.csv">
+      <Tables>
+        <DataSourceTable Name="OkPlayCred#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+    <DataSource Name="SearchDB" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\DataSource\OkPlaySearch.csv">
+      <Tables>
+        <DataSourceTable Name="OkPlaySearch#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+    <DataSource Name="QuantityAddtoCart" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\DataSource\OkPlayQunatity.csv">
+      <Tables>
+        <DataSourceTable Name="OkPlayQunatity#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="Microsoft.SystemCenter.Cloud.GsmPlugins.RandomIntGeneratorWebTestPlugin, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Generate Random Integer" Description="Generates a random integer.">
+      <RuleParameters>
+        <RuleParameter Name="ContextParameterName" Value="RandomNumberCustom" />
+        <RuleParameter Name="MaxValue" Value="100" />
+        <RuleParameter Name="MinValue" Value="1" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="Microsoft.VisualStudio.TestTools.WebTesting.RequestPlugins.DateTimeWebTestPlugin, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Date Time Plugin" Description="Composes date and time in the specified format and assigns it to a given context parameter.">
+      <RuleParameters>
+        <RuleParameter Name="AddDays" Value="0" />
+        <RuleParameter Name="AddHours" Value="0" />
+        <RuleParameter Name="AddMilliseconds" Value="0" />
+        <RuleParameter Name="AddMinutes" Value="0" />
+        <RuleParameter Name="AddMonths" Value="0" />
+        <RuleParameter Name="AddSeconds" Value="0" />
+        <RuleParameter Name="AddYears" Value="0" />
+        <RuleParameter Name="ContextParameterName" Value="DateInput" />
+        <RuleParameter Name="InputDateTime" Value="" />
+        <RuleParameter Name="OutputFormat" Value="" />
+        <RuleParameter Name="OutputJsonDateTime" Value="False" />
+        <RuleParameter Name="UseCurrentTime" Value="True" />
+        <RuleParameter Name="UseLocalTime" Value="False" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="plugins.RunDuration, plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="RunDuration" Description="There is no custome value to select a run duration for a web test,to customize this this plugin would input the run duration and if this exceed by context run it will Fail">
+      <RuleParameters>
+        <RuleParameter Name="maximumTesttime" Value="10000" />
+      </RuleParameters>
+    </WebTestPlugin>
+  </WebTestPlugins>
+</WebTest>

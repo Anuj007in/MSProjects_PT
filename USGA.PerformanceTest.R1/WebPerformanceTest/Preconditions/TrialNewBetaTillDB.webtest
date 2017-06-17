@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="TrialNewBetaTillDB" Id="731318bd-6cb4-47a0-a130-eb6cb1459532" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.1852de25-e8b8-4728-a3a7-a1589a91e7c9.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="29090134-3b4d-4bc9-9a5b-01c95008042c" Version="1.1" Url="{{WebServer1}}/" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.v" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?v=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="c66bdb04-99b7-41b1-89fb-7a807b7f8b26" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="c3f73167-2f40-4372-ad3f-67403f8211fb" Version="1.1" Url="{{WebServer1}}/Base/Load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="viewUrl" Value="/App/Main/views/home/home.cshtml" RecordedValue="/App/Main/views/home/home.cshtml" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="26a1f127-dc36-4bdf-8759-c9bc0d964e1b" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="13c74b6f-e808-47c3-8705-54c709e97226" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b3dd176e-466a-422b-8605-abf56c581e21" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="20" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="de78bab8-9de5-4272-9223-f0c413bb48c8" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="298dac0d-3a8c-4697-a974-d70891da4cab" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6f1648c9-3d28-4f5a-9cd3-f0135495aeed" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ccfd5d5d-967a-4fb3-b9c7-4fce70202df4" Version="1.1" Url="{{WebServer1}}/Account/SignIn" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.microsoftonline.com/usgaghinq01.onmicrosoft.com/oauth2/authorize?client_id=bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4&amp;redirect_uri=https:%2f%2flogin.microsoftonline.com%2fte%2fusgaghinq01.onmicrosoft.com%2foauth2%2fauthresp&amp;response_type=id_token&amp;scope=email+openid&amp;response_mode=query&amp;nonce=Zp5DhdZyUDm8bSUiEbx0eA%3d%3d&amp;nux=1&amp;nca=1&amp;domain_hint=usgaghinq01.onmicrosoft.com&amp;prompt=login&amp;mkt=en-US&amp;lc=1033&amp;state=eyJUIjoiYzgyZjYxMWQtMjg1NC00MDMxLTgzZDYtYmJlM2ZjMjFjODg4IiwiUiI6ImNiMjUyOGQxLWRmMzgtNDdjYS04OGJkLWM4OWNkM2Q2MTg4YSJ9" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.n19" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.n20" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.n21" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.n22" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.n23" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.n25" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.n26" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.n27" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.n28" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.n31" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.n32" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.n33" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam13.n34" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14.n35" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam15.n36" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam16.n37" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam17.n38" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam18.n39" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam19.type" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="5" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam20.LoginOptions" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam21.NewUser" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam22.idsbho" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam23.uiver" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam24.i12" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; id=" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="562404c2-f1f2-4779-ac1b-f2df9e3dec94" Version="1.1" Url="{{WebServer2}}/favicon.ico" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam4.v}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="6efb775d-24de-4bdb-927e-7a4f140d4b01" Version="1.1" Url="{{WebServer2}}/usgaghinq01.onmicrosoft.com/login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer2}}/te/usgaghinq01.onmicrosoft.com/oauth2/authresp?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9iNmZkYjlmZi03NjkzLTQ0MzEtODhmYS04ZmYzOTVhMTgxMzkvIiwiaWF0IjoxNDM4Njg2OTEzLCJuYmYiOjE0Mzg2ODY5MTMsImV4cCI6MTQzODY5MDgxMywidmVyIjoiMS4wIiwidGlkIjoiYjZmZGI5ZmYtNzY5My00NDMxLTg4ZmEtOGZmMzk1YTE4MTM5Iiwib2lkIjoiMjgzYmMzYjEtNzkyMS00NmI3LTk4NGYtMDIyMjMxZmJlMTdlIiwidXBuIjoiY2x1Yl9lZGl0b3JfeWFob28uaW4jRVhUI0B1c2dhZ2hpbnEwMS5vbm1pY3Jvc29mdC5jb20iLCJwdWlkIjoiMTAwMzdGRkU5MkYzM0M4NyIsInN1YiI6Ik5lcFVlT2FWSzdiSDBkSWxJOXBaamkybDd3a18zVnJ6dkxaMjh1OGJ0X1UiLCJnaXZlbl9uYW1lIjoiQ2x1YiBFZGl0b3IiLCJuYW1lIjoiQ2x1YiBFZGl0b3IiLCJhbXIiOlsicHdkIl0sInVuaXF1ZV9uYW1lIjoiY2x1Yl9lZGl0b3JfeWFob28uaW4jRVhUI0B1c2dhZ2hpbnEwMS5vbm1pY3Jvc29mdC5jb20iLCJub25jZSI6IlpwNURoZFp5VURtOGJTVWlFYngwZUE9PSJ9.QAzxg53mXARJcZ7_Ufb5ePhd_f-p5-Farw_wfoxGPmfO8rUj0AGDOIZYRPZ3-jvb3zrGjX2M7nDMS6jlsVtgONxtrfeBffyhOHbiN409wzBERhziZWlaxsQsi7pZB9wlnDwtagnpugVRJIqsPzpPtDy9w11m-5UJ4h1yNpWvTLFiOYZb7u88SFinDCUIhX9zrzkYl7aJoR9yBDFulpP3qdC_jwC_smhZtiaFhHqVzSRKJIv_LDQI5tdVf62M5GxkS4LJFHY9AMZqZVwkkm0LyNNIUonfpO8aT85RI99BcMAu0JHOrbAhjGvfCaPImPuVEmRPRElu8flkRawdjOtIRg&amp;state=eyJUIjoiYzgyZjYxMWQtMjg1NC00MDMxLTgzZDYtYmJlM2ZjMjFjODg4IiwiUiI6ImNiMjUyOGQxLWRmMzgtNDdjYS04OGJkLWM4OWNkM2Q2MTg4YSJ9&amp;session_state=62410c1e-ae2f-4a87-9312-789d4290f62d" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer2}}/usgaghinq01.onmicrosoft.com/oauth2/authorize?client_id=bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4&amp;redirect_uri=https:%2f%2flogin.microsoftonline.com%2fte%2fusgaghinq01.onmicrosoft.com%2foauth2%2fauthresp&amp;response_type=id_token&amp;scope=email+openid&amp;response_mode=query&amp;nonce=Zp5DhdZyUDm8bSUiEbx0eA%3d%3d&amp;nux=1&amp;nca=1&amp;domain_hint=usgaghinq01.onmicrosoft.com&amp;prompt=login&amp;mkt=en-US&amp;lc=1033&amp;state=eyJUIjoiYzgyZjYxMWQtMjg1NC00MDMxLTgzZDYtYmJlM2ZjMjFjODg4IiwiUiI6ImNiMjUyOGQxLWRmMzgtNDdjYS04OGJkLWM4OWNkM2Q2MTg4YSJ9" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="login" Value="club_editor@yahoo.in" RecordedValue="club_editor@yahoo.in" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="passwd" Value="Deloitte.1" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctx" Value="{{$HIDDEN1.ctx}}" RecordedValue="rQIIAa1RMYsTQRhldk2hCIogCDZXXCXs7szsXrIJ5OBw9UjMZI25Jew2stmdncxmdya3mWA21dWWVhIQLOXsrOQaeytLsbQSS3-BRsFGuMrie8X3Ph7ve--ejkzU2Z9OcYypHRvJAW0ZTgZjw3UpNH4NylI7S1DmVLeu3dS6H94We08fvXn5Sp0ddlZbcHe1ZDGbcXEKkSlFyZNKLmWmzESW5-DxTKnFsmNZhWRcmH9ZKQou6O7GUtS6RMKS8UrNsLXDii4X7wH4BMA3AM408Fy7gqBtb7UGFUYwfq2Bc-1OtDjwZmlUB17pTscBfzBdQ3rU7X7RbvhHO6kdyIpv6Nd_Nt-1xm-fP7TG6YpW9Qv9tlxQwdNECkETZfJUyTkVW13Ruh_0csnDDaujPFyTyUiRnKHhfQiJR9aDE7aJvFCFZb8gOMpJ_jD3Peb0-DMe8F6zVw45yYPaPx6tB5MnJdkwNfTSPBxDxz_uzwcT4viT4ZzgESYnzAnH_fY7_bKwL_T9JnYQTBA1Yoozw4ndltG2ETZabjt1cBtmTZx-1K_TMubF3p_PPuvg4up_b-kn0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="flowToken" Value="{{$HIDDEN1.flowToken}}" RecordedValue="AAABAAEAiL9Kn2Z27UubvWFPbm0gLX68JJgHs4w37Q4b-76xiYlEwvFe2uN4hgIzwPuzjy30gTS581teb0Ckar052Ohq-uML-mv3B21BA9wAmb7uOFYgAA" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n1" Value="109442" RecordedValue="109442" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n2" Value="-1438687092000" RecordedValue="-1438687092000" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n3" Value="-1438687092000" RecordedValue="-1438687092000" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n4" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n5" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n6" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n7" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n8" Value="NaN" RecordedValue="NaN" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n9" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n10" Value="111794" RecordedValue="111794" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n11" Value="111795" RecordedValue="111795" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n12" Value="111798" RecordedValue="111798" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n13" Value="111795" RecordedValue="111795" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n14" Value="112283" RecordedValue="112283" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n15" Value="122" RecordedValue="122" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n16" Value="112477" RecordedValue="112477" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n17" Value="112516" RecordedValue="112516" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n18" Value="112591" RecordedValue="112591" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n19" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam1.n19}}" UrlEncode="True" />
+        <FormPostParameter Name="n20" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam2.n20}}" UrlEncode="True" />
+        <FormPostParameter Name="n21" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam3.n21}}" UrlEncode="True" />
+        <FormPostParameter Name="n22" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam4.n22}}" UrlEncode="True" />
+        <FormPostParameter Name="n23" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam5.n23}}" UrlEncode="True" />
+        <FormPostParameter Name="n24" Value="237.14609999999993" RecordedValue="237.14609999999993" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n25" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam6.n25}}" UrlEncode="True" />
+        <FormPostParameter Name="n26" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam7.n26}}" UrlEncode="True" />
+        <FormPostParameter Name="n27" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam8.n27}}" UrlEncode="True" />
+        <FormPostParameter Name="n28" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam9.n28}}" UrlEncode="True" />
+        <FormPostParameter Name="n29" Value="30.245300000000043" RecordedValue="30.245300000000043" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n30" Value="0.18650000000025102" RecordedValue="0.18650000000025102" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n31" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam10.n31}}" UrlEncode="True" />
+        <FormPostParameter Name="n32" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam11.n32}}" UrlEncode="True" />
+        <FormPostParameter Name="n33" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam12.n33}}" UrlEncode="True" />
+        <FormPostParameter Name="n34" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam13.n34}}" UrlEncode="True" />
+        <FormPostParameter Name="n35" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam14.n35}}" UrlEncode="True" />
+        <FormPostParameter Name="n36" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam15.n36}}" UrlEncode="True" />
+        <FormPostParameter Name="n37" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam16.n37}}" UrlEncode="True" />
+        <FormPostParameter Name="n38" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam17.n38}}" UrlEncode="True" />
+        <FormPostParameter Name="n39" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam18.n39}}" UrlEncode="True" />
+        <FormPostParameter Name="n40" Value="3150.6289" RecordedValue="3150.6289" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n41" Value="3199.3096" RecordedValue="3199.3096" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n42" Value="2929.1447" RecordedValue="2929.1447" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="n43" Value="3149.2934" RecordedValue="3149.2934" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="type" Value="11" RecordedValue="11" CorrelationBinding="{{FormPostParam19.type}}" UrlEncode="True" />
+        <FormPostParameter Name="LoginOptions" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam20.LoginOptions}}" UrlEncode="True" />
+        <FormPostParameter Name="NewUser" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam21.NewUser}}" UrlEncode="True" />
+        <FormPostParameter Name="idsbho" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam22.idsbho}}" UrlEncode="True" />
+        <FormPostParameter Name="PwdPad" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="sso" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="vv" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="uiver" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam23.uiver}}" UrlEncode="True" />
+        <FormPostParameter Name="i12" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam24.i12}}" UrlEncode="True" />
+        <FormPostParameter Name="i13" Value="Firefox" RecordedValue="Firefox" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="i14" Value="11.0" RecordedValue="11.0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="i15" Value="1158" RecordedValue="1158" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="i16" Value="770" RecordedValue="770" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="i20" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="b8ec7dda-1f1e-4731-bcef-3a40096759d1" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer2}}/te/usgaghinq01.onmicrosoft.com/oauth2/authresp?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9iNmZkYjlmZi03NjkzLTQ0MzEtODhmYS04ZmYzOTVhMTgxMzkvIiwiaWF0IjoxNDM4Njg2OTEzLCJuYmYiOjE0Mzg2ODY5MTMsImV4cCI6MTQzODY5MDgxMywidmVyIjoiMS4wIiwidGlkIjoiYjZmZGI5ZmYtNzY5My00NDMxLTg4ZmEtOGZmMzk1YTE4MTM5Iiwib2lkIjoiMjgzYmMzYjEtNzkyMS00NmI3LTk4NGYtMDIyMjMxZmJlMTdlIiwidXBuIjoiY2x1Yl9lZGl0b3JfeWFob28uaW4jRVhUI0B1c2dhZ2hpbnEwMS5vbm1pY3Jvc29mdC5jb20iLCJwdWlkIjoiMTAwMzdGRkU5MkYzM0M4NyIsInN1YiI6Ik5lcFVlT2FWSzdiSDBkSWxJOXBaamkybDd3a18zVnJ6dkxaMjh1OGJ0X1UiLCJnaXZlbl9uYW1lIjoiQ2x1YiBFZGl0b3IiLCJuYW1lIjoiQ2x1YiBFZGl0b3IiLCJhbXIiOlsicHdkIl0sInVuaXF1ZV9uYW1lIjoiY2x1Yl9lZGl0b3JfeWFob28uaW4jRVhUI0B1c2dhZ2hpbnEwMS5vbm1pY3Jvc29mdC5jb20iLCJub25jZSI6IlpwNURoZFp5VURtOGJTVWlFYngwZUE9PSJ9.QAzxg53mXARJcZ7_Ufb5ePhd_f-p5-Farw_wfoxGPmfO8rUj0AGDOIZYRPZ3-jvb3zrGjX2M7nDMS6jlsVtgONxtrfeBffyhOHbiN409wzBERhziZWlaxsQsi7pZB9wlnDwtagnpugVRJIqsPzpPtDy9w11m-5UJ4h1yNpWvTLFiOYZb7u88SFinDCUIhX9zrzkYl7aJoR9yBDFulpP3qdC_jwC_smhZtiaFhHqVzSRKJIv_LDQI5tdVf62M5GxkS4LJFHY9AMZqZVwkkm0LyNNIUonfpO8aT85RI99BcMAu0JHOrbAhjGvfCaPImPuVEmRPRElu8flkRawdjOtIRg&amp;state=eyJUIjoiYzgyZjYxMWQtMjg1NC00MDMxLTgzZDYtYmJlM2ZjMjFjODg4IiwiUiI6ImNiMjUyOGQxLWRmMzgtNDdjYS04OGJkLWM4OWNkM2Q2MTg4YSJ9&amp;session_state=62410c1e-ae2f-4a87-9312-789d4290f62d" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="state" Value="{{$HIDDEN1.state}}" RecordedValue="OpenIdConnect.AuthenticationProperties=IJizxNNFJLXHoA10QdSANaUYwffs6rIE_Tr6XF7UwwwogpLOrllmyQ5uoCttt04fxGdqzlM8j7ryvVrsCOpQhcq_9mPwfVfVpiLqn0fRYI9pPA20Yb_ZW4kS-BgZDgE9l1kX7yVg0vCwAdBEcNFiYlyVyGaWSSjxBbWVk-Ipmd5W4kkBOf1cX-0F8TkNuaNkpA6AKQ" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="access_token" Value="{{$HIDDEN1.access_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vYjZmZGI5ZmYtNzY5My00NDMxLTg4ZmEtOGZmMzk1YTE4MTM5LyIsImF1ZCI6Imh0dHA6Ly91c2dhLWdoaW4td2ZlLXExLmNsb3VkYXBwLm5ldC8iLCJleHAiOjE0Mzg2OTA4MTUsIm5iZiI6MTQzODY4NzIxNSwib2lkIjoiMjgzYmMzYjEtNzkyMS00NmI3LTk4NGYtMDIyMjMxZmJlMTdlIiwiZ2l2ZW5fbmFtZSI6IkNsdWIgRWRpdG9yIiwibmFtZSI6IkNsdWIgRWRpdG9yIiwic3ViIjoicmZLUWdXRUJMWXN3L3ppbVFtVHZhODJHRnN4b1VDaGYrVDFwamJsRVFubz0iLCJleHRlbnNpb25fQ3BpbV9HSElOSUQiOiIxMDAwNzQxIiwiZXh0ZW5zaW9uX0NwaW1fR0hJTkVNQUlMIjoiY2x1Yl9lZGl0b3JAeWFob28uaW4iLCJlbWFpbHMiOlsiY2x1Yl9lZGl0b3JAeWFob28uaW4iXSwibm9uY2UiOiI2MzU3NDI4NDAwMjAyNzg0NTYuWkdJNE1qZGlNbUV0TkdOak1pMDBZbVl5TFRnNU9XSXRNekl4TVRZeFkyRmpNR1pqWW1WbE5XUTJNRE10T0RCbE55MDBaakV3TFdFd1pEY3ROV05rTXpRNU9XSTBNemt6IiwidmVyIjoiMS4wIn0.UXACGk4khB6SvCEYL6jT16rRD-QRmLsSdfoB8DhBylDuhw1sQdRK-Wj96nCzd4kYMjua9o-dtFiALaWxse4YBClgk8slat3XedhoWWZdaKAzNZN8_D_Nx0lCl9dbr2LVm8lX4DRkXEjCa6uO1Ht2hdp1zWAQMWE7iXNKGj28HKRTzf3O4cQ8cEa3ESfeCZmnRVMTw0KU0HTD5lw4Hrsuzu0PTpBWk4cNmSKA4AQHN-bzDI55JJ4bPb1CXwYTpfdBJoBNBgX-AferZKRH9UyS84W_HEKGLysNo25T99vVedgsr-WzdJv5xWUtgpqsLA4LiWZamKDn70xGuYmWYi9hdw" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="token_type" Value="{{$HIDDEN1.token_type}}" RecordedValue="Bearer" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="code" Value="{{$HIDDEN1.code}}" RecordedValue="AAQfQmvuDy8WtUv-sd0TBwWV4tZridKdncTi1-EdMlIaB2JpMLycHyuZIOBpgUHBqKK5FEEnsL9uHnyG-mmMKMJH-zA1cgoTha0hH5PwWMTZPrMuhuRngOgZSF5UYqNQW_jmRlCgLdRkj_PnD1uNpHIMm6w_hlXIi78EHbXm_QNNS50RMdUZ7clyKvF3RiT4CGUJLkhAJMOIkisWdUrZFa4QHuigaf1Ant-zSMd8Bpt-FLjmwxkW1QxD6xPS_QfaQHe6JR_jdmyB8cQNB3pqWAr2Fj-lIu7xvFgSSnhSOX-NY3YBDfa7aeajLBQxuGiPomuvDYaNGiVarkcdTQY7ARDmS9kNGXx4H9AKBX8ymec7TAjhPX5s_vSJsGLJWg2wv4p9VvXz9o0kGLXi4KqO7xWMlKOa9Mi3MeQkxWhBefz4kzevBH4G1bsykfqFVfNueT_DZMpZG4nHjVpKgBwyrwIS_dLrdHZfn9uWPJCp83C5GUmwO4opTCy-TcEAWERZv7eFC1v0bMg-vThHw0gAnQiYTxjJWUMzJe2dv5cyZiz6RGHilOPhZULkuul0LhrQKt0P3yYwWGoFVBwFrS60zHb59vBvtvBzlXh7obSVNVi3IvtBrFYWT2EBrSvRirJVhuytfWCoUOIvJylK5wWbIGhhI-1BV3C6_db-OYACl9enlCbzkXaOxRO82dCbRahN6KHQ_Y5a3Y-jm0n76YF6Ca_gPYHRvu_LIi-Oxm6e3kgiP0sZKfZKlKlZ5u6fyZOu6gVc7Iy841LfeLW-GHCcbbzGQk_lH1nf6t_3gu1veIwUpbEYcD7JWNEc-4Cy7F6hgYdeEFBscY5TKo3k584uPWTvkryvBvndg-b-cuak5RWn9EBsmqmf98pWiFVlH9yTS9xXWLelzFImf0s-l2qGv1KdUv3mpL2PoszpU0bZYxEyxzjJNEpCqrXfq90u12_eDm5zpykoPetBFJIsUU2cyizvBQGfMfJ48P-hHEEPOO7fO6RgoZZEGHdbxmlKMe3jHu7NoXD-oZQnC-zEc3HzJ1xSbO9RJoEwCpJYpE6VY3DFPgLNgQtFRoPAjVAQgrT-eci-MoX4lMAVnJiktf-vlsrAfvwT64BvuTIZfnm7_nm-Zl-5MctJGlPxHMvQ3pdTvp_x4AawBtgJYqm_39GNjQP07Xva7o3JHn1oB5F3Cx1MD1XHK34eWSFoDc2xhj1d6pMCkhhTvlRkn7IhuP8ZPLDJE0NScO4qy_S7MqlNIbCBUTFCepL2N6rDEbN65FF01THpVnBalHYTLYuU40ZnJ06McUE7c6KAKiTeslrmjKR0gaWvbqZVy5uxl01eXw3xJ2qxrW7CiyPeZt3kNHQFz-hkus7l7fNH9biy_1Du61T1I-B4gHBnZkgezGDc6CvPAxQyOxD-ALqKrDb4A23wNH49glpAp35VNyeSL0d-5zyNMZ4TVwgiKQPA58m9diUPswpk1Ed7YkFAlboRfh_9NwmUDBXKHoW3wUFWvTaDV9lXw0tocfwo7_UO5Fd6lKkO7Px7DaH8QhTXMP-yy592FlnetK83djN6jukjx6Gjety6OHnssIYQFistl7E_xkHCScOZyJByXqzw_FXPzosum1A_cTayFr8KHPtH8b5Z1xN8sPUABoF_kwHdyc2ekt7Xriguv67T8vRLyzjFNL5TnlzLPmipJzywwxlxzOXTCBnk0GLTXSjmVrUAVbrgpE5Zz9cyXaVNN2EGVW9o47BDUzDpmkRyaSX3qWHnbWDLPF8-GRER4z6cVSbp4DvhmAePpxH32kKw-krFc28bVd8EMzqoqNk-5WQRqCvCNcrdmYcjt-ohD1nrLH2805I5Q6KqwAdXO-k0yTni_KspjLQjy01R0PQ0KyWtbWksP9MbOiheajLU0yL7em7IMAJ15q77eP35nnkyGkjchHIvyP_lcQgEIMvwH5BwZmHmmhPkZOE1-A_7dyBzWT8T1_wL292nDKXSrNsIrAKdnH2N5K_Fa_S1FiDsh5GhK6oxfwf7HE7psdn3uJye9uvFBRh96xFNwIjMzolOElhK2gVGtQ6N71ZUIT_nxKbryzAhvxC0NnEn1Dk6b6HQgzx3Oqj5M3D4AX4" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="id_token" Value="{{$HIDDEN1.id_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJleHAiOjE0Mzg2OTA4MTUsIm5iZiI6MTQzODY4NzIxNSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tL2I2ZmRiOWZmLTc2OTMtNDQzMS04OGZhLThmZjM5NWExODEzOS8iLCJhY3IiOiJiMmNfMV9iMmNzaWduaW4iLCJzdWIiOiJyZktRZ1dFQkxZc3cvemltUW1UdmE4MkdGc3hvVUNoZitUMXBqYmxFUW5vPSIsImF1ZCI6ImIyMjlmZmUxLWE2ODItNDBiOS1iZGZiLTljNDlhMGQ2ZjRlYiIsIm5vbmNlIjoiNjM1NzQyODQwMDIwMjc4NDU2LlpHSTRNamRpTW1FdE5HTmpNaTAwWW1ZeUxUZzVPV0l0TXpJeE1UWXhZMkZqTUdaalltVmxOV1EyTURNdE9EQmxOeTAwWmpFd0xXRXdaRGN0TldOa016UTVPV0kwTXpreiIsImlhdCI6MTQzODY4NzIxNSwiYXV0aF90aW1lIjoxNDM4Njg3MjE1LCJvaWQiOiIyODNiYzNiMS03OTIxLTQ2YjctOTg0Zi0wMjIyMzFmYmUxN2UiLCJnaXZlbl9uYW1lIjoiQ2x1YiBFZGl0b3IiLCJuYW1lIjoiQ2x1YiBFZGl0b3IiLCJleHRlbnNpb25fQ3BpbV9HSElOSUQiOiIxMDAwNzQxIiwiZXh0ZW5zaW9uX0NwaW1fR0hJTkVNQUlMIjoiY2x1Yl9lZGl0b3JAeWFob28uaW4iLCJlbWFpbHMiOlsiY2x1Yl9lZGl0b3JAeWFob28uaW4iXSwiY19oYXNoIjoianRhRENNalNfXzBBQjRoNWtkcUJnUSIsImF0X2hhc2giOiJyM2lRUXFSWDVfLTJjTWxKU0NBX3N3In0.OhHOeXh-cKd9FZvz7P1JCI1rA4jdiUPh0TAAF42ARprC-beOjtd021gYoKHyX4Eol_UEkDv-nz2CuuzH0eYGNKYEGmSGmI4Kzz1PkpeWoDmchcqK5KTr3YVTrP-590UKkQ4ansmzhV4rfjZZ-w3Hu1cvorh6-CLhB4lHQ0JfcQ2NzwoY52247WSfMpdshb4xGFX1NQ8g9sX7jo1uC0kZtvIlyj33azTenwdb_VJdU_LysHUINkky3A4h5BDy80g3cOCIHAgsJd6Wln8J7Ovfg7FQ6D7PARyZ2QIRnnTgdehSoMUKfxU0aYOnhhB-COOtPSxMBjOlAmdEhjAUFJ-yYw" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="272eda79-eb8b-45aa-918b-37f5571bbe87" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8430387a-18fe-4997-984a-5201452bebc1" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2784f08c-6ce6-438f-a71a-6f1d41b52fda" Version="1.1" Url="{{WebServer1}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="670985ce-f7a3-4cbd-a28e-0bc1759d3261" Version="1.1" Url="{{WebServer1}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="70a892cd-44a1-4282-8426-091c55e3be4f" Version="1.1" Url="{{WebServer1}}/Base/Load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="viewUrl" Value="/App/Main/views/home/home.cshtml" RecordedValue="/App/Main/views/home/home.cshtml" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dcc4db8b-ed11-4710-9984-efc3eea51fc4" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ce0e7018-2d6b-4917-a96f-4728e74da952" Version="1.1" Url="{{WebServer1}}/Account/UserContext/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="602c88c1-3c46-49fa-9bb5-c9315d0b9928" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="userId" Value="4170695" RecordedValue="4170695" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="38d57c7b-1fe6-47e0-aeaf-8d7615ed5696" Version="1.1" Url="{{WebServer1}}/Account/GetDashboardUserRole/4170695" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="134eeb66-9f47-4bee-87d7-70c783dee6ec" Version="1.1" Url="{{WebServer1}}/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8a27d8ce-bbb8-4727-95e2-4c079f935f47" Version="1.1" Url="{{WebServer1}}/Dashboard/ClubDashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ffd15d57-f6cc-449d-b59e-8c628fbb8b40" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/#/home/clubdashboard" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="f75b3402-e897-4dbb-ac59-d713d336a82f" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ff2b5c4d-8f7f-43c4-b178-f359ec59835a" Version="1.1" Url="{{WebServer1}}/App/fonts/alegreyasans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="48e0b45d-59e5-404d-b22c-7619ac745bde" Version="1.1" Url="{{WebServer1}}/app/main/views/DirectiveTemplates/dashboardmessages.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a66c7cf7-95c2-432a-91ed-864911f614f3" Version="1.1" Url="{{WebServer3}}/api/Accounts/Admin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="userId" Value="4170695" RecordedValue="4170695" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4bd64474-14eb-4a34-aae8-8e3a40a341e1" Version="1.1" Url="{{WebServer1}}/Account/GetDashboardUserRole/4170695" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="{{WebServer1}}/#/home/clubdashboard" />
+      </Headers>
+    </Request>
+  </Items>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="https://beta-qa.ghin.com" />
+    <ContextParameter Name="WebServer2" Value="https://login.microsoftonline.com" />
+    <ContextParameter Name="WebServer3" Value="https://beta-qa-api.ghin.com" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

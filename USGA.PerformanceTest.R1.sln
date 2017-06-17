@@ -1,0 +1,181 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGA.PerformanceTest.R1", "USGA.PerformanceTest.R1\USGA.PerformanceTest.R1.csproj", "{DE400348-FD3B-4A18-ADE0-BD22715B15F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6914B5E-5C07-48A3-9502-A55E77613D57}"
+	ProjectSection(SolutionItems) = preProject
+		batchaks.testsettings = batchaks.testsettings
+		Cloud.testsettings = Cloud.testsettings
+		Demo2017.testsettings = Demo2017.testsettings
+		DemoWebtestSetting.testsettings = DemoWebtestSetting.testsettings
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginToAddAuthBearerInAllRequest", "PluginToAddAuthBearerInAllRequest\PluginToAddAuthBearerInAllRequest.csproj", "{13855E21-6CC2-4A03-866F-2EA9C3B81229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateCurrent", "DateCurrent\DateCurrent.csproj", "{1A7EFB9C-35C7-41B9-802B-2B0983062DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveCache", "RemoveCache\RemoveCache.csproj", "{12B5AB5A-4ABC-4730-9F6F-6C2A97F3D238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{F52132DB-4032-4266-96E5-BF957113F521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateGuid", "CreateGuid\CreateGuid.csproj", "{E38911E6-8EE0-4E38-B7CA-11689EB7A8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPluginForProxy", "TestPluginForProxy\TestPluginForProxy.csproj", "{F4C63384-9E17-4B92-9377-E4099B2A4CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlginForMaxTestRunTime", "TestPlginForMaxTestRunTime\TestPlginForMaxTestRunTime.csproj", "{EBAEB1FA-A0B0-4C61-B00F-C126E3596B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseDependentReq", "ParseDependentReq\ParseDependentReq.csproj", "{DFC67CE9-845D-4C81-8376-0C4FDB0E9622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRequestPlginForGrabTheRequestURL", "WebRequestPlginForGrabTheRequestURL\WebRequestPlginForGrabTheRequestURL.csproj", "{BBC409C2-E0AC-410C-851E-3C0E3809E764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deletemeplugin", "Deletemeplugin\Deletemeplugin.csproj", "{E6BBFDBA-5649-4F67-8068-9B57F3B30F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomValidationRuke1", "CustomValidationRuke1\CustomValidationRuke1.csproj", "{4EE92D4F-2405-4546-9DF5-5171DA28C246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomeValidationDemo1MaxSizeValidation", "CustomeValidationDemo1MaxSizeValidation\CustomeValidationDemo1MaxSizeValidation.csproj", "{04B57D3C-FA2B-4701-A38A-B3063B06F36B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxReqValidationRule_DemoDay3", "MaxReqValidationRule_DemoDay3\MaxReqValidationRule_DemoDay3.csproj", "{018C7BA2-01FC-42C9-BF81-57E99E60A1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo2017", "Demo2017\Demo2017.csproj", "{51960DA2-6AB2-4A50-8147-993CEDC12050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo2017Folder", "Demo2017Folder", "{CD1F1311-3D87-4804-8D21-A22C92520BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plugins", "plugins\plugins.csproj", "{2ECB2707-2B56-45DE-B66A-4C4F1BF8D305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE400348-FD3B-4A18-ADE0-BD22715B15F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE400348-FD3B-4A18-ADE0-BD22715B15F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE400348-FD3B-4A18-ADE0-BD22715B15F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE400348-FD3B-4A18-ADE0-BD22715B15F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13855E21-6CC2-4A03-866F-2EA9C3B81229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13855E21-6CC2-4A03-866F-2EA9C3B81229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13855E21-6CC2-4A03-866F-2EA9C3B81229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13855E21-6CC2-4A03-866F-2EA9C3B81229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7EFB9C-35C7-41B9-802B-2B0983062DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7EFB9C-35C7-41B9-802B-2B0983062DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7EFB9C-35C7-41B9-802B-2B0983062DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7EFB9C-35C7-41B9-802B-2B0983062DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B5AB5A-4ABC-4730-9F6F-6C2A97F3D238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B5AB5A-4ABC-4730-9F6F-6C2A97F3D238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B5AB5A-4ABC-4730-9F6F-6C2A97F3D238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B5AB5A-4ABC-4730-9F6F-6C2A97F3D238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52132DB-4032-4266-96E5-BF957113F521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52132DB-4032-4266-96E5-BF957113F521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52132DB-4032-4266-96E5-BF957113F521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52132DB-4032-4266-96E5-BF957113F521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38911E6-8EE0-4E38-B7CA-11689EB7A8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38911E6-8EE0-4E38-B7CA-11689EB7A8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38911E6-8EE0-4E38-B7CA-11689EB7A8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38911E6-8EE0-4E38-B7CA-11689EB7A8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C63384-9E17-4B92-9377-E4099B2A4CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C63384-9E17-4B92-9377-E4099B2A4CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C63384-9E17-4B92-9377-E4099B2A4CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C63384-9E17-4B92-9377-E4099B2A4CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAEB1FA-A0B0-4C61-B00F-C126E3596B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAEB1FA-A0B0-4C61-B00F-C126E3596B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAEB1FA-A0B0-4C61-B00F-C126E3596B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAEB1FA-A0B0-4C61-B00F-C126E3596B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC67CE9-845D-4C81-8376-0C4FDB0E9622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC67CE9-845D-4C81-8376-0C4FDB0E9622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC67CE9-845D-4C81-8376-0C4FDB0E9622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC67CE9-845D-4C81-8376-0C4FDB0E9622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC409C2-E0AC-410C-851E-3C0E3809E764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC409C2-E0AC-410C-851E-3C0E3809E764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC409C2-E0AC-410C-851E-3C0E3809E764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC409C2-E0AC-410C-851E-3C0E3809E764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BBFDBA-5649-4F67-8068-9B57F3B30F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BBFDBA-5649-4F67-8068-9B57F3B30F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BBFDBA-5649-4F67-8068-9B57F3B30F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BBFDBA-5649-4F67-8068-9B57F3B30F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE92D4F-2405-4546-9DF5-5171DA28C246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE92D4F-2405-4546-9DF5-5171DA28C246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE92D4F-2405-4546-9DF5-5171DA28C246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE92D4F-2405-4546-9DF5-5171DA28C246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B57D3C-FA2B-4701-A38A-B3063B06F36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B57D3C-FA2B-4701-A38A-B3063B06F36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B57D3C-FA2B-4701-A38A-B3063B06F36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B57D3C-FA2B-4701-A38A-B3063B06F36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018C7BA2-01FC-42C9-BF81-57E99E60A1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018C7BA2-01FC-42C9-BF81-57E99E60A1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018C7BA2-01FC-42C9-BF81-57E99E60A1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018C7BA2-01FC-42C9-BF81-57E99E60A1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51960DA2-6AB2-4A50-8147-993CEDC12050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51960DA2-6AB2-4A50-8147-993CEDC12050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51960DA2-6AB2-4A50-8147-993CEDC12050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51960DA2-6AB2-4A50-8147-993CEDC12050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECB2707-2B56-45DE-B66A-4C4F1BF8D305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECB2707-2B56-45DE-B66A-4C4F1BF8D305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECB2707-2B56-45DE-B66A-4C4F1BF8D305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECB2707-2B56-45DE-B66A-4C4F1BF8D305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51960DA2-6AB2-4A50-8147-993CEDC12050} = {CD1F1311-3D87-4804-8D21-A22C92520BC0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anujtest.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CreateGuid\\CreateGuid.csproj
+		SccProjectName1 = CreateGuid
+		SccLocalPath1 = CreateGuid
+		SccProjectUniqueName2 = CustomeValidationDemo1MaxSizeValidation\\CustomeValidationDemo1MaxSizeValidation.csproj
+		SccProjectName2 = CustomeValidationDemo1MaxSizeValidation
+		SccLocalPath2 = CustomeValidationDemo1MaxSizeValidation
+		SccProjectUniqueName3 = CustomValidationRuke1\\CustomValidationRuke1.csproj
+		SccProjectName3 = CustomValidationRuke1
+		SccLocalPath3 = CustomValidationRuke1
+		SccProjectUniqueName4 = DateCurrent\\DateCurrent.csproj
+		SccProjectName4 = DateCurrent
+		SccLocalPath4 = DateCurrent
+		SccProjectUniqueName5 = Deletemeplugin\\Deletemeplugin.csproj
+		SccProjectName5 = Deletemeplugin
+		SccLocalPath5 = Deletemeplugin
+		SccProjectUniqueName6 = MaxReqValidationRule_DemoDay3\\MaxReqValidationRule_DemoDay3.csproj
+		SccProjectName6 = MaxReqValidationRule_DemoDay3
+		SccLocalPath6 = MaxReqValidationRule_DemoDay3
+		SccProjectUniqueName7 = ParseDependentReq\\ParseDependentReq.csproj
+		SccProjectName7 = ParseDependentReq
+		SccLocalPath7 = ParseDependentReq
+		SccProjectUniqueName8 = PluginToAddAuthBearerInAllRequest\\PluginToAddAuthBearerInAllRequest.csproj
+		SccProjectName8 = PluginToAddAuthBearerInAllRequest
+		SccLocalPath8 = PluginToAddAuthBearerInAllRequest
+		SccProjectUniqueName9 = Random\\Random.csproj
+		SccProjectName9 = Random
+		SccLocalPath9 = Random
+		SccProjectUniqueName10 = RemoveCache\\RemoveCache.csproj
+		SccProjectName10 = RemoveCache
+		SccLocalPath10 = RemoveCache
+		SccProjectUniqueName11 = TestPlginForMaxTestRunTime\\TestPlginForMaxTestRunTime.csproj
+		SccProjectName11 = TestPlginForMaxTestRunTime
+		SccLocalPath11 = TestPlginForMaxTestRunTime
+		SccProjectUniqueName12 = TestPluginForProxy\\TestPluginForProxy.csproj
+		SccProjectName12 = TestPluginForProxy
+		SccLocalPath12 = TestPluginForProxy
+		SccProjectUniqueName13 = USGA.PerformanceTest.R1\\USGA.PerformanceTest.R1.csproj
+		SccProjectName13 = USGA.PerformanceTest.R1
+		SccLocalPath13 = USGA.PerformanceTest.R1
+		SccProjectUniqueName14 = WebRequestPlginForGrabTheRequestURL\\WebRequestPlginForGrabTheRequestURL.csproj
+		SccProjectName14 = WebRequestPlginForGrabTheRequestURL
+		SccLocalPath14 = WebRequestPlginForGrabTheRequestURL
+		SccProjectUniqueName15 = Demo2017\\Demo2017.csproj
+		SccProjectTopLevelParentUniqueName15 = USGA.PerformanceTest.R1.sln
+		SccProjectName15 = Demo2017
+		SccLocalPath15 = Demo2017
+		SccProjectUniqueName16 = plugins\\plugins.csproj
+		SccProjectName16 = plugins
+		SccLocalPath16 = plugins
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="MiamiSchoolDemo" Id="f5048af1-9801-4d7e-9dc6-62acef20c2e7" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.cd868a51-3b63-4950-97ae-dd3f7b9319db.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="b9537d5f-516e-41ca-b33c-8137c25eab32" Version="1.1" Url="{{WebServer1}}/sample-high-school-websites.jsp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="8932f77f-6f6b-4699-b3af-abe7c34ec118" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="39d9d7a6-eb6e-402a-9b96-6aafe2ecb73a" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="16ba36ec-a689-4a75-9728-7ac8ffdb2f0a" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7a5bfec6-0326-4e53-81b0-ccd2e5f45f34" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6abf37f1-cd28-4521-b427-11edffde7881" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3e9f2523-6f29-49c5-bd12-cddd12d3026f" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="d435379e-3d69-46d2-aab5-c459596d0e91" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ea804fa3-a92b-4d46-b6d7-e47ce572f374" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="36430889-efa1-4c09-98d8-5217ac2ecf63" Version="1.1" Url="{{WebServer3}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer3}}/bin/v/widget_v2.122.js" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="24exT9LtY9HZRk03DX1JAxyEyZZhxBm8" RecordedValue="24exT9LtY9HZRk03DX1JAxyEyZZhxBm8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Comment CommentText="click High" />
+    <Request Method="GET" Guid="ad1cba7a-d150-4722-9e60-509223bc1032" Version="1.1" Url="{{WebServer1}}/sample-high-school-websites.jsp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="ceec26ce-6fdb-400b-b91e-6311072343a6" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c7847307-b618-44bc-bcaf-5270dc5d32a4" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="21e6fbf3-c0e0-4ea0-8990-8dfd6912caeb" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7cf227c1-2ed0-4f7d-91bb-1dec936d368c" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1f5c5710-5419-4277-b283-c3e78dc7c166" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0cb58008-da97-4d25-b413-479512c6b961" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7ee03a9b-3df3-4d50-a725-eb8e4a76200b" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="304e93fb-df31-43a9-b0a4-871935292b45" Version="1.1" Url="{{WebServer2}}/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a318034e-beb3-4f69-b944-185b933e6aba" Version="1.1" Url="{{WebServer3}}/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer3}}/bin/v/widget_v2.122.js" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="24exT9LtY9HZRk03DX1JAxyEyZZhxBm8" RecordedValue="24exT9LtY9HZRk03DX1JAxyEyZZhxBm8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam12.skipMobile" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?skipMobile=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Comment CommentText="click Miami first ne" />
+    <Request Method="GET" Guid="a8142553-6294-480a-95b6-b8f9b45b70b1" Version="1.1" Url="{{WebServer4}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer4}}/?skipMobile=1#" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer1}}/sample-high-school-websites.jsp" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam13.rn" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?rn=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.f" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;  " />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="skipMobile" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam12.skipMobile}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="click on new tab" />
+    <Request Method="POST" Guid="22fcc3d1-3d6a-4199-8e0f-ceca99958775" Version="1.1" Url="{{WebServer4}}/apps/login/do_public_login.jsp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer4}}/?skipMobile=1" />
+      </Headers>
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Anuj Sharma" />
+            <RuleParameter Name="IgnoreCase" Value="True" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <RequestPlugins>
+        <RequestPlugin Classname="WebRequestPluginForDemo.MyWebRequestPluginForDemo, WebRequestPlginForGrabTheRequestURL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="MyWebRequestPluginForDemo" Description="" />
+      </RequestPlugins>
+      <QueryStringParameters>
+        <QueryStringParameter Name="rn" Value="{{QueryStringParam13.rn}}" RecordedValue="91" CorrelationBinding="{{QueryStringParam13.rn}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="f" Value="/apps/account/other" RecordedValue="/apps/account/other" CorrelationBinding="{{FormPostParam1.f}}" UrlEncode="True" />
+        <FormPostParameter Name="username3225" Value="{{DSDemo1.MiamiUserData#csv.username}}" RecordedValue="anuj_rov@yahoo.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="password3225" Value="{{DSDemo1.MiamiUserData#csv.password}}" RecordedValue="Sirmvit007" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="7a8ed57c-2ee4-45dd-adfb-c48ccab36923" Version="1.1" Url="{{WebServer4}}/apps/account/other" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer4}}/apps/account/other/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer4}}/apps/login/do_public_login.jsp?rn=91" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.e" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?e=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.f" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;f=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Comment CommentText="logout" />
+    <Request Method="GET" Guid="17bc57dc-618b-4eb2-859b-f19707adc5f7" Version="1.1" Url="{{WebServer4}}/apps/login/public_login.jsp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="e" Value="4" RecordedValue="4" CorrelationBinding="{{QueryStringParam1.e}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="f" Value="/apps/account/other" RecordedValue="/apps/account/other" CorrelationBinding="{{QueryStringParam2.f}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="DSDemo1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\..\CSV Data\MiamiUserData.csv">
+      <Tables>
+        <DataSourceTable Name="MiamiUserData#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://www.educationalnetworks.net" />
+    <ContextParameter Name="WebServer2" Value="http://fonts.gstatic.com" />
+    <ContextParameter Name="WebServer3" Value="http://v2.zopim.com" />
+    <ContextParameter Name="WebServer4" Value="http://www.miamiseniorhigh.org" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="RemoveCache.DisableCache, RemoveCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="DisableCache" Description="" />
+    <WebTestPlugin Classname="maxTestRun.TestRunDuration, TestPlginForMaxTestRunTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="TestRunDuration" Description="There is no custome value to select a run duration for a web test,to customize this this plugin would input the run duration and if this exceed by context run it will Fail">
+      <RuleParameters>
+        <RuleParameter Name="maximumTesttime" Value="0" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="Guidtest.UniqueIdentifierPlugin, CreateGuid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="Generate Guid Custom Length" Description="Generates a new Guid with a custom length">
+      <RuleParameters>
+        <RuleParameter Name="ContextParamTarget" Value="TestGuid" />
+        <RuleParameter Name="OutputFormat" Value="" />
+        <RuleParameter Name="GuidLength" Value="3" />
+      </RuleParameters>
+    </WebTestPlugin>
+  </WebTestPlugins>
+</WebTest>

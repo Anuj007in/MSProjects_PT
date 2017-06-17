@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="batchaks" id="3c7857fd-ca43-454a-bef2-ffcae98c87fe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\Mergetestdata.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D1.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D8.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UA01Data.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM01GID&amp;Name.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UA03User.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UA8User.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM6MergeData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CRP10.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM04ImpoartPlayerData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\bin\Debug\DateCurrent.dll" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\ScoreLoginUser1.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\ScoreImportAssociationNClubData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D4.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D3.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PR01.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CM6ClubMerge.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CRP6.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UserScoreImport.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\AddPlayer.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PR01Login.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UserLogin.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D5.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\Score3.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CRP3.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM7UserLogin.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\Score1.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\SRGA4AssoData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM7GHINDelete.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D2.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\bin\Debug\USGA.PerformanceTest.R1.dll" />
+    <DeploymentItem filename="PluginToAddAuthBearerInAllRequest\bin\Debug\PluginToAddAuthBearerInAllRequest.dll" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D9.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\ScoreDelete.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\" />
+    <DeploymentItem filename="PluginToAddAuthBearerInAllRequest\bin\Debug\PluginToAddAuthBearerInAllRequest.pdb" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D7.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\AssoData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4UserData.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UA8Data.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM5ActiveInactive.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D10.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM3PlayerEdit.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\bin\Debug\CreateGuid.dll" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM4D6.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CM1UserLogin.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\PM05LoginUser.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\bin\Debug\PluginToAddAuthBearerInAllRequest.dll" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\UA01User.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\Score2Data.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\SRGA4UserLogin.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\bin\Debug\RemoveCache.dll" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CRP3User.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\ImportScore.csv" />
+    <DeploymentItem filename="USGA.PerformanceTest.R1\CSV Data\CM4UserLoginNData.csv" />
+  </Deployment>
+  <Execution hostProcessPlatform="MSIL">
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+      <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+        <Browser name="Internet Explorer 9.0" MaxConnections="6">
+          <Headers>
+            <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+            <Header name="Accept" value="*/*" />
+            <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+            <Header name="Accept-Encoding" value="GZIP" />
+          </Headers>
+        </Browser>
+      </WebTestRunConfiguration>
+    </TestTypeSpecific>
+    <AgentRule name="LocalMachineDefaultRole">
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>

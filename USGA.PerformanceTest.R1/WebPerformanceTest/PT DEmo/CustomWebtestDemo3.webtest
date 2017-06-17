@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest2" Id="66d9f890-46a9-419a-8655-56b29d6ffe4b" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest2.426a456e-b513-41e6-9fb9-dbe526af8eac.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="3fb818d5-4031-4187-825f-7477e15ffdcd" Version="1.1" Url="http://www.usga.org/" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="822f88fc-4b27-4b42-a96e-541112493adc" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aaWGgEO1vGR9ucXjKCo8vxU.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c5d65423-ff57-4af0-89a9-2ff8ffe8e3d1" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/KYNzioYhDai7mTMnx_gDgtUFqmyT-Ih543PWa_C0ig4.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ffa8ce14-1910-4ca2-ac30-9ec1f63c2e7f" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aeu_tG0Yx7qqITjSOZkMZIk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="323ef0bb-fb9b-4eeb-a753-75abca7e07f0" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9ae1ouKFe7zgu3OIJnKP8_aw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="bc0907cd-7d7e-46ec-9b74-3d596f93f515" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/TKyx_-JJ6MdpQruNk-t-PM_0Gg_psQEhwRxPwkVXUB8.woff" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="9840051b-0102-4bb7-9f9f-6b7a2d1f63c6" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CgoSvwt5Jk8V5Qzz5gxIVhE.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3006573b-6d76-4c47-b4d3-8b3c2982a824" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9Cjz7UTTuXWmzX65m1n9Ltf4.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5e303c47-da41-4268-896e-ac36a7cebd0d" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aUpiVnwz0M_Hy6Y_FZjz5LA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ccb1f0a0-ded6-4af1-8f64-655e8556ae1b" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CvQp_31g0rjXKZ8Gm9SMcKk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7dffe605-daf1-44d6-bf58-ca84cc0f9810" Version="1.1" Url="http://fonts.gstatic.com/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CrCg-HxJJqxN4VXdlZqPV8c.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f004e5df-8b03-418c-994f-79c27520058e" Version="1.1" Url="http://www.usga.org/bin/data/feeds/ticker.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="Content-Type" Value="application/json" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="546c1c4a-7a0b-4cb8-a184-d515ad16db0c" Version="1.1" Url="http://www.google.com/uds/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="file" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="v" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam48.v}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="hl" Value="en" RecordedValue="en" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="86ca4020-17bc-4060-ad77-a516b7a26bda" Version="1.1" Url="http://www.usga.org/bin/data/feeds/content.path_=content.size_8.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Content-Type" Value="application/json; charset=utf-8" />
+            <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="616bd5e8-7436-400e-9338-d262080ceebd" Version="1.1" Url="http://www.usga.org/content/usga/home-page/_jcr_content/innerPar1/latest.data.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Content-Type" Value="application/json; charset=utf-8" />
+            <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7938fddd-b33e-4051-9225-4b2e5471be1d" Version="1.1" Url="http://www.usga.org/bin/data/feeds/ticker.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0d06326a-c0c7-476f-8da7-5551ec1e62ac" Version="1.1" Url="https://beacon.sojern.com/pixel/p/7065" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="f_v" Value="v5_js" RecordedValue="v5_js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="p_v" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vid" Value="tou" RecordedValue="tou" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cid" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="1fa40e31-fc7d-4bfe-8d41-909afc43f7ba" Version="1.1" Url="https://www.googleapis.com/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="9e9c72f2-7b67-4107-a462-2c61593d79a6" Version="1.1" Url="http://clients1.google.com/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.usga.org/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="6740768e-92c0-4610-8d85-172af14446dd" Version="1.1" Url="http://20667643p.rfihub.com/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam67.user_id" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;user_id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam48.v" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?v=" />
+            <RuleParameter Name="EndsWith" Value="3" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam59.bidder" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?bidder=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam60.seg" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;seg=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam66.dsp_id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?dsp_id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam68.expires" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;expires=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam469.rb" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;rb=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam470.ca" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ca=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pe" Value="http%3A%2F%2Fwww.usga.org%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pf" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ra" Value="6769913622395769" RecordedValue="6769913622395769" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="17bf3fd3-4275-4852-925a-420152229a6a" Version="1.1" Url="https://3679066.fls.doubleclick.net/activityi;src=3679066;type=visit323;cat=visit266;ord=4616798426246.588" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="fa9b03cf-4a49-45cd-b606-f0d1eff171a0" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/961032657/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.co.in/ads/user-lists/961032657/?fmt=1&amp;num=1&amp;cv=8&amp;frm=0&amp;url=http%3A//www.usga.org/&amp;random=1447574902&amp;ipr=y" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1450421037279" RecordedValue="1450421037279" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1450421037279" RecordedValue="1450421037279" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="1113" RecordedValue="1113" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="1061" RecordedValue="1061" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//www.usga.org/" RecordedValue="http%3A//www.usga.org/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="25a84bc6-b9ae-4b4f-b5db-a8edcc3066c3" Version="1.1" Url="http://ib.adnxs.com/pxj" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://20667643p.rfihub.com/ca.html?ver=9&amp;rb=19027&amp;ca=20667643&amp;pe=http%3A%2F%2Fwww.usga.org%2F&amp;pf=&amp;ra=6769913622395769" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="bidder" Value="18" RecordedValue="18" CorrelationBinding="{{QueryStringParam59.bidder}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="seg" Value="378601" RecordedValue="378601" CorrelationBinding="{{QueryStringParam60.seg}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="action" Value="setuids('1038150087729299116','1CAESEO8Y5ovr6CoOcZaDGzs2dHg');" RecordedValue="setuids('1038150087729299116','1CAESEO8Y5ovr6CoOcZaDGzs2dHg');" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redir" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="54a02c58-a6ba-482b-a5cc-7e6fa00fc2e0" Version="1.1" Url="http://x.bidswitch.net/sync" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://20667643p.rfihub.com/ca.html?ver=9&amp;rb=19027&amp;ca=20667643&amp;pe=http%3A%2F%2Fwww.usga.org%2F&amp;pf=&amp;ra=6769913622395769" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="dsp_id" Value="119" RecordedValue="119" CorrelationBinding="{{QueryStringParam66.dsp_id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="user_id" Value="{{QueryStringParam67.user_id}}" RecordedValue="1038150087729299116" CorrelationBinding="{{QueryStringParam67.user_id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expires" Value="30" RecordedValue="30" CorrelationBinding="{{QueryStringParam68.expires}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="bfb28b5f-c9d3-422c-afa7-c508eed4428f" Version="1.1" Url="http://platform.twitter.com/widgets/follow_button.c633b87376883931e7436b93bb46a699.en.html" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://platform.twitter.com/widgets/follow_button.c633b87376883931e7436b93bb46a699.en.html#_=1450421039778&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=usga&amp;show_count=false&amp;show_screen_name=false&amp;size=m" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2653ec30-d5dd-4cf7-bd85-578f667c80a1" Version="1.1" Url="http://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3ad064435da49&amp;origin=http%3A%2F%2Fwww.usga.org" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Fwww.usga.org" RecordedValue="http%3A%2F%2Fwww.usga.org" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c1992106-f33d-46d7-9ec8-5d79c93792eb" Version="1.1" Url="https://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3ad064435da49&amp;origin=http%3A%2F%2Fwww.usga.org" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Fwww.usga.org" RecordedValue="http%3A%2F%2Fwww.usga.org" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c7b86221-3ab4-460e-b8c0-4570ce003b81" Version="1.1" Url="http://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e47d71aa-6de3-4f95-bb65-eef7a313c6d2" Version="1.1" Url="https://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9b3a5e54-3f6b-4e65-a578-1da637d49b92" Version="1.1" Url="https://www.facebook.com/connect/ping" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="domain" Value="www.usga.org" RecordedValue="www.usga.org" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df2c405593ba8dd8%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df2c405593ba8dd8%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="token%2Csigned_request%2Ccode" RecordedValue="token%2Csigned_request%2Ccode" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d3d86150-9ba9-44c1-b547-ef6160428fe7" Version="1.1" Url="http://www.facebook.com/v2.5/plugins/like.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3276fdf2847ce%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent&amp;container_width=102&amp;href=http%3A%2F%2Fwww.usga.org%2F&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3276fdf2847ce%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3276fdf2847ce%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="container_width" Value="102" RecordedValue="102" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="href" Value="http%3A%2F%2Fwww.usga.org%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="cb09c747-de73-465e-872b-148d0694cc58" Version="1.1" Url="http://gscounters.us1.gigya.com/gscounters.sendReport" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421036120%22%2C%22reportData%22%3A%7B%22sref%22%3A%22%22%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421036120%22%2C%22reportData%22%3A%7B%22sref%22%3A%22%22%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R2726380588" RecordedValue="R2726380588" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="228f6429-5e76-4308-8ea0-7df8a9913372" Version="1.1" Url="http://www.facebook.com/v2.5/plugins/like.php" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df10d3f460cb0b3%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.usga.org%2F&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df10d3f460cb0b3%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df10d3f460cb0b3%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff3ad064435da49%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="container_width" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="href" Value="http%3A%2F%2Fwww.usga.org%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e6195b51-2514-4e98-a33f-6c006c9cba09" Version="1.1" Url="http://account.usga.org/Login.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.gtmAccountId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.campaign" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;campaign=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.ctl00$Content$loginButton" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="ctl00_Content_loginButton" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="1450421048087" RecordedValue="1450421048087" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="campaign" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d2951893-8fa3-4abb-a60e-6cb8362fad68" Version="1.1" Url="http://20667643p.rfihub.com/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam882.rb" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;rb=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam883.ca" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ca=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="{{QueryStringParam469.rb}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="{{QueryStringParam470.ca}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pe" Value="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pf" Value="http%3A%2F%2Fwww.usga.org%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ra" Value="5336141168308814" RecordedValue="5336141168308814" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="30bc1a9c-c6fa-49c2-a5b0-00b605919d5f" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/961032657/" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.co.in/ads/user-lists/961032657/?fmt=1&amp;num=1&amp;cv=8&amp;frm=2&amp;url=http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue&amp;ref=http%3A//www.usga.org/&amp;random=1592133487&amp;ipr=y" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1450421048831" RecordedValue="1450421048831" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1450421048831" RecordedValue="1450421048831" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="1113" RecordedValue="1113" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="1061" RecordedValue="1061" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ref" Value="http%3A//www.usga.org/" RecordedValue="http%3A//www.usga.org/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9ca81ff0-ba17-465e-afa5-fe3930db8c9e" Version="1.1" Url="http://gscounters.us1.gigya.com/gscounters.sendReport" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421048707%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Fwww.usga.org%2F%22%7D%7D%2C%7B%22name%22%3A%22load%22%2C%22time%22%3A%221450421049205%22%2C%22source%22%3A%22showLoginUI%22%2C%22reportData%22%3A%7B%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421048707%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Fwww.usga.org%2F%22%7D%7D%2C%7B%22name%22%3A%22load%22%2C%22time%22%3A%221450421049205%22%2C%22source%22%3A%22showLoginUI%22%2C%22reportData%22%3A%7B%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R3443125277" RecordedValue="R3443125277" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="836b0ab9-5016-4a24-b2ab-63bad0a3f57d" Version="1.1" Url="http://account.usga.org/Login.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="674ca3d7-c60c-4a5f-b411-948b83cc96ce" Version="1.1" Url="https://socialize.us1.gigya.com/socialize.notifyLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="sessionExpiration" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authCode" Value="VC1_98D7F44C9ABC12142EF04DB668AB57BC_0oma1oV2HDliUrqGzh8tgOnfP_vXN7f1ywM5er0s6lCiWUCbXveH4WTYWQhpLJzbi4E6IvELSjE_9wX-BVcUBCnYcsEV8SN_4n4OlrQCQu1cIuU09BTZnfp74G1uZ3ibKbolQuLp3QdT5MJg6Vbgudj7sO2Eg9nVXsA9lRGFaJxi4JRY6HgBMwxJ-ghl3q7MgakY9Akr9IV3VeqxwVVn9g%3D%3D" RecordedValue="VC1_98D7F44C9ABC12142EF04DB668AB57BC_0oma1oV2HDliUrqGzh8tgOnfP_vXN7f1ywM5er0s6lCiWUCbXveH4WTYWQhpLJzbi4E6IvELSjE_9wX-BVcUBCnYcsEV8SN_4n4OlrQCQu1cIuU09BTZnfp74G1uZ3ibKbolQuLp3QdT5MJg6Vbgudj7sO2Eg9nVXsA9lRGFaJxi4JRY6HgBMwxJ-ghl3q7MgakY9Akr9IV3VeqxwVVn9g%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R558344797" RecordedValue="R558344797" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2205.gtmAccountId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="1450421048087" RecordedValue="1450421048087" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam2.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="campaign" Value="true" RecordedValue="true" CorrelationBinding="{{QueryStringParam3.campaign}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUKLTk3MzM2NzQwN2QYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFIGN0bDAwJENvbnRlbnQkcmVtZW1iZXJNZUNoZWNrQm94ZMLxqNtIbq2Xsi68M2hML5qOzyg=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="C2EE9ABB" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEWBQKUt6eCCwLF4ojZDQLjxJeQAgKzmYvXDwL78YG1BfassGCU4zkZtDfy3jE+k5TvImpE" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$Content$emailTextBox" Value="anuj_rov@yahoo.com" RecordedValue="anuj_rov@yahoo.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$Content$passwordTextBox" Value="Deloitte.1" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$Content$loginButton" Value="Sign In" RecordedValue="Sign In" CorrelationBinding="{{FormPostParam1.ctl00$Content$loginButton}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="3950e1cd-06b5-4864-8a84-d9f5d09f0b77" Version="1.1" Url="http://20667643p.rfihub.com/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="{{QueryStringParam882.rb}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="{{QueryStringParam883.ca}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pe" Value="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pf" Value="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ra" Value="5799235570160348" RecordedValue="5799235570160348" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="fcd1b962-643c-41cc-8259-c96fa8f5eaac" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/961032657/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.co.in/ads/user-lists/961032657/?fmt=1&amp;num=1&amp;cv=8&amp;frm=2&amp;url=http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue&amp;ref=http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue&amp;random=1743286540&amp;ipr=y" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1450421064486" RecordedValue="1450421064486" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1450421064486" RecordedValue="1450421064486" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="1113" RecordedValue="1113" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="1061" RecordedValue="1061" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1391" RecordedValue="1391" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ref" Value="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e1f4d1f4-1910-41a9-885b-7b9a361cdf85" Version="1.1" Url="https://socialize.us1.gigya.com/socialize.getUserInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R697004265" RecordedValue="R697004265" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="login_token" Value="LT3_n_1NmL5HwMatKbbab-TIJzkfwbLNC72yHwRCOQc3AXA" RecordedValue="LT3_n_1NmL5HwMatKbbab-TIJzkfwbLNC72yHwRCOQc3AXA" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="29bbb71a-858e-4674-862f-a2b4ab3dd941" Version="1.1" Url="http://www.usga.org/bin/data/feeds/ticker.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Content-Type" Value="application/json" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="fd250c90-4db6-4084-8ba2-330813e2b159" Version="1.1" Url="http://account.usga.org/LoginValidate.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Login.aspx?1450421048087&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="LoginSuccessUrl" Value="{{$HIDDEN1.LoginSuccessUrl}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UID" Value="374a5c717e3344d083e84ef8c42881d8" RecordedValue="374a5c717e3344d083e84ef8c42881d8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UIDSignature" Value="4jUKxnTWkDS7dJmWV9xpTXIe9pY=" RecordedValue="4jUKxnTWkDS7dJmWV9xpTXIe9pY=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SignatureTimestamp" Value="1450421066" RecordedValue="1450421066" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="0ff85e79-674a-44dc-8848-7c6283a2967c" Version="1.1" Url="https://socialize.us1.gigya.com/socialize.notifyLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/LoginValidate.aspx" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="siteUID" Value="374a5c717e3344d083e84ef8c42881d8" RecordedValue="374a5c717e3344d083e84ef8c42881d8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="UIDTimestamp" Value="1450421066" RecordedValue="1450421066" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="UIDSig" Value="4jUKxnTWkDS7dJmWV9xpTXIe9pY%3D" RecordedValue="4jUKxnTWkDS7dJmWV9xpTXIe9pY%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sessionExpiration" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R2348401649" RecordedValue="R2348401649" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="decc2ed6-20ae-4a20-a9c4-5e6cb5ce3910" Version="1.1" Url="https://accounts.us1.gigya.com/accounts.getAccountInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="include" Value="profile%2Cdata%2C" RecordedValue="profile%2Cdata%2C" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="extraProfileFields" Value="address%2Cphones" RecordedValue="address%2Cphones" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R2452641462" RecordedValue="R2452641462" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="login_token" Value="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" RecordedValue="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="21e2a7d7-4c74-423d-ab07-bf65a2fdba39" Version="1.1" Url="https://ds.us1.gigya.com/ds.get" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="Member" RecordedValue="Member" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="oid" Value="374a5c717e3344d083e84ef8c42881d8" RecordedValue="374a5c717e3344d083e84ef8c42881d8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R31343727" RecordedValue="R31343727" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="login_token" Value="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" RecordedValue="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2ec0d27b-1ffc-40fa-98e8-f74d6f117842" Version="1.1" Url="http://gscounters.us1.gigya.com/gscounters.sendReport" ThinkTime="33" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/LoginValidate.aspx" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421067250%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue%22%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221450421067250%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1450421048087%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue%22%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R2825511245" RecordedValue="R2825511245" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c7a51ec1-8063-43db-a549-9c8caf57a2ac" Version="1.1" Url="http://account.usga.org/Logout.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.usga.org/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam2205.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="campaign" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0940e84f-6c24-46dc-842b-22a725e846cd" Version="1.1" Url="https://socialize.us1.gigya.com/socialize.logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://account.usga.org/Logout.aspx?&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="js_5.8.10" RecordedValue="js_5.8.10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="context" Value="R709986576" RecordedValue="R709986576" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="login_token" Value="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" RecordedValue="LT3_MWEBBrBTtF6Y5TyK6ArqBY3OvUfMoiKCFN2XTpg1tdM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

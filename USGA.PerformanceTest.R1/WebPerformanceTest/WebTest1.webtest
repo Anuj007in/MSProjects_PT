@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="b37f1fb8-b9ff-42e7-9b9e-d53dddfcde6a" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.c123a59a-632b-4370-ae5c-2bbab8ea0230.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <TransactionTimer Name="Till Dashboard">
+      <Items>
+        <Request Method="GET" Guid="aba51658-6c4e-4a2d-9f4d-1826bf443097" Version="1.1" Url="{{WebServer1}}/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="57815ea6-b412-4fbc-b287-e7d60bf4342b" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aaWGgEO1vGR9ucXjKCo8vxU.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="3c029b57-78f2-4188-9b05-537f2ef97e0f" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/KYNzioYhDai7mTMnx_gDgtUFqmyT-Ih543PWa_C0ig4.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="4f40757a-d979-4d0e-82d4-13e221980c0f" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aeu_tG0Yx7qqITjSOZkMZIk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="07601df3-7a72-4e21-8ed3-d1886335dfd1" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9ae1ouKFe7zgu3OIJnKP8_aw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="2765691e-8798-4bb1-9047-3200c1e9b77c" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/11EDm-lum6tskJMBbdy9aUpiVnwz0M_Hy6Y_FZjz5LA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="052dbca2-3167-4d53-80c1-cb579222a3dc" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CgoSvwt5Jk8V5Qzz5gxIVhE.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="f7447944-9594-4a86-8f16-0f3b47ed00b9" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/TKyx_-JJ6MdpQruNk-t-PM_0Gg_psQEhwRxPwkVXUB8.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="07226a0b-1afa-44d1-b5e9-65959c174893" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9Cjz7UTTuXWmzX65m1n9Ltf4.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="c8cdb743-7e1c-4122-9a0d-40a25a6b2c8d" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CvQp_31g0rjXKZ8Gm9SMcKk.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="71a8455f-355b-4a1a-9fbd-fd7e4adcd098" Version="1.1" Url="{{WebServer2}}/s/alegreyasans/v3/WfiXipsmjqRqsDBQ1bA9CrCg-HxJJqxN4VXdlZqPV8c.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="faac0e96-e0c5-4a57-a7e0-1416d76e98b9" Version="1.1" Url="{{WebServer1}}/bin/data/feeds/ticker.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="*/*" />
+                <Header Name="Content-Type" Value="application/json" />
+                <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="147f6149-f5fb-448f-9ceb-631e9400b8b6" Version="1.1" Url="{{WebServer3}}/uds/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="file" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="v" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="hl" Value="en" RecordedValue="en" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="c44586f5-12c5-405d-8dcf-ba0932218055" Version="1.1" Url="{{WebServer1}}/bin/data/feeds/content.path_=content.size_8.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Content-Type" Value="application/json; charset=utf-8" />
+                <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+                <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="414f40c2-34c2-4d3b-bc79-646d39553b81" Version="1.1" Url="{{WebServer1}}/content/usga/home-page/_jcr_content/innerPar1/latest.data.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Content-Type" Value="application/json; charset=utf-8" />
+                <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+                <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="8d42477a-bed0-45ba-9d65-0d0f6ce6757b" Version="1.1" Url="{{WebServer1}}/bin/data/feeds/ticker.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+                <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="5213f6bd-b732-4379-8615-9ff5d5d7312f" Version="1.1" Url="{{WebServer4}}/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="e37fa3cf-e384-4e36-8bbc-a2c493ce95ee" Version="1.1" Url="{{WebServer5}}/generate_204" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer1}}/" />
+              </Headers>
+            </Request>
+          </DependentRequests>
+        </Request>
+        <Request Method="GET" Guid="fc4551d3-214c-4872-9454-c029d6179144" Version="1.1" Url="{{WebServer6}}/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam537.ver" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?ver=" />
+                <RuleParameter Name="EndsWith" Value="_" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pe" Value="{{WebServer7}}%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pf" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ra" Value="7259395913983144" RecordedValue="7259395913983144" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d7ff6df8-627b-4792-867b-a0223d13b43c" Version="1.1" Url="{{WebServer8}}/activityi;src=3679066;type=visit323;cat=visit266;ord=1694206010708.9406" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4c789af2-e833-40b1-a5dd-e4b2441fe847" Version="1.1" Url="{{WebServer9}}/pagead/viewthroughconversion/961032657/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.co.in/ads/user-lists/961032657/?fmt=1&amp;num=1&amp;cv=8&amp;frm=0&amp;url=http%3A//www.usga.org/&amp;random=3734327722&amp;ipr=y" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="random" Value="1455690113200" RecordedValue="1455690113200" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fst" Value="1455690113200" RecordedValue="1455690113200" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_h" Value="1219" RecordedValue="1219" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_w" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_ah" Value="1162" RecordedValue="1162" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_aw" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_his" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="http%3A//www.usga.org/" RecordedValue="http%3A//www.usga.org/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tiba" Value="Home%20Page" RecordedValue="Home%20Page" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="1bac61bd-a5ae-4d54-adb0-be446b5b2d01" Version="1.1" Url="{{WebServer10}}/widgets/follow_button.baa54ded21a982344c4ced326592f3de.en.html" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer10}}/widgets/follow_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=usga&amp;show_count=false&amp;show_screen_name=false&amp;size=m&amp;time=1455690116939" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;1&quot;,&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ON" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="281fc379-de5c-4372-a4a2-91a50cac7a3e" Version="1.1" Url="{{WebServer11}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer11}}/connect/xd_arbiter.php?version=42#channel=f191a03bed82e91&amp;origin=http%3A%2F%2Fwww.usga.org" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="origin" Value="{{WebServer7}}" RecordedValue="http%3A%2F%2Fwww.usga.org" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="de693e30-6110-4393-84d6-1df3412372fa" Version="1.1" Url="{{WebServer12}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer12}}/connect/xd_arbiter.php?version=42#channel=f191a03bed82e91&amp;origin=http%3A%2F%2Fwww.usga.org" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="origin" Value="{{WebServer7}}" RecordedValue="http%3A%2F%2Fwww.usga.org" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="2ad4f1ac-15f8-4414-a152-2632d011615d" Version="1.1" Url="{{WebServer11}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f17ee337-9288-403f-bcbe-17a514986608" Version="1.1" Url="{{WebServer12}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="12502659-7e1c-4c3d-9db5-e0b2a284ac1f" Version="1.1" Url="{{WebServer13}}/v2.5/plugins/like.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3a833b174bd948%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FUSGA%2Fvideos%2Fvb.88356969368%2F10154067413589369%2F%3Ftype%3D2%26theater&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="channel" Value="{{WebServer14}}%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3a833b174bd948%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3a833b174bd948%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="container_width" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="href" Value="{{WebServer15}}%2FUSGA%2Fvideos%2Fvb.88356969368%2F10154067413589369%2F%3Ftype%3D2%26theater" RecordedValue="https%3A%2F%2Fwww.facebook.com%2FUSGA%2Fvideos%2Fvb.88356969368%2F10154067413589369%2F%3Ftype%3D2%26theater" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5e6a9d6d-8424-4852-8ac8-54747e96970f" Version="1.1" Url="{{WebServer13}}/v2.5/plugins/like.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df35c8d1b20fa736%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent&amp;container_width=102&amp;href=http%3A%2F%2Fwww.usga.org%2F&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="channel" Value="{{WebServer14}}%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df35c8d1b20fa736%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df35c8d1b20fa736%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="container_width" Value="102" RecordedValue="102" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="href" Value="{{WebServer7}}%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c05c5716-4a25-474d-b2d6-50ac0f2dedc0" Version="1.1" Url="{{WebServer13}}/v2.5/plugins/like.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3533969d19e48a%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FUSGA%2Fvideos%2F10154076213069369%2F&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="channel" Value="{{WebServer14}}%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3533969d19e48a%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df3533969d19e48a%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="container_width" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="href" Value="{{WebServer15}}%2FUSGA%2Fvideos%2F10154076213069369%2F" RecordedValue="https%3A%2F%2Fwww.facebook.com%2FUSGA%2Fvideos%2F10154076213069369%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="daa9ccb5-124b-4be3-a213-1f4af0485d83" Version="1.1" Url="{{WebServer16}}/gscounters.sendReport" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690113197%22%2C%22reportData%22%3A%7B%22sref%22%3A%22%22%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690113197%22%2C%22reportData%22%3A%7B%22sref%22%3A%22%22%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R3835432183" RecordedValue="R3835432183" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="28a3f8d2-156c-4d18-af6e-306813543b64" Version="1.1" Url="{{WebServer13}}/v2.5/plugins/like.php" ThinkTime="14" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=1531450863841164&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df8bdb714eeeec4%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.usga.org%2F&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="action" Value="like" RecordedValue="like" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="app_id" Value="1531450863841164" RecordedValue="1531450863841164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="channel" Value="{{WebServer14}}%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df8bdb714eeeec4%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df8bdb714eeeec4%26domain%3Dwww.usga.org%26origin%3Dhttp%253A%252F%252Fwww.usga.org%252Ff191a03bed82e91%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="container_width" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="href" Value="{{WebServer7}}%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="layout" Value="button" RecordedValue="button" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="share" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Comment CommentText="Dashboard is loaded-Now" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Login">
+      <Items>
+        <Request Method="GET" Guid="8056eeda-38a3-482e-ae5c-07470c147c03" Version="1.1" Url="{{WebServer1}}/bin/data/feeds/ticker.json" ThinkTime="20" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="Content-Type" Value="application/json" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Transaction1">
+      <Items>
+        <Comment CommentText="Navigate to login" />
+        <Request Method="GET" Guid="927f4035-4c83-4e27-a7b7-d0a045ef4448" Version="1.1" Url="{{WebServer17}}/Login.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.gtmAccountId" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.campaign" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&amp;amp;campaign=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.ctl00$Content$loginButton" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="Name" Value="ctl00_Content_loginButton" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="1455690167912" RecordedValue="1455690167912" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="campaign" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="116d76fe-6de8-4d13-9305-44c7c4acb04d" Version="1.1" Url="{{WebServer6}}/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam950.ver" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?ver=" />
+                <RuleParameter Name="EndsWith" Value="_" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="{{QueryStringParam537.ver}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pe" Value="{{WebServer18}}%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pf" Value="{{WebServer7}}%2F" RecordedValue="http%3A%2F%2Fwww.usga.org%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ra" Value="5775689285170535" RecordedValue="5775689285170535" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c5026025-ccee-498c-b89e-a0b6637be690" Version="1.1" Url="{{WebServer9}}/pagead/viewthroughconversion/961032657/" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.co.in/ads/user-lists/961032657/?fmt=1&amp;num=1&amp;cv=8&amp;frm=2&amp;url=http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue&amp;ref=http%3A//www.usga.org/&amp;random=972732775&amp;ipr=y" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="random" Value="1455690169243" RecordedValue="1455690169243" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fst" Value="1455690169243" RecordedValue="1455690169243" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_h" Value="1219" RecordedValue="1219" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_w" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_ah" Value="1162" RecordedValue="1162" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_aw" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_his" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ref" Value="http%3A//www.usga.org/" RecordedValue="http%3A//www.usga.org/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="210d8cfb-f21c-49d8-8363-43c2b2f4b411" Version="1.1" Url="{{WebServer16}}/gscounters.sendReport" ThinkTime="43" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690168861%22%2C%22reportData%22%3A%7B%22sref%22%3A%22{{WebServer7}}%2F%22%7D%7D%2C%7B%22name%22%3A%22load%22%2C%22time%22%3A%221455690169412%22%2C%22source%22%3A%22showLoginUI%22%2C%22reportData%22%3A%7B%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690168861%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Fwww.usga.org%2F%22%7D%7D%2C%7B%22name%22%3A%22load%22%2C%22time%22%3A%221455690169412%22%2C%22source%22%3A%22showLoginUI%22%2C%22reportData%22%3A%7B%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R3612666608" RecordedValue="R3612666608" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Comment CommentText="clicking on sign in" />
+        <Request Method="POST" Guid="6fd3cc22-2405-43ef-88f7-f322e9e5861e" Version="1.1" Url="{{WebServer17}}/Login.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2315.gtmAccountId" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="1455690167912" RecordedValue="1455690167912" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam2.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="campaign" Value="true" RecordedValue="true" CorrelationBinding="{{QueryStringParam3.campaign}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody>
+            <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUKLTk3MzM2NzQwN2QYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFIGN0bDAwJENvbnRlbnQkcmVtZW1iZXJNZUNoZWNrQm94ZMLxqNtIbq2Xsi68M2hML5qOzyg=" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="C2EE9ABB" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEWBQKUt6eCCwLF4ojZDQLjxJeQAgKzmYvXDwL78YG1BfassGCU4zkZtDfy3jE+k5TvImpE" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$emailTextBox" Value="pttesttwo12@gmail.com" RecordedValue="pttesttwo12@gmail.com" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$passwordTextBox" Value="Deloitte.1" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$loginButton" Value="Sign In" RecordedValue="Sign In" CorrelationBinding="{{FormPostParam1.ctl00$Content$loginButton}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="0ec20859-db80-4a25-adf4-767a635ce36e" Version="1.1" Url="{{WebServer6}}/ca.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ver" Value="9" RecordedValue="9" CorrelationBinding="{{QueryStringParam950.ver}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rb" Value="19027" RecordedValue="19027" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ca" Value="20667643" RecordedValue="20667643" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pe" Value="{{WebServer18}}%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pf" Value="{{WebServer18}}%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A%2F%2Faccount.usga.org%2FLogin.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ra" Value="06964496566587147" RecordedValue="06964496566587147" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="41fe1f99-cfeb-4b12-ace1-2894983dd525" Version="1.1" Url="{{WebServer9}}/pagead/viewthroughconversion/961032657/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="random" Value="1455690225411" RecordedValue="1455690225411" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fst" Value="1455690225411" RecordedValue="1455690225411" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_h" Value="1219" RecordedValue="1219" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_w" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_ah" Value="1162" RecordedValue="1162" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_aw" Value="1524" RecordedValue="1524" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_his" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_tz" Value="330" RecordedValue="330" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ref" Value="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" RecordedValue="http%3A//account.usga.org/Login.aspx%3F1455690167912%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3Dtrue" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e2a22ab1-9374-4843-9417-5711b3be7c11" Version="1.1" Url="{{WebServer19}}/socialize.notifyLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="sessionExpiration" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authCode" Value="VC1_C1D17DE8ADE5D0DA022D777C9811D770_sarGM6SqwPZJN-gujWNYrnRb6YJ-MjofYjMAdgnXVqbVww3ncYnQWkSC7Z4sLMpHrKTs-C7119AJQnWgkjzA8EbvcpGyNlJ2jj-0ADYY_-bFY0n-K2c046qMrk8JKl1atptJNcGyZkzmuj3XXf1kAI8Xzm8S2mA-vVLWDKDt9EHVvCtBCFVE02pUT-ti_m8rrtJ7f1zpS8UPN8zFA3Qrrg%3D%3D" RecordedValue="VC1_C1D17DE8ADE5D0DA022D777C9811D770_sarGM6SqwPZJN-gujWNYrnRb6YJ-MjofYjMAdgnXVqbVww3ncYnQWkSC7Z4sLMpHrKTs-C7119AJQnWgkjzA8EbvcpGyNlJ2jj-0ADYY_-bFY0n-K2c046qMrk8JKl1atptJNcGyZkzmuj3XXf1kAI8Xzm8S2mA-vVLWDKDt9EHVvCtBCFVE02pUT-ti_m8rrtJ7f1zpS8UPN8zFA3Qrrg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R893182642" RecordedValue="R893182642" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="905e53a3-3c89-47f4-89dc-72bfa0b0b065" Version="1.1" Url="{{WebServer19}}/socialize.getUserInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R697004265" RecordedValue="R697004265" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_QgO87WHT2cNEVMvqYLMf1YyMi0EsYaMbKujFfJWFVuE" RecordedValue="LT3_QgO87WHT2cNEVMvqYLMf1YyMi0EsYaMbKujFfJWFVuE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e6b75f42-fdb5-4eb5-8259-60369a28a6f3" Version="1.1" Url="{{WebServer19}}/socialize.getUserInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R1814103085" RecordedValue="R1814103085" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_QgO87WHT2cNEVMvqYLMf1YyMi0EsYaMbKujFfJWFVuE" RecordedValue="LT3_QgO87WHT2cNEVMvqYLMf1YyMi0EsYaMbKujFfJWFVuE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="40c6bad9-cbee-468b-8ede-1d5e25c8ca0f" Version="1.1" Url="{{WebServer17}}/LoginValidate.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/Login.aspx?1455690167912&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=true" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.ctl00$Content$gigyaIdField" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="id&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ui" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <FormPostHttpBody>
+            <FormPostParameter Name="LoginSuccessUrl" Value="{{$HIDDEN1.LoginSuccessUrl}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="UID" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="UIDSignature" Value="H/ubAxEaBcwNnEueSPmffJIv+lA=" RecordedValue="H/ubAxEaBcwNnEueSPmffJIv+lA=" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="SignatureTimestamp" Value="1455690226" RecordedValue="1455690226" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="23eccc0c-13b2-4220-bc75-2cd72067d329" Version="1.1" Url="{{WebServer19}}/socialize.notifyLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/LoginValidate.aspx" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="siteUID" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UIDTimestamp" Value="1455690226" RecordedValue="1455690226" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UIDSig" Value="H%2FubAxEaBcwNnEueSPmffJIv%2BlA%3D" RecordedValue="H%2FubAxEaBcwNnEueSPmffJIv%2BlA%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sessionExpiration" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R164294419" RecordedValue="R164294419" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="82b97076-90b8-4702-8a50-9b4ef5f15981" Version="1.1" Url="{{WebServer20}}/accounts.getAccountInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="include" Value="profile%2Cdata%2C" RecordedValue="profile%2Cdata%2C" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="extraProfileFields" Value="address%2Cphones" RecordedValue="address%2Cphones" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R2452641462" RecordedValue="R2452641462" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="fc1f0d76-8c74-406a-8174-35d2ac361901" Version="1.1" Url="{{customname}}/ds.get" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="Member" RecordedValue="Member" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="oid" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R4183504404" RecordedValue="R4183504404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Comment CommentText="login success" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Edit profile transaction">
+      <Items>
+        <Request Method="GET" Guid="6930d9a7-26ac-4ea9-8b36-bebb4da7fc62" Version="1.1" Url="{{WebServer17}}/MemberProfile.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="6bea4dd8-353d-4450-bdd4-b261788fb622" Version="1.1" Url="{{WebServer20}}/accounts.getAccountInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab={currentTab}&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="include" Value="profile%2Cdata%2Cidentities-active%2C" RecordedValue="profile%2Cdata%2Cidentities-active%2C" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="extraProfileFields" Value="address%2Cphones" RecordedValue="address%2Cphones" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="cid" Value="OMNI_EXAMPLE" RecordedValue="OMNI_EXAMPLE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="context" Value="R3070057948" RecordedValue="R3070057948" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer1}}/" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam7.currentTab" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?currentTab=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam8.gtmAccountId" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="currentTab" Value="{currentTab}" RecordedValue="{currentTab}" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam2315.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="campaign" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="67da6d53-6be9-41f1-bcc8-89a8169b063d" Version="1.1" Url="{{customname}}/ds.get" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab={currentTab}&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="Member" RecordedValue="Member" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="oid" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R4183504404" RecordedValue="R4183504404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="401bd8d2-775c-42f5-a82b-9c58730a56d5" Version="1.1" Url="{{WebServer17}}/MemberProfile.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab={currentTab}&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5.currentTab" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?currentTab=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam6.gtmAccountId" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&amp;amp;gtmAccountId=" />
+                <RuleParameter Name="EndsWith" Value="&amp;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.ctl00$Content$AccountInformationControl$accountInfoFormView$firstNameTextBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="Name" Value="ctl00_Content_AccountInformationControl_accountInfoFormView_firstNameTextBox" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.ctl00$Content$AccountInformationControl$accountInfoFormView$emailTextBox" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="Name" Value="ctl00_Content_AccountInformationControl_accountInfoFormView_emailTextBox" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="currentTab" Value="%7bcurrentTab%7d" RecordedValue="%7bcurrentTab%7d" CorrelationBinding="{{QueryStringParam7.currentTab}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam8.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="campaign" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody>
+            <FormPostParameter Name="__EVENTTARGET" Value="ctl00$Content$AccountInformationControl$accountInfoFormView$editButton" RecordedValue="ctl00$Content$AccountInformationControl$accountInfoFormView$editButton" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="E42B1C3B" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="gpH3wuK6cQbaunpMqiJ+wTqImG/AUhCh3Qq+xBMTFCob7bMrp1ekjjBCs41m0Ck/UieNehVxFV7dsiNVwcV7Wy58w2aZGXtfF+6E/wWt1SNb0YI/4puntrG1bfx8tg8KlO+YkHtuFi9WDgjUjaqBs9XfCRFto8iF9xRpfR0PaHW8ZZtMLKq1NkCXD351Ojbw4Jo4kPD/LPlmI1xDyUcO9pTuayUNv0Dn5SA7HdpkiITP6D2+2L74RlD2XoHyLYymfBP+O+9WEH7Gmqj4iBnMaMr0pStYfeKtNEqSRrEaiEuPx9Dy4ofqoqoTF0WOpwgpfSCucFEQxtncJJhiY6gpk/4i2emx/DL8/Ay8aAZAOtogLByZE82xqFVebEOdDybPSNkXs2U4ZupzzjZRQ03niHRfxD8=" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$oldPasswordTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$newPasswordTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$confirmNewPasswordTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$mobileTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam5.ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam6.ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam7.ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam8.ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$GolferInformationControl$levelList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$GolferInformationControl$numberOfRoundsList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$gigyaIdField" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="{{FormPostParam4.ctl00$Content$gigyaIdField}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$uidSignatureField" Value="hgV50nStPVuiRTbGm8zJIS9+qxs=" RecordedValue="hgV50nStPVuiRTbGm8zJIS9+qxs=" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$signatureTimestampField" Value="1455690249" RecordedValue="1455690249" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="ba2dd4a3-dac0-401d-b5c2-db22bec950eb" Version="1.1" Url="{{WebServer20}}/accounts.getAccountInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="include" Value="profile%2Cdata%2Cidentities-active%2C" RecordedValue="profile%2Cdata%2Cidentities-active%2C" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="extraProfileFields" Value="address%2Cphones" RecordedValue="address%2Cphones" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cid" Value="OMNI_EXAMPLE" RecordedValue="OMNI_EXAMPLE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R3070057948" RecordedValue="R3070057948" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b35b7cf2-a830-4cce-993e-0546d27c5b0b" Version="1.1" Url="{{customname}}/ds.get" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="type" Value="Member" RecordedValue="Member" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="oid" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R4183504404" RecordedValue="R4183504404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="15d57131-5f86-442a-b6fe-8d27f90c09bf" Version="1.1" Url="{{WebServer16}}/gscounters.sendReport" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690253740%22%2C%22reportData%22%3A%7B%22sref%22%3A%22{{WebServer18}}%2FMemberProfile.aspx%3FcurrentTab%3D%7BcurrentTab%7D%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3D%22%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690253740%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Faccount.usga.org%2FMemberProfile.aspx%3FcurrentTab%3D%7BcurrentTab%7D%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3D%22%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R3710288902" RecordedValue="R3710288902" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="164739c2-7621-496b-b0d8-c8099d004cee" Version="1.1" Url="{{WebServer17}}/MemberProfile.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="161e5d02-0b2f-4a84-9eed-a8920dbb580d" Version="1.1" Url="{{WebServer20}}/accounts.getAccountInfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="include" Value="profile%2Cdata%2Cidentities-active%2C" RecordedValue="profile%2Cdata%2Cidentities-active%2C" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="extraProfileFields" Value="address%2Cphones" RecordedValue="address%2Cphones" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="cid" Value="OMNI_EXAMPLE" RecordedValue="OMNI_EXAMPLE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="context" Value="R3070057948" RecordedValue="R3070057948" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="ea65e0e2-11ac-4c26-aea2-5ff635ec9def" Version="1.1" Url="{{customname}}/ds.get" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="type" Value="Member" RecordedValue="Member" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="oid" Value="c6c145589d5048699e83ec342f7fac70" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="context" Value="R4183504404" RecordedValue="R4183504404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="login_token" Value="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" RecordedValue="LT3_7T_k0o3-Lh-IKXQdSeIbYwd7up1EyHZl2Sm-RjdyXd4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="authMode" Value="cookie" RecordedValue="cookie" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="currentTab" Value="%7bcurrentTab%7d" RecordedValue="%7bcurrentTab%7d" CorrelationBinding="{{QueryStringParam5.currentTab}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gtmAccountId" Value="GTM-T4VLP7" RecordedValue="GTM-T4VLP7" CorrelationBinding="{{QueryStringParam6.gtmAccountId}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="email" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="campaign" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody>
+            <FormPostParameter Name="__EVENTTARGET" Value="ctl00$Content$AccountInformationControl$accountInfoFormView$saveButton" RecordedValue="ctl00$Content$AccountInformationControl$accountInfoFormView$saveButton" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="E42B1C3B" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="4WO6B97UJXTK0jl1UK1p0SWZiWo0lqtZyQNMEYr2PppVCzvTmh72LKcSr96mLuwhreenSg88Fl12JxgtIavFfdHIjSR86Jw3KX8/cpBxf+N8NCLUn5mGDS2iN/K5DRM37JjRYgO7ml7kd4KHHMHHPKY2m3goASH+3pM4Xw9SG7y4C6KSdrxMPVdOT2BJ9uWpz+G9L/2dTnC3qkQBhjGDQdoCvy/9kvmJrod+3ThVXr0knetSAFWH4/F8pVQ8XsMurIhdreg4XnsZ8uilNvQlAs6OHNQji3Me2kCJ/KQUJPh7Bci6/Ft0bCmFHXa3WlbtdeCpbve48dkem3o+6DolzweKTbpHmntixyUwsAl6t3dAm3N+GCBULiJYyZdAZW9MmiMxTuEeXVnF32e9UF7tp/Oxe6T4QrFV90dltEUnqdYZJuekcnipHXpSZ9VIhW1mvIPNgD45Z1P/HoLkNzKgoQSrBVC42tHrjaN6KqqwFJq1zp0UlyuEs4Y1IOerlXNRCoru+pMkRjuXiXswurHVEvnCumx9/Oj/EynpNBFHYwkX59wtUsReBo/v64TQAC/+TolNZ1MW/wO7pXKAchnP0nFTSCsPnhn8YDdo8Y/ohbQWZRVVlmQas3iZfto+S9NLvaQ+dYv30g93r1kpuai9ZG95UgzbWznjgw/UmuwJoBmESNIKI1qtCR+eM84hhFBHNJfL8/NaY2sqFsAeFFKx87Uk3x0GHmM7ni2NPjx5XAsTjIdnvAfCq7weCA2ugA8ijILqg3OAfy09kK/lL6NQZvRhGrhqmQlKKrCZ5qJ+U3q4iwKxr7x5gtrx3qWIJG3Pd4ZPGkMw1AQ8F/UtJDZOdLN3sMPe8T7l5nYpjrl3CD4+rCLYa2ybuj/zGTvT0RIg3JkUKkfJ2n87V+WEATwlFfHG9X0q3mRcgCAm8y8q6/nm/uGOwHYBc9EReNTA2bJxcZ3Qm7FxqzV8v4HBvZyqT72p/ffwWLcVEyeq4OHoGjPZzhR4UDKdjLxgGfGPWr/eCJo4GAEl2SBUKK+grifKdV/woMc/EOphAf4x4SSiSNnPljvhBizanH/ozD2/wngzHlFOY05G+CgsAzwlPmg56x3ngvSnAARDyQy2b/IpzrERuzU00xnEU7NX4evw/siULLwdC++tpMFKe+o2zHD5tHyMus4HZewy1c1x3sSEy1dG9YrGCfU/Wb3xQpkwXJNRbOgZBEd0WSmE+kxZ+A0MSlKE+E3DmzsqaDsUYq37TK5i+stYQ3WH5p7woothgrcQ1htWcVY43ilj5xI2Wk9YDyTxj1Fb/UBdb05dW8Fhy41buYDzEgjroM7EWIFjf9kjI/4inR/fXFeL1044+c2De/PQuKaaJ0BpwF+QaUxzyrs4K+T7jASWmA25hqLJMAsHsmo6AxAaGn7k2wGApN9R2ULuF0XbJiJaNgG+wMMWsaFKIRpfOOIjzrsnGdCCqseonyarsRNJra+bsP091+iUCO+C8317KdU4he47h9OjQur5BlEAO1m8aXHm0EX+KimMGtECHHiLZZZh+q/tXVeEzWtAiTe1+1QNb6Xj1OoQwhppnUvZf/r1dk5/POuxx7tsAWWvRdIJWNFmQKs7k1iQ11HjTmP2jJAr+DZjx3QQexzIzqwE+9Bpc8H630/ydxF4PnJHyS+Vc7ohFfhm3jutdyCnDx2Entut5vCKPnXSWFBpoxW+" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$prefixList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$firstNameTextBox" Value="anujnew" RecordedValue="anujnew" CorrelationBinding="{{FormPostParam2.ctl00$Content$AccountInformationControl$accountInfoFormView$firstNameTextBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$middleTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$lastNameTextBox" Value="loadFeba" RecordedValue="loadFeba" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$suffixList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$AccountInformationControl$accountInfoFormView$emailTextBox" Value="pttesttwo12@gmail.com" RecordedValue="pttesttwo12@gmail.com" CorrelationBinding="{{FormPostParam3.ctl00$Content$AccountInformationControl$accountInfoFormView$emailTextBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$mobileTextBox" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam9.ctl00$Content$CommunicationInformationControl$newsletterViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam10.ctl00$Content$CommunicationInformationControl$specialInvitesViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam11.ctl00$Content$CommunicationInformationControl$specialOffersViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox" Value="on" RecordedValue="on" CorrelationBinding="{{FormPostParam12.ctl00$Content$CommunicationInformationControl$updatesViaEmailCheckBox}}" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$GolferInformationControl$levelList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$GolferInformationControl$numberOfRoundsList" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$gigyaIdField" Value="{{$HIDDEN1.ctl00$Content$gigyaIdField}}" RecordedValue="c6c145589d5048699e83ec342f7fac70" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$uidSignatureField" Value="nhM1zuIILfNMbEkTglJNfLOgGqE=" RecordedValue="nhM1zuIILfNMbEkTglJNfLOgGqE=" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ctl00$Content$signatureTimestampField" Value="1455690255" RecordedValue="1455690255" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="07aa1366-032e-489e-b54c-228cc5b12d1f" Version="1.1" Url="{{WebServer16}}/gscounters.sendReport" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{WebServer17}}/MemberProfile.aspx?currentTab=%7bcurrentTab%7d&amp;gtmAccountId=GTM-T4VLP7&amp;email=&amp;campaign=" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="reports" Value="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690266711%22%2C%22reportData%22%3A%7B%22sref%22%3A%22{{WebServer18}}%2FMemberProfile.aspx%3FcurrentTab%3D%257bcurrentTab%257d%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3D%22%7D%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22loadc%22%2C%22time%22%3A%221455690266711%22%2C%22reportData%22%3A%7B%22sref%22%3A%22http%3A%2F%2Faccount.usga.org%2FMemberProfile.aspx%3FcurrentTab%3D%257bcurrentTab%257d%26gtmAccountId%3DGTM-T4VLP7%26email%3D%26campaign%3D%22%7D%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="APIKey" Value="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" RecordedValue="3_2XjOryTsvLPQvhvmmwB8TY-OB_6VT05LD5NVNZjYl1TTvIhq_2kEmKcC9MG1LbVw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sdk" Value="js_6.1" RecordedValue="js_6.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="format" Value="jsonp" RecordedValue="jsonp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="gigya._.apiAdapters.web.callback" RecordedValue="gigya._.apiAdapters.web.callback" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="context" Value="R736971110" RecordedValue="R736971110" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="closing" />
+  </Items>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://www.usga.org" />
+    <ContextParameter Name="WebServer10" Value="http://platform.twitter.com" />
+    <ContextParameter Name="WebServer11" Value="http://staticxx.facebook.com" />
+    <ContextParameter Name="WebServer12" Value="https://staticxx.facebook.com" />
+    <ContextParameter Name="WebServer13" Value="http://www.facebook.com" />
+    <ContextParameter Name="WebServer14" Value="http%3A%2F%2Fstaticxx.facebook.com" />
+    <ContextParameter Name="WebServer15" Value="https%3A%2F%2Fwww.facebook.com" />
+    <ContextParameter Name="WebServer16" Value="http://gscounters.us1.gigya.com" />
+    <ContextParameter Name="WebServer17" Value="http://account.usga.org" />
+    <ContextParameter Name="WebServer18" Value="http%3A%2F%2Faccount.usga.org" />
+    <ContextParameter Name="WebServer19" Value="https://socialize.us1.gigya.com" />
+    <ContextParameter Name="WebServer2" Value="http://fonts.gstatic.com" />
+    <ContextParameter Name="WebServer20" Value="https://accounts.us1.gigya.com" />
+    <ContextParameter Name="customname" Value="https://ds.us1.gigya.com" />
+    <ContextParameter Name="WebServer3" Value="http://www.google.com" />
+    <ContextParameter Name="WebServer4" Value="https://www.googleapis.com" />
+    <ContextParameter Name="WebServer5" Value="http://clients1.google.com" />
+    <ContextParameter Name="WebServer6" Value="http://20667643p.rfihub.com" />
+    <ContextParameter Name="WebServer7" Value="http%3A%2F%2Fwww.usga.org" />
+    <ContextParameter Name="WebServer8" Value="https://3679066.fls.doubleclick.net" />
+    <ContextParameter Name="WebServer9" Value="https://googleads.g.doubleclick.net" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

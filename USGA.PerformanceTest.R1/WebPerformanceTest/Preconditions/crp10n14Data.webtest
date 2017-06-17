@@ -1,0 +1,1512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="crp10n14Data" Id="2e517fd3-b019-47b0-b6d9-a64f36184196" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest4.8b1d744b-a73c-46a0-bf07-3313c75b5da5.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <TransactionTimer Name="Signout till Dashboard">
+      <Items>
+        <TransactionTimer Name="SignIn New">
+          <Items>
+            <Request Method="GET" Guid="aea73730-9bff-42e8-a8ea-816b47958ef1" Version="1.1" Url="{{AppServ}}/Account/SignIn" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.microsoftonline.com/usgaghin.onmicrosoft.com/oauth2/authorize?client_id=bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4&amp;redirect_uri=https:%2f%2flogin.microsoftonline.com%2fte%2fusgaghin.onmicrosoft.com%2foauth2%2fauthresp&amp;response_type=id_token&amp;scope=email+openid&amp;response_mode=query&amp;nonce=B1K0D5qUBCyIsrTtwPpXgQ%3d%3d&amp;nux=1&amp;nca=1&amp;domain_hint=usgaghin.onmicrosoft.com&amp;prompt=login&amp;mkt=en-US&amp;lc=1033&amp;state=eyJUIjoiOTI5MWI1Y2ItMjI3OS00MWYwLWFlZmQtOWQyODIwYjk4Zjg1IiwiUiI6ImU5NzdkOTdlLTJmNTAtNDhhZS1hMjk3LWQzMjUwYjk3YTYxMSJ9" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{AppServ}}/#/home" />
+              </Headers>
+              <ExtractionRules>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+                  <RuleParameters>
+                    <RuleParameter Name="Required" Value="True" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                  </RuleParameters>
+                </ExtractionRule>
+              </ExtractionRules>
+              <CorrelationExtractionRules>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.n19" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.n20" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.n21" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.n22" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.n23" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.n25" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.n26" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.n27" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.n28" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.n31" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.n32" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.n33" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam13.n34" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14.n35" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam15.n36" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam16.n37" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam17.n38" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam18.n39" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="4" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam19.type" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+                    <RuleParameter Name="Index" Value="5" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam20.LoginOptions" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; hre" />
+                    <RuleParameter Name="Index" Value="1" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam21.NewUser" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam22.idsbho" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam23.uiver" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam24.i12" DisplayName="" Description="">
+                  <RuleParameters>
+                    <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+                    <RuleParameter Name="EndsWith" Value="&quot; id=" />
+                    <RuleParameter Name="Index" Value="0" />
+                    <RuleParameter Name="IgnoreCase" Value="False" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                    <RuleParameter Name="Required" Value="False" />
+                  </RuleParameters>
+                </ExtractionRule>
+              </CorrelationExtractionRules>
+            </Request>
+            <Request Method="POST" Guid="de591201-5f12-486b-aa84-4905b98efe20" Version="1.1" Url="{{MSLogin}}/usgaghin.onmicrosoft.com/login" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{MSLogin}}/te/usgaghin.onmicrosoft.com/oauth2/authresp?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kYmQ3NWQwYS1jZTg5LTRiMDEtYTNmZS1jOTU4NTNmOTcyMjEvIiwiaWF0IjoxNDM5MzcwMjk0LCJuYmYiOjE0MzkzNzAyOTQsImV4cCI6MTQzOTM3NDE5NCwidmVyIjoiMS4wIiwidGlkIjoiZGJkNzVkMGEtY2U4OS00YjAxLWEzZmUtYzk1ODUzZjk3MjIxIiwib2lkIjoiNDVjODc3OTAtMGM0MC00ZDYzLWE3NWMtODAyYTVjNTMzNWVmIiwidXBuIjoiYW51amtzaGFybWFfZGVsb2l0dGUuY29tI0VYVCNAdXNnYWdoaW4ub25taWNyb3NvZnQuY29tIiwicHVpZCI6IjEwMDMzRkZGOTMyOTE4NzIiLCJzdWIiOiI5c2E4OFBlY2VNRm5PblZVdXFNbVQyMGM2Y1M3TDJIRmxwUlpOVWxudzkwIiwibmFtZSI6InVua25vd24iLCJhbXIiOlsicHdkIl0sInVuaXF1ZV9uYW1lIjoiYW51amtzaGFybWFfZGVsb2l0dGUuY29tI0VYVCNAdXNnYWdoaW4ub25taWNyb3NvZnQuY29tIiwibm9uY2UiOiJCMUswRDVxVUJDeUlzclR0d1BwWGdRPT0ifQ.tnATrq4nyhfrUcgkYZ4pQbvLKRxGjZVaYokpbjuruWrytfl5aXGuF4MUlqPwdIBz14RS5xFzxm9PEs2OG3u0Ici-X9vr6OEtDyRfrTxWsivAIRforDlxWqpQOhpPIIxYZ1c_VcSMV08w7eAo1YsMqXZ9lC7CoEheXeIAzAHhAfaRtFfHisJSgN5DeImFTKVpLhDWPcFhZdDiebRy_mlcgOaaC5ymCcX0QpjyTfSFM4WU9ZqN-k0oVuk6B7PaR2XWzHHrfTmFzH4EbLZQ1hq6Ad-4omwCoT9xveUrJWMAyxd2UOvv8OsNiLvot4JIjmET468HwL1X6MpqEw4b3SnApw&amp;state=eyJUIjoiOTI5MWI1Y2ItMjI3OS00MWYwLWFlZmQtOWQyODIwYjk4Zjg1IiwiUiI6ImU5NzdkOTdlLTJmNTAtNDhhZS1hMjk3LWQzMjUwYjk3YTYxMSJ9&amp;session_state=353cd7b2-bed4-4f17-93c1-87a6f7933730" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{MSLogin}}/usgaghin.onmicrosoft.com/oauth2/authorize?client_id=bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4&amp;redirect_uri=https:%2f%2flogin.microsoftonline.com%2fte%2fusgaghin.onmicrosoft.com%2foauth2%2fauthresp&amp;response_type=id_token&amp;scope=email+openid&amp;response_mode=query&amp;nonce=B1K0D5qUBCyIsrTtwPpXgQ%3d%3d&amp;nux=1&amp;nca=1&amp;domain_hint=usgaghin.onmicrosoft.com&amp;prompt=login&amp;mkt=en-US&amp;lc=1033&amp;state=eyJUIjoiOTI5MWI1Y2ItMjI3OS00MWYwLWFlZmQtOWQyODIwYjk4Zjg1IiwiUiI6ImU5NzdkOTdlLTJmNTAtNDhhZS1hMjk3LWQzMjUwYjk3YTYxMSJ9" />
+              </Headers>
+              <ExtractionRules>
+                <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+                  <RuleParameters>
+                    <RuleParameter Name="Required" Value="True" />
+                    <RuleParameter Name="HtmlDecode" Value="True" />
+                  </RuleParameters>
+                </ExtractionRule>
+              </ExtractionRules>
+              <FormPostHttpBody>
+                <FormPostParameter Name="login" Value="{{CM1DS.CM1UserLogin#csv.ï»¿UserName}}" RecordedValue="anujksharma@deloitte.com" CorrelationBinding="{{FormPostParam49.login}}" UrlEncode="True" />
+                <FormPostParameter Name="passwd" Value="{{CM1DS.CM1UserLogin#csv.Password}}" RecordedValue="Deloitte.1" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="ctx" Value="{{$HIDDEN1.ctx}}" RecordedValue="rQIIAa1RMW_TQBTW2c0AqkSFhNSRoROSY58vjpNKHVqiShfimCi2jLM59tk-x75L7YtCMjHDhpjCglRVQmWDBfUnMHVEiIkJMfILiEFiQd0Y3je8731P33vfAxk24eHBdKoHOkGBEhrEVFqxFiidDtGUbcE4QnEI41Z59_beu7bYe33x1X7x9lXCzsWHDdhfVEmQpJQ1OStoWPKKx6IZ8uISWKkQ8-pQVXOebPm_LGc5ZaSeUQVRb9KrPFiIVFdrLEk1_wjANQDfAXgmgefSDtQQ2kgNwhR3_EYCl9L-CXyk9Ywz9-ThClelI5aP50-S0dHRF-mOfVyvqoGXdE2-_dP5ITV-m_wpNc4WpFy9lO_xOWE0CjljJBRNGgk-I2wjC7Lquzjj1HawYXkY-joWVoaRPdY0y_OXA-80nxQjYXujld3DSz-btSZZAjFdUpfiNi5cY7iOZrYT5QOnXwydYzHspelkDFMrm6GBN1pbmVvrkO_4T61xv_tevvHNV_IBMlAYmVNdmZKotQ0PmkoXhVDpmEE7NrsImUj7JO-SIqD5_T9nfZbB9Q64uvV_I_oF0" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="flowToken" Value="{{$HIDDEN1.flowToken}}" RecordedValue="AAABAAEAiL9Kn2Z27UubvWFPbm0gLRUJo-7nO6o2eD81OFS7WrXBeTXKgfbBUrZuWw62-S8T-r8w4gu_qWMXcvPRwj9iX7XQ29R4B0iPrrQu_AJ66MQgAA" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n1" Value="105919" RecordedValue="105919" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n2" Value="-1439370474000" RecordedValue="-1439370474000" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n3" Value="-1439370474000" RecordedValue="-1439370474000" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n4" Value="106806" RecordedValue="106806" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n5" Value="106806" RecordedValue="106806" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n6" Value="106806" RecordedValue="106806" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n7" Value="106806" RecordedValue="106806" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n8" Value="NaN" RecordedValue="NaN" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n9" Value="106806" RecordedValue="106806" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n10" Value="106807" RecordedValue="106807" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n11" Value="106807" RecordedValue="106807" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n12" Value="106810" RecordedValue="106810" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n13" Value="106807" RecordedValue="106807" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n14" Value="107018" RecordedValue="107018" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n15" Value="87" RecordedValue="87" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n16" Value="107108" RecordedValue="107108" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n17" Value="107109" RecordedValue="107109" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n18" Value="107126" RecordedValue="107126" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n19" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam1.n19}}" UrlEncode="True" />
+                <FormPostParameter Name="n20" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam2.n20}}" UrlEncode="True" />
+                <FormPostParameter Name="n21" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam3.n21}}" UrlEncode="True" />
+                <FormPostParameter Name="n22" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam4.n22}}" UrlEncode="True" />
+                <FormPostParameter Name="n23" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam5.n23}}" UrlEncode="True" />
+                <FormPostParameter Name="n24" Value="25.260600000000067" RecordedValue="25.260600000000067" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n25" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam6.n25}}" UrlEncode="True" />
+                <FormPostParameter Name="n26" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam7.n26}}" UrlEncode="True" />
+                <FormPostParameter Name="n27" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam8.n27}}" UrlEncode="True" />
+                <FormPostParameter Name="n28" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam9.n28}}" UrlEncode="True" />
+                <FormPostParameter Name="n29" Value="28.14949999999999" RecordedValue="28.14949999999999" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n30" Value="0.045200000000022555" RecordedValue="0.045200000000022555" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n31" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam10.n31}}" UrlEncode="True" />
+                <FormPostParameter Name="n32" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam11.n32}}" UrlEncode="True" />
+                <FormPostParameter Name="n33" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam12.n33}}" UrlEncode="True" />
+                <FormPostParameter Name="n34" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam13.n34}}" UrlEncode="True" />
+                <FormPostParameter Name="n35" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam14.n35}}" UrlEncode="True" />
+                <FormPostParameter Name="n36" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam15.n36}}" UrlEncode="True" />
+                <FormPostParameter Name="n37" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam16.n37}}" UrlEncode="True" />
+                <FormPostParameter Name="n38" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam17.n38}}" UrlEncode="True" />
+                <FormPostParameter Name="n39" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam18.n39}}" UrlEncode="True" />
+                <FormPostParameter Name="n40" Value="1208.8264" RecordedValue="1208.8264" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n41" Value="1210.7608" RecordedValue="1210.7608" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n42" Value="1155.2848" RecordedValue="1155.2848" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="n43" Value="1207.788" RecordedValue="1207.788" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="type" Value="11" RecordedValue="11" CorrelationBinding="{{FormPostParam19.type}}" UrlEncode="True" />
+                <FormPostParameter Name="LoginOptions" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam20.LoginOptions}}" UrlEncode="True" />
+                <FormPostParameter Name="NewUser" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam21.NewUser}}" UrlEncode="True" />
+                <FormPostParameter Name="idsbho" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam22.idsbho}}" UrlEncode="True" />
+                <FormPostParameter Name="PwdPad" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="sso" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="vv" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="uiver" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam23.uiver}}" UrlEncode="True" />
+                <FormPostParameter Name="i12" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam24.i12}}" UrlEncode="True" />
+                <FormPostParameter Name="i13" Value="Firefox" RecordedValue="Firefox" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="i14" Value="11.0" RecordedValue="11.0" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="i15" Value="1158" RecordedValue="1158" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="i16" Value="770" RecordedValue="770" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="i20" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+              </FormPostHttpBody>
+            </Request>
+            <Request Method="POST" Guid="e1ab9f78-8a40-48c6-bace-bbcd0604c167" Version="1.1" Url="{{AppServ}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="{{MSLogin}}/te/usgaghin.onmicrosoft.com/oauth2/authresp?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJiYjJhMmUzYS1jNWU3LTRmMGEtODhlMC04ZTAxZmQzZmMxZjQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kYmQ3NWQwYS1jZTg5LTRiMDEtYTNmZS1jOTU4NTNmOTcyMjEvIiwiaWF0IjoxNDM5MzcwMjk0LCJuYmYiOjE0MzkzNzAyOTQsImV4cCI6MTQzOTM3NDE5NCwidmVyIjoiMS4wIiwidGlkIjoiZGJkNzVkMGEtY2U4OS00YjAxLWEzZmUtYzk1ODUzZjk3MjIxIiwib2lkIjoiNDVjODc3OTAtMGM0MC00ZDYzLWE3NWMtODAyYTVjNTMzNWVmIiwidXBuIjoiYW51amtzaGFybWFfZGVsb2l0dGUuY29tI0VYVCNAdXNnYWdoaW4ub25taWNyb3NvZnQuY29tIiwicHVpZCI6IjEwMDMzRkZGOTMyOTE4NzIiLCJzdWIiOiI5c2E4OFBlY2VNRm5PblZVdXFNbVQyMGM2Y1M3TDJIRmxwUlpOVWxudzkwIiwibmFtZSI6InVua25vd24iLCJhbXIiOlsicHdkIl0sInVuaXF1ZV9uYW1lIjoiYW51amtzaGFybWFfZGVsb2l0dGUuY29tI0VYVCNAdXNnYWdoaW4ub25taWNyb3NvZnQuY29tIiwibm9uY2UiOiJCMUswRDVxVUJDeUlzclR0d1BwWGdRPT0ifQ.tnATrq4nyhfrUcgkYZ4pQbvLKRxGjZVaYokpbjuruWrytfl5aXGuF4MUlqPwdIBz14RS5xFzxm9PEs2OG3u0Ici-X9vr6OEtDyRfrTxWsivAIRforDlxWqpQOhpPIIxYZ1c_VcSMV08w7eAo1YsMqXZ9lC7CoEheXeIAzAHhAfaRtFfHisJSgN5DeImFTKVpLhDWPcFhZdDiebRy_mlcgOaaC5ymCcX0QpjyTfSFM4WU9ZqN-k0oVuk6B7PaR2XWzHHrfTmFzH4EbLZQ1hq6Ad-4omwCoT9xveUrJWMAyxd2UOvv8OsNiLvot4JIjmET468HwL1X6MpqEw4b3SnApw&amp;state=eyJUIjoiOTI5MWI1Y2ItMjI3OS00MWYwLWFlZmQtOWQyODIwYjk4Zjg1IiwiUiI6ImU5NzdkOTdlLTJmNTAtNDhhZS1hMjk3LWQzMjUwYjk3YTYxMSJ9&amp;session_state=353cd7b2-bed4-4f17-93c1-87a6f7933730" />
+              </Headers>
+              <FormPostHttpBody>
+                <FormPostParameter Name="state" Value="{{$HIDDEN1.state}}" RecordedValue="OpenIdConnect.AuthenticationProperties=FMge_50NkEcp7-BdkKtFx4WuaVbtUo_DHlbhVla-q5L482LFNblk3XiVG7qpvK2_T5OOb5OppyIpG_DdeYj5svnqIs_qsrGmvj9L4QIO5bW7Pv01VpbxhD8CKYrJArO8VMYRV9ftVtD2FovNB9hJMGrO6UslNX0IWnVqNxw3Lqr_cW5jInuXnpzNI-YFfhcJoJ8I7mb7imHJ3M5t92bUtA" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="access_token" Value="{{$HIDDEN1.access_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZGJkNzVkMGEtY2U4OS00YjAxLWEzZmUtYzk1ODUzZjk3MjIxLyIsImF1ZCI6Imh0dHA6Ly91c2dhLWdoaW4td2ZlLXAxLmNsb3VkYXBwLm5ldC8iLCJleHAiOjE0MzkzNzQxOTcsIm5iZiI6MTQzOTM3MDU5Nywib2lkIjoiNDVjODc3OTAtMGM0MC00ZDYzLWE3NWMtODAyYTVjNTMzNWVmIiwibmFtZSI6InVua25vd24iLCJzdWIiOiJLaGFXeE5kNC9HS0hVVk1xN0F3MFY0bmk3a1RneXBrb0R5b052Mm5Gc3ljPSIsImVtYWlscyI6WyJhbnVqa3NoYXJtYUBkZWxvaXR0ZS5jb20iXSwibm9uY2UiOiI2MzU3NDk2NzM4MDcyNjkwODQuWm1JeU4yTmtOV0V0TkRnMk9TMDBNakpsTFdFek9UY3RPV1E1WmpNNVpHWmlNVE5sTlRSaE5qUXdZMk10TURKaFpTMDBOakl4TFdGak9EY3RNR1UxWW1RM01XVmhZemMwIiwidmVyIjoiMS4wIn0.L6mqeD742J6MDg5vttyMjyIsWktGgNctopAdxorfuwRIBc3AfS80_EDDNN21CZdeKc-kE2nI_ipI-YAAoCkAf3L-CwRL6F_nWbdhfgKn30F5sphk6qWq6fv-QmiDZnaSy9_djoRPSpPfqrFCIv7jLn4SDucCxa4efwnHq6pL2v02znpWu3ExyrnpcRBeuPw-CKVxdLh1zmORSV8qKaPLhBmR4zqScNEbGB36Vvup5f57s04i9N49mypGv0AskgZHA_x5Tes2fWXK1GupkXIRQLZQfsxasl9CaZ7E8n05DibmzfPcFtPpJwnXFWVwz6PcPnwPsUcUed-iVdJ904CU1Q" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="token_type" Value="{{$HIDDEN1.token_type}}" RecordedValue="Bearer" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="code" Value="{{$HIDDEN1.code}}" RecordedValue="AAQfQmvuDy8WtUv-sd0TBwWV4tZridKdncTi1-EdMlIaB5MmAVaw_AsNQooreJL_CZ-rHUMrRHM-VCvtIURHQkFuUluJwchGBaQvn_McK3JlcIQoC0yDgC5p8mjP8fN_RsxHcOvN13PvN2P3ife88328gQQAmRGnbxmsGzxcnimJSLx4CpPa7f6ohqFgnIV9dV6ZZre3koWxK8_k8oYvWj3owfMtkFK8utS1cTDXSth_hWjtQnGuM1uMRmJTJnW4gvedpyvKPrUoGq4Z9IcWBV57yVA6YaVtGAxLPu69NsZox82HJ0RSGDbFjGIBkfi1eaY1KpmiY7AJIV0CMrDZWDCPQeSZmgj8dNy9WHW3whrKBMniswxT6lnnqPE7wGrxsD5qN4hynOYcK-JHqpqeWBMzVNmxQ3nDg7Vme778aHJNSv1E99Jk5mlUx_bGc3eQ9S4BrINiW8auA9ivubXOxrEryZ00L5BRDi59hRFoi04dPJkTtl2LAyv-e-LmkLC_2i9H9WxmnTu8bzuXd06gTQ_FNMLKzNlSlB84tEdTwcqqW1lqhatLk1mQBkmIXyly1qsr4C0bDuGFGFRcRg29zfV1IktOKmfRQWL6a4jAcA8BoPGV_rfKjIsc7XPA_oDYviHMykeY9mZbVleqwr23HQ0UauieF9_wsAKToItd9fvzdDJJ2QI2JOunULsFfyXg1v3Z6TNPmwUVDD2FRb81a53cw_ZsCra7UJw_NctV0COffeWAGpSjmlJz1LRxBn7P_OKU0irXH4tTzBc7uY8AMod-ayVmlG7kG-UMdcr92Vsuginmg2-ccJlG4F02yKkUivberjY75EpcS_ksD4ShninRML4E-u1Gz2--zzody4V6oxg3LoldXCawM0o5Vq_CfcSRZEcT--JjvqntnQGlDB7ze63qCl8JRHYtla-oQVX-3_rfTDuAwB9TzFqqPPSUznDnYpkAvlDa2Nl6Rm4JEdwAoec6965sU092nb45QeAmhrn55J7SjV27CrRB61t8o7VmxBZ4FDn8VMwK_2J1Xo2VOvZajjQhviVDRHVmracARSaTC9-DNU7Efx-PaDJmWRbg-SVsOH_N2CbyD1gV2ySUmk6rpBs3w9u8UWy3MZyk3ZgXsnU_N-FOycNmE7bgG7uMjazvsofudhF7nhcUjSf_A0E3wxZ0zDjLYPgbKiTAjAZ0BPBN0Uf_kWj-jgR9w0IUraL3jgXPbnkELdTa38GUBw_XrIHQQ8xDXXqWoFFdd3v13hapYgdtYja9zUqurk1K1tQsOJn6hXXmWRi6OVXiJm0aOEG0igcZPENSukhbKj-VIP_phzYvjRGH73_Ha5jLnsnciW_MnRG677EJylq86LRqNsz6ArfXPyhhAqjwUa6dg2JR7IQSYYF5NBS0DmQVyLAN9ZPFy8mJJNlDwvgH9TjeDNNAcUwfjm102JvJatKjXH-PX-Ia8NQ46K5v4Celuu0SFL2NQGcyzyMdTsEr_FfreLaAbvwWCMOoN2-S0Ba2l7DAKgm6N3C6P2ec9oKQeUewR9G43ncBxwnunx-baB0C2P6_Zy67yeqt8juLtADrrCjgY_GOZJUoW8LPnOI" CorrelationBinding="" UrlEncode="True" />
+                <FormPostParameter Name="id_token" Value="{{$HIDDEN1.id_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IklkVG9rZW5TaWduaW5nS2V5Q29udGFpbmVyIn0.eyJleHAiOjE0MzkzNzQxOTcsIm5iZiI6MTQzOTM3MDU5NywidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tL2RiZDc1ZDBhLWNlODktNGIwMS1hM2ZlLWM5NTg1M2Y5NzIyMS8iLCJhY3IiOiJiMmNfMV9iMmNzaWduaW4iLCJzdWIiOiJLaGFXeE5kNC9HS0hVVk1xN0F3MFY0bmk3a1RneXBrb0R5b052Mm5Gc3ljPSIsImF1ZCI6ImRhMGFlNmRiLTRmNjYtNDJjMC04ZjRlLTBhOTdhMzhiZTRjMCIsIm5vbmNlIjoiNjM1NzQ5NjczODA3MjY5MDg0LlptSXlOMk5rTldFdE5EZzJPUzAwTWpKbExXRXpPVGN0T1dRNVpqTTVaR1ppTVRObE5UUmhOalF3WTJNdE1ESmhaUzAwTmpJeExXRmpPRGN0TUdVMVltUTNNV1ZoWXpjMCIsImlhdCI6MTQzOTM3MDU5NywiYXV0aF90aW1lIjoxNDM5MzcwNTk3LCJvaWQiOiI0NWM4Nzc5MC0wYzQwLTRkNjMtYTc1Yy04MDJhNWM1MzM1ZWYiLCJuYW1lIjoidW5rbm93biIsImVtYWlscyI6WyJhbnVqa3NoYXJtYUBkZWxvaXR0ZS5jb20iXSwiY19oYXNoIjoidkk3RWV5TWRIXy1GOE52dGo2SXQ0QSIsImF0X2hhc2giOiJnMGZPekVqejBuWU5IellUZUM1YVhnIn0.Cjg-oDdPS16x6Z3ymlX4L-frh2aMN0HP0WCoWsCg7tazV3d8qPlh2bnvsvJFipxknjNqo9SYMfWuACGfHqNv9GCLa6m84rQvkyZLPPFH2jWXbmwUcAoKu8npVPe_uswvw9O-JjCeDsgHJtWdD4eMLh2jbPjkZOqKHFii8hqnUaMqgQKBekSiSSC71HRDhy0W4TIW3k-_SCoZGRItPar8C6QHm_MeuqOZdnMcBkFGq-Y1ltWW9HrVZfIdyRLCsBWGmXf-XSDov1pjjoTQKxqWNwph37RnMcOivRl-H95pKpQjXbilptv2DKNu4984Tli4oKiDBbvgCx47ZtpVOr3Oaw" CorrelationBinding="" UrlEncode="True" />
+              </FormPostHttpBody>
+            </Request>
+          </Items>
+        </TransactionTimer>
+        <Request Method="GET" Guid="794cd03c-7ba7-43ed-b379-cf797cb7e430" Version="1.1" Url="{{AppServ}}/App/fonts/opensans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7aefcc47-dfd9-4508-95dc-f77c4df8d83a" Version="1.1" Url="{{AppServ}}/App/fonts/opensans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7a4d381c-7997-4b1e-8f00-9b968452c062" Version="1.1" Url="{{AppServ}}/App/fonts/opensans-semibold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9fbf1a43-e4d1-4c2d-81cb-d370d5a811b5" Version="1.1" Url="{{AppServ}}/Scripts/i18n/en-us/layout.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="764ba2de-fc4a-4189-852c-1dbd8bec458c" Version="1.1" Url="{{AppServ}}/App/fonts/alegreyasans-thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="25decb1f-6e60-47ad-a103-06a25b4938ea" Version="1.1" Url="{{AppServ}}/Account/UserContext/0" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="Bearertoken" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;Token&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractUserID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="{&quot;UserId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="," />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ExtractRoleID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;UserRoleId&quot;:" />
+                <RuleParameter Name="EndsWith" Value="}" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="b556491c-670e-41f5-946b-144a480781fd" Version="1.1" Url="{{AppDev}}/api/Accounts/Admin" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="11197" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="83c65990-a284-4391-8b0a-9dffec6b85d6" Version="1.1" Url="{{AppServ}}/Account/GetDashboardUserRole/{{ExtractUserID}}" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="479a6188-d00d-479e-8869-afee4f9897ea" Version="1.1" Url="{{AppServ}}/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="62864511-721f-414b-98f9-493c21a7d4f8" Version="1.1" Url="{{AppServ}}/Dashboard/USGADashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="text/html" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f653ba1b-5c8c-4893-8796-ab665f3111d7" Version="1.1" Url="{{AppServ}}/App/fonts/alegreyasans-regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="42e35af9-b897-49a2-a9ff-732ae7683b03" Version="1.1" Url="{{AppServ}}/App/fonts/alegreyasans-bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{AppServ}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="3668ff97-7a1b-41ad-a9a0-fcfb09818db5" Version="1.1" Url="{{AppServ}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{AppServ}}/#/home/usgadashboard" ReportingName="" IgnoreHttpStatusCode="False" />
+        <Request Method="GET" Guid="69f0b2f6-f706-4604-8b99-bb1d23304211" Version="1.1" Url="{{AppServ}}/app/main/views/DirectiveTemplates/dashboardmessages.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c9444ac5-9541-443a-810c-15017a26d6a4" Version="1.1" Url="{{AppServ}}/Account/UserContext/0" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e0601215-0004-4249-8c31-349399f742f4" Version="1.1" Url="{{AppDev}}/api/Accounts/Admin" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="11197" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e0601215-0004-4249-8c31-349399f742f4" Version="1.1" Url="{{AppDev}}/api/Accounts/Admin" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="userId" Value="{{ExtractUserID}}" RecordedValue="11197" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="791120b0-3172-469f-b699-de3d6bf46e4a" Version="1.1" Url="{{AppDev}}/api/UserDashboard/Organisations" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="595" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="{{CM1DS.CM1UserLogin#csv.UserAssociationID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="62240420-5db8-4534-8b50-825e2e1e5d9d" Version="1.1" Url="{{AppDev}}/api/UserDashboard/Members" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="playerType" Value="Has%20Handicap" RecordedValue="Has%20Handicap" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="595" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="{{CM1DS.CM1UserLogin#csv.UserAssociationID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="{{CM1DS.CM1UserLogin#csv.ClubID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="cb769c62-1a7c-4eed-ab21-469d56c1d7d8" Version="1.1" Url="{{AppDev}}/api/UserDashboard/Scores" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <RequestPlugins>
+            <RequestPlugin Classname="DateCurrent.DateTimeToContext, DateCurrent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="Save current date time to context parameter" Description="Saves date time of call to a context parameter">
+              <RuleParameters>
+                <RuleParameter Name="ParameterName" Value="DT" />
+                <RuleParameter Name="DateTimeFormat" Value="MM-dd-yyyy" />
+              </RuleParameters>
+            </RequestPlugin>
+          </RequestPlugins>
+          <QueryStringParameters>
+            <QueryStringParameter Name="date" Value="07-08-2015" RecordedValue="07-08-2015" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="595" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="{{CM1DS.CM1UserLogin#csv.UserAssociationID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clubId" Value="{{CM1DS.CM1UserLogin#csv.ClubID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="aece8bae-80fc-47a4-b6c1-1184c3834567" Version="1.1" Url="{{AppDev}}/api/UserDashboard/Courses" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="True">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/plain, */*" />
+            <Header Name="Referer" Value="{{AppServ}}/#/home/usgadashboard" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="UserRoleId" Value="{{ExtractRoleID}}" RecordedValue="595" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="associationId" Value="{{CM1DS.CM1UserLogin#csv.UserAssociationID}}" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="db loaded" />
+    <Comment CommentText="navigate to course rating link and select facility search" />
+    <Request Method="GET" Guid="801bdc4e-d16e-484b-ba1b-042d8987e8e4" Version="1.1" Url="https://beta2.ghin.com/api/references/GetCountries" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/usgadashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ffb95fd6-a9dd-448d-b781-c188f3d157c1" Version="1.1" Url="https://beta.ghin.com/CRP/FacilitySearch" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/usgadashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f9376cf8-b265-42b0-ae13-197429116bc8" Version="1.1" Url="https://beta.ghin.com/" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://beta.ghin.com/#/home/facilitysearch" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Comment CommentText="pass assn n facility name" />
+    <Request Method="GET" Guid="fb737659-9d31-4ad9-adbe-b0111733b89c" Version="1.1" Url="https://beta2.ghin.com/api/Associations" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="AssociationNumber" Value="5003" RecordedValue="5003" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="status" Value="Active" RecordedValue="Active" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="608435f9-9511-4f2d-ae1b-6592d6b87029" Version="1.1" Url="https://beta2.ghin.com/api/Facilities" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="associationId" Value="157" RecordedValue="157" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="cb292f38-ba21-4e8b-abe4-eb8279047a88" Version="1.1" Url="https://beta2.ghin.com/api/Facilities" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="associationId" Value="157" RecordedValue="157" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="facilityNumber" Value="234" RecordedValue="234" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="97f90ea3-7b14-4849-854d-d6b84ae3518c" Version="1.1" Url="https://beta.ghin.com/CRP/FacilitySearchResults" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7685537b-7793-4183-adb9-c588840547c2" Version="1.1" Url="https://beta.ghin.com/App/Main/views/DirectiveTemplates/dirPagination.tpl.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="159e16d5-f3bd-40af-aff8-6341119a0862" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/Search" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAEEAcwBzAG8AYwBpAGEAdABpAG8AbgBOAHUAbQBiAGUAcgAiADoAIgA1ADAAMAAzACIALAAiAEYAYQBjAGkAbABpAHQAeQBOAGEAbQBlACIAOgAiAFAAVABGAGEAYwBGAG8AcgBUAGUAcwB0ADEAQQAiACwAIgBTAGsAaQBwAEkAdABlAG0AIgA6ADAALAAiAFAAYQBnAGUAUwBpAHoAZQAiADoANQAwADAALAAiAFMAbwByAHQATwByAGQAZQByADEAIgA6ACIAVQBwAGQAYQB0AGUAZABPAG4AIgB9AA==</StringHttpBody>
+    </Request>
+    <Comment CommentText="click facility from resulot" />
+    <Request Method="GET" Guid="47f11e54-8d11-49f1-a72a-3b172d83a4d5" Version="1.1" Url="https://beta.ghin.com/crp/facilitydetails/21657/157" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8c89562f-0ef8-4c7c-bc97-03a82f6d89d5" Version="1.1" Url="https://beta.ghin.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="f035cdbe-f4ad-4f02-8b0b-4ebb65785437" Version="1.1" Url="https://beta.ghin.com/App/Main/views/DirectiveTemplates/angucompletePlayerSearch.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9db5b993-1dab-4367-b73b-3950d99aa9a4" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/21657" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="104ff9c3-68ba-4337-b1e5-99251f683714" Version="1.1" Url="https://beta.ghin.com/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a9afc678-f09c-4408-9427-0d4d46e19486" Version="1.1" Url="https://beta2.ghin.com/api/Associations/158/Seasons" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="df687d04-948a-48ec-b0de-b00185330080" Version="1.1" Url="https://beta2.ghin.com/api/Associations/157/Seasons" ThinkTime="32" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Comment CommentText="click course tab" />
+    <Comment CommentText="click add copurse button" />
+    <Comment CommentText="pass course name number" />
+    <Request Method="POST" Guid="26a97bcf-d787-4a9e-9343-eb59d3723cb2" Version="1.1" Url="https://beta.ghin.com/Error/LogExceptionDetails" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">ewAiAG0AZQBzAHMAYQBnAGUAIgA6AHsAIgBkAGEAdABhACIAOgBuAHUAbABsACwAIgBzAHQAYQB0AHUAcwAiADoAMAAsACIAYwBvAG4AZgBpAGcAIgA6AHsAIgBtAGUAdABoAG8AZAAiADoAIgBHAEUAVAAiACwAIgB0AHIAYQBuAHMAZgBvAHIAbQBSAGUAcQB1AGUAcwB0ACIAOgBbAG4AdQBsAGwAXQAsACIAdAByAGEAbgBzAGYAbwByAG0AUgBlAHMAcABvAG4AcwBlACIAOgBbAG4AdQBsAGwAXQAsACIAcABhAHIAYQBtAHMAIgA6AHsAIgBjAG8AdQByAHMAZQBOAGEAbQBlACIAOgAiADEAMAAiACwAIgBzAHQAYQB0AHUAcwAiADoAIgBBAGMAdABpAHYAZQAiAH0ALAAiAHQAaQBtAGUAbwB1AHQAIgA6AHsAIgAkACQAcwB0AGEAdABlACIAOgB7ACIAcwB0AGEAdAB1AHMAIgA6ADEALAAiAHAAcgBvAGMAZQBzAHMAUwBjAGgAZQBkAHUAbABlAGQAIgA6AGYAYQBsAHMAZQB9AH0ALAAiAHUAcgBsACIAOgAiAGgAdAB0AHAAcwA6AC8ALwBiAGUAdABhADIALgBnAGgAaQBuAC4AYwBvAG0ALwBhAHAAaQAvAEMAbwB1AHIAcwBlAHMAIgAsACIAaABlAGEAZABlAHIAcwAiADoAewAiAEEAYwBjAGUAcAB0ACIAOgAiAGEAcABwAGwAaQBjAGEAdABpAG8AbgAvAGoAcwBvAG4ALAAgAHQAZQB4AHQALwBwAGwAYQBpAG4ALAAgACoALwAqACIALAAiAFgALQBSAGUAcQB1AGUAcwB0AGUAZAAtAFcAaQB0AGgAIgA6ACIAWABNAEwASAB0AHQAcABSAGUAcQB1AGUAcwB0ACIALAAiAEEAYwBjAGUAcwBzAC0AQwBvAG4AdAByAG8AbAAtAEEAbABsAG8AdwAtAEgAZQBhAGQAZQByAHMAIgA6ACIAKgAiACwAIgBUAGkAbQBlAHoAbwBuAGUAIgA6ADAALAAiAEEAdQB0AGgAbwByAGkAegBhAHQAaQBvAG4AIgA6ACIAQgBlAGEAcgBlAHIAIABlAHkASgAwAGUAWABBAGkATwBpAEoASwBWADEAUQBpAEwAQwBKAGgAYgBHAGMAaQBPAGkASgBTAFUAegBJADEATgBpAEkAcwBJAG0AdABwAFoAQwBJADYASQBrAGwAawBWAEcAOQByAFoAVwA1AFQAYQBXAGQAdQBhAFcANQBuAFMAMgBWADUAUQAyADkAdQBkAEcARgBwAGIAbQBWAHkASQBuADAALgBlAHkASgBsAGUASABBAGkATwBqAEUAMABOAEQAQQAxAE4AagBrAHcATgBqAEUAcwBJAG0ANQBpAFoAaQBJADYATQBUAFEAMABNAEQAVQAyAE4AVABRADIATQBTAHcAaQBkAG0AVgB5AEkAagBvAGkATQBTADQAdwBJAGkAdwBpAGEAWABOAHoASQBqAG8AaQBhAEgAUgAwAGMASABNADYATAB5ADkAcwBiADIAZABwAGIAaQA1AHQAYQBXAE4AeQBiADMATgB2AFoAbgBSAHYAYgBtAHgAcABiAG0AVQB1AFkAMgA5AHQATAAyAFIAaQBaAEQAYwAxAFoARABCAGgATABXAE4AbABPAEQAawB0AE4ARwBJAHcATQBTADEAaABNADIAWgBsAEwAVwBNADUATgBUAGcAMQBNADIAWQA1AE4AegBJAHkATQBTADgAaQBMAEMASgBoAFkAMwBJAGkATwBpAEoAaQBNAG0ATgBmAE0AVgA5AGkATQBtAE4AegBhAFcAZAB1AGEAVwA0AGkATABDAEoAegBkAFcASQBpAE8AaQBKAE8AYgAzAFEAZwBjADMAVgB3AGMARwA5AHkAZABHAFYAawBJAEcATgAxAGMAbgBKAGwAYgBuAFIAcwBlAFMANABnAFYAWABOAGwASQBHADkAcABaAEMAQgBqAGIARwBGAHAAYgBTADQAaQBMAEMASgBoAGQAVwBRAGkATwBpAEoAawBZAFQAQgBoAFoAVABaAGsAWQBpADAAMABaAGoAWQAyAEwAVABRAHkAWQB6AEEAdABPAEcAWQAwAFoAUwAwAHcAWQBUAGsAMwBZAFQATQA0AFkAbQBVADAAWQB6AEEAaQBMAEMASgB1AGIAMgA1AGoAWgBTAEkANgBJAGoAWQB6AE4AVABjADIATQBUAFkAeQBNAGoATQB6AE4ARABVADMATgB6AGsANABNAHkANQBaAGUAbQBkADQAVABXADEAUgBNAFUAMQBYAFIAWABSAE8AYQBrAGsAMABUAFYATQB3AE0ARQAxADYAWgAzAHAATQBWADAAawB5AFQAVQBSAFYAZABFADUASABTAFQASgBPAFIAMQBVADEAVwBtAHAAagBkADAANQA2AFUAWABwAGEAYgBVADUAbwBXAFcAMQBhAGEAMAA5AFUAWgAzAFIAYQBWAEYAbAA0AFQAawBNAHcATQBFADUARQBRAFgAcABNAFYAMABrAHgAVAAxAFIAWgBkAEYAawB5AFcAVABGAFoATQBrAFYANgBXAFgAcABCAGQAMAA1AEgAVABtAHcAaQBMAEMASgBwAFkAWABRAGkATwBqAEUAMABOAEQAQQAxAE4AagBVADAATgBqAEUAcwBJAG0ARgAxAGQARwBoAGYAZABHAGwAdABaAFMASQA2AE0AVABRADAATQBEAFUAMgBOAFQAUQAyAE0AUwB3AGkAYgAyAGwAawBJAGoAbwBpAE4ARABWAGoATwBEAGMAMwBPAFQAQQB0AE0ARwBNADAATQBDADAAMABaAEQAWQB6AEwAVwBFADMATgBXAE0AdABPAEQAQQB5AFkAVABWAGoATgBUAE0AegBOAFcAVgBtAEkAaQB3AGkAYgBtAEYAdABaAFMASQA2AEkAbgBWAHUAYQAyADUAdgBkADIANABpAEwAQwBKAGwAYgBXAEYAcABiAEgATQBpAE8AbABzAGkAWQBXADUAMQBhAG0AdAB6AGEARwBGAHkAYgBXAEYAQQBaAEcAVgBzAGIAMgBsADAAZABHAFUAdQBZADIAOQB0AEkAbAAwAHMASQBtAE4AZgBhAEcARgB6AGEAQwBJADYASQBtAEYAagBhAEcAMQBOAFMAbQB3AHoAUQAwAHgAWABjADAAeABIAE4AVgBOAFcATgBYAEoATwBWAFUARQBpAEwAQwBKAGgAZABGADkAbwBZAFgATgBvAEkAagBvAGkAVgBYAGsAdABVAGoAZABTAFcAbQA4ADEAVgBUAGQAeABOADIAaABzAE0AMAB4ADYATgBrADUAaQBVAFMASgA5AC4AQwBNADAAZQBNAHkAMwBjAEYASQBjAFQAZQAwAE0ATgA5AEIAbwBkAEcATABKAHYATwA4AFoAVQBxAGwAbQB4ADEAMQBvADAAXwBCAGQAYwBLAFgAWQBBAGMATQBJADcAbABXADgANABPAGUAaABDAGkAWABjAGQARwBOADgAWQAyADAAegBCAGgAeQBTAFoANQBiAEoAWgBJAFkAVwB4ADUAWAA2AHUAVQBIAGwAYgBZAE8AUwBJAHYAawBFAHoAawBIAFQARABLAHMALQBsAE0AeQBGAEwAaABCAGUARQB1AEIASgBpAE4AdwA2AEUANQBiAFQAVQAzAFcAOABWADgAWQBTAGUAUwAxAGEAZQBFAFcAWgBGAF8AQwA1AFcAdABjAG0AagA0AG0AZwBzAG8ASgAxAEIASgBoADcAUQBuAEEAOABGADgAMABpAFIAMgBxAEEAOABoADEAcQB5AEgAZwB3AHYAbAA4AHgAcwBLAEIATABLAG4ATwBpAHYANABnAHkALQByAEwAYwBIAHQAWQBXAHYASwBIAFgAaABDAGkAZQBXAEcAMQBnAFIAOQBmAFoAMwBLAHAAZgA0AHUAOAA1AGIASwBXAEwARABqAFkAUABTAFUAUwBtAHIAagBpAEIAaQByAHUAagBLAGoAMgBpAHgAbQBmAGgAQwBCAF8AeQB5AC0AdgA1AEkAUQBnADgAdQBrAEUAMwBYADgAaABQAGIARwAwAEQAcABPAHMAeQBJAHEAcQBBAGkAaAB1ADAAUQB4AHcAdQBJAEQAcQA3AEUAYwBOADgAMQBXAEUANwBrAFYAVwBNAFEAbQBHAEQANQBiAFIAaQAyAHkARQBSAFoARgBBADAAQgBYAHUAWABlAF8AeABNAGYAQQBnAEsATQBjAGcAIgB9ACwAIgAkAF8AbgBvAEIAbABvAGMAawAiADoAdAByAHUAZQB9ACwAIgBzAHQAYQB0AHUAcwBUAGUAeAB0ACIAOgAiACIAfQB9AA==</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="be1e0016-24e3-4e80-b0b2-94066c5e0f2a" Version="1.1" Url="https://beta2.ghin.com/api/Courses" ThinkTime="12" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="courseName" Value="PTCOurceX" RecordedValue="PTCOurceX" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="status" Value="Active" RecordedValue="Active" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="click save butoon to add thos course for facility" />
+    <Request Method="POST" Guid="6423fe27-24b0-4464-bd82-28ed48cc57d0" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/Upsert" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAFUAcABzAGUAcgB0AEYAYQBjAGkAbABpAHQAaQBlAHMAIgA6AFsAewAiAEMAbwB1AHIAcwBlAHMAIgA6AFsAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAQQBkAGQAIgAsACIAQwBvAHUAcgBzAGUASQBkACIAOgAyADUAMQA4ADEAfQBdACwAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAEYAYQBjAGkAbABpAHQAeQBJAGQAIgA6ACIAMgAxADYANQA3ACIAfQBdAH0A</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="5198b125-c3fb-4f86-b2ff-6feb81bd7538" Version="1.1" Url="https://beta.ghin.com/Account/UserContext/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c35ae998-4d6e-4663-8170-832e364bfc96" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/21657" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4e6dc420-74b3-4eb1-88a5-2c774861ad2f" Version="1.1" Url="https://beta.ghin.com/Account/UserContext/1" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Comment CommentText="click on course detail" />
+    <Request Method="GET" Guid="b69b3125-8dc6-4b17-b4b8-d5d82a76f45d" Version="1.1" Url="https://beta.ghin.com/crp/CourseDetails/25181/Facility/21657/Association/157" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="314e9b7d-c1a7-4f2d-b4bd-22da1c3f13fc" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/facilitysearch/facilitysearchresults/facilitydetails/crp/21657/157" />
+      </Headers>
+    </Request>
+    <Comment CommentText="click hole tab" />
+    <Request Method="GET" Guid="64dd7664-11ee-4c3c-a659-838775a05ea9" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0182f4ef-c56d-4aeb-b3c9-b79050b69676" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e1f98565-73e0-467f-99f3-7ad907044d26" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e67b10ac-0701-4b7c-bcb0-23e627e5304c" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212964" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="daaa3345-33a1-4959-8cb2-983ee28eaf4c" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212965" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a5adef14-6308-463f-b979-e3a96ea33d1f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212966" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b853b36a-11ab-4c67-a664-6a88287d2b6b" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212967" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c519b3d1-5250-4860-a36a-4cea05074806" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212968" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="35aefcf0-2622-4646-9d7d-b39090531400" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212969" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c074b868-4de9-470c-aa6a-1224d92fd094" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212970" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2e923dad-2597-4fd2-899c-4c7a31d90bf9" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212971" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="61103bf6-4614-4089-8c5d-a8dc64b6d40e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212972" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2c596e31-dc0e-4ed2-8de2-ec2736c21886" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212973" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f543dea2-b13d-427a-b527-ae27ab85bb6d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212974" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3ddb43b3-7e1c-430c-a81e-3af7f2e5d9db" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212975" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d16d8e37-0127-4076-93e4-33fc5db6acc1" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212976" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="da8bcd08-e9ee-4245-90a2-1630027eabca" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212977" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="897f5500-c076-4848-a33d-e71b268cce22" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212978" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e6d8d14a-de81-43ef-8eda-62a042c21d36" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212979" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c307af44-2404-4ee2-9380-5d22e68b4b8f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212980" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7535985e-0651-41e5-9dcb-fc5a8303005e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214674" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6f68fde0-c680-4f4d-a6e8-9e67c6179e4f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214676" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ebb494fc-d6a3-471b-97e9-84db4067f536" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214679" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="54ce73a4-dc71-4faf-ad28-3d9806aa859b" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214685" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1542df54-20a9-4bb7-b3d1-37bfc4339319" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214690" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bae4ebdf-5a49-4890-ab10-fcf423f62848" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214696" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9cae161c-4b54-4145-8ff5-866ae6141f58" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214699" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="89365b97-4ccc-4d07-a31f-f9477ab4c79c" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214703" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="dde9e653-47a6-456f-855c-02208f8d5993" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214708" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5e013abc-88f2-44eb-9446-7e03e9857233" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214712" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0129bfa7-fa03-4620-86e9-fa557299ac45" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214717" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e465aa2e-92ee-4877-af0b-c878f1c72ba2" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214720" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5ff1eee1-08e2-41cc-9d1d-872421718d2f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214729" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b5c069e3-663d-4884-b1f0-0ef85ccf35eb" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214734" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="462935a1-cbf9-4199-866e-e19fcfed0ad3" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214737" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c031e5df-1bdb-402e-afb3-2196f116f1bd" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214748" ThinkTime="56" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="cc16518b-a0e3-466f-b486-daaf38f7c7ff" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Tees/Upsert" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAFUAcABzAGUAcgB0AFQAZQBlAHMAIgA6AFsAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAQQBkAGQAIgAsACIAVABlAGUATgBhAG0AZQAiADoAIgBuAGUAdwAyADYAYQB1AGcAdABlAGUAIgB9AF0AfQA=</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="94a2744b-6cb2-43c5-91c5-6887b62a3497" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/21654/Courses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6705bc05-96ca-4198-b1ca-402af4c418ac" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25163/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="87e2e66d-8800-4713-91f6-f1baeec08df7" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25164/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0ca73cca-c048-4320-9364-7726394c1643" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25165/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a001ce03-5bad-4eb5-8b75-d09356735f96" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f6805409-b7c9-42ec-8cee-aefbeabe2870" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25163/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="15d50448-92b8-4d89-8d5d-b1a41e07642e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25164/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="617a30ae-2c2b-4129-b471-63267094be86" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25165/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d533b4d3-fe5e-459c-85dc-822bb9a9da81" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Tees" ThinkTime="106" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Comment CommentText="clickl save" />
+    <Request Method="POST" Guid="2cd9e68b-5934-4bee-978e-3eb3a967592c" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/Upsert" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAFUAcABzAGUAcgB0AEgAbwBsAGUAcwAiADoAWwB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAMQAsACIASABvAGwAZQBJAGQAIgA6ADIAMQAyADkANgA0ACwAIgBDAG8AdQByAHMAZQBJAGQAIgA6ACIAMgA1ADEAOAAxACIALAAiAEgAbwBsAGUATgB1AG0AYgBlAHIAIgA6ADIALAAiAEgAbwBsAGUATgB1AG0AYgBlAHIAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEgAbwBsAGUATABlAHQAdABlAHIAIgA6ACIAQQAiACwAIgBIAG8AbABlAEwAZQB0AHQAZQByAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4AVwBpAGQAdABoACIAOgA1ACwAIgBHAHIAZQBlAG4AVwBpAGQAdABoAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4ARABlAHAAdABoACIAOgA1ACwAIgBHAHIAZQBlAG4ARABlAHAAdABoAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4ARABpAGEAbQBlAHQAZQByACIAOgBuAHUAbABsACwAIgBHAHIAZQBlAG4ARABpAGEAbQBlAHQAZQByAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4AUwB1AHIAZgBhAGMAZQAiADoANQAsACIARwByAGUAZQBuAFMAdQByAGYAYQBjAGUAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEcAcgBlAGUAbgBTAHUAcgBmAGEAYwBlAEIAbwBnAGUAeQAiADoANQAsACIARwByAGUAZQBuAFMAdQByAGYAYQBjAGUAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBPAHYAZQByAHIAaQBkAGUARwByAGUAZQBuAEQAaQBhAG0AZQB0AGUAcgAiADoAZgBhAGwAcwBlACwAIgBPAHYAZQByAHIAaQBkAGUARwByAGUAZQBuAEQAaQBhAG0AZQB0AGUAcgBWAGEAbAB1AGUAIgA6AG4AdQBsAGwALAAiAE8AdgBlAHIAcgBpAGQAZQBHAHIAZQBlAG4ARABpAGEAbQBlAHQAZQByAFYAYQBsAHUAZQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAQwBhAHIAdABzAE8AbgBGAGEAaQByAHcAYQB5ACIAOgBmAGEAbABzAGUALAAiAEgAYQBsAGYAdwBhAHkASABvAHUAcwBlACIAOgBmAGEAbABzAGUAfQBdAH0A</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="7e1f1769-6c44-4beb-bbc9-a64e08700304" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeHoles/Upsert" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAFUAcABzAGUAcgB0AFQAZQBlAEgAbwBsAGUAcwAiADoAWwB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAMQAsACIAQwBvAHUAcgBzAGUASQBkACIAOgAiADIANQAxADgAMQAiACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADUAOAAsACIASABvAGwAZQBJAGQAIgA6ADIAMQAyADkANgA0ACwAIgBIAG8AbABlAEkAZABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAVABlAGUAQgBvAHgASQBkACIAOgAxADAAMgAxADQANgAsACIAVABlAGUAQgBvAHgASQBkAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAGUAbgBkAGUAcgAiADoAIgBNAGEAbABlACIALAAiAFMAaABvAHIAdABDAG8AdQByAHMAZQBJAG4AZAAiADoAZgBhAGwAcwBlACwAIgBMAGUAbgBnAHQAaAAiADoAMQAyACwAIgBMAGUAbgBnAHQAaABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAUABhAHIAIgA6ADMALAAiAFAAYQByAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAGUAZQBOAGEAbQBlACIAOgAiAEgAbwBsAGUAIAAyACAALQAgAFQAZQBzAHQAVABlAGUAUABUADMAIgAsACIAUgBvAGwAbAAiADoANQAsACIAUgBvAGwAbABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARQBsAGUAdgBhAHQAaQBvAG4AIgA6ADUALAAiAEUAbABlAHYAYQB0AGkAbwBuAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBEAG8AZwBsAGUAZwAiADoANQAsACIARABvAGcATABlAGcAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFAAcgBlAHYAYQBpAGwAaQBuAGcAVwBpAG4AZAAiADoANQAsACIAUAByAGUAdgBhAGkAbABpAG4AZwBXAGkAbgBkAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAG8AcABvAGcAcgBhAHAAaAB5ACIAOgA1ACwAIgBUAG8AcABvAGcAcgBhAHAAaAB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBGAGEAaQByAHcAYQB5ACIAOgAwACwAIgBGAGEAaQByAHcAYQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4AVABhAHIAZwBlAHQAIgA6AG4AdQBsAGwALAAiAEQAbwBnAGwAZQBnAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAUgBlAGMAbwB2AGUAcgBSAG8AdQBnAGgAIgA6ADUALAAiAFIAZQBjAG8AdgBlAHIAUgBvAHUAZwBoAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBCAHUAbgBrAGUAcgBzACIAOgA1ACwAIgBCAHUAbgBrAGUAcgBzAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBFAHgAdAByAGUAbQBlAFIAbwB1AGcAaAAiADoANQAsACIARQB4AHQAcgBlAG0AZQBSAG8AdQBnAGgAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFcAYQB0AGUAcgBIAGEAegBhAHIAZAAiADoANQAsACIAVwBhAHQAZQByAEgAYQB6AGEAcgBkAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAHIAZQBlAHMAIgA6ADUALAAiAFQAcgBlAGUAcwBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAUABzAHkAYwBoAG8AbABvAGcAaQBjAGEAbAAiADoANQAsACIAUABzAHkAYwBoAG8AbABvAGcAaQBjAGEAbABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARwByAGUAZQBuAFQAbwBUAGUAZQAiADoANQAsACIARwByAGUAZQBuAFQAbwBUAGUAZQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARQB4AGMAbAB1AGQAZQBBAGwAdABpAHQAdQBkAGUAIgA6AGYAYQBsAHMAZQAsACIARABvAGcATABlAGcAQgBvAGcAZQB5ACIAOgBuAHUAbABsACwAIgBSAG8AbABsAEIAbwBnAGUAeQAiADoANQAsACIAUgBvAGwAbABCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFQAbwBwAG8AZwByAGEAcABoAHkAQgBvAGcAZQB5ACIAOgA1ACwAIgBUAG8AcABvAGcAcgBhAHAAaAB5AEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAQgB1AG4AawBlAHIAcwBCAG8AZwBlAHkAIgA6ADUALAAiAEIAdQBuAGsAZQByAHMAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBGAGEAaQByAHcAYQB5AEIAbwBnAGUAeQAiADoAMAAsACIARgBhAGkAcgB3AGEAeQBCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEcAcgBlAGUAbgBUAGEAcgBnAGUAdABCAG8AZwBlAHkAIgA6AG4AdQBsAGwALAAiAEcAcgBlAGUAbgBUAGEAcgBnAGUAdABCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFIAZQBjAG8AdgBlAHIAUgBvAHUAZwBoAEIAbwBnAGUAeQAiADoANQAsACIAUgBlAGMAbwB2AGUAcgBSAG8AdQBnAGgAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBFAHgAdAByAGUAbQBlAFIAbwB1AGcAaABCAG8AZwBlAHkAIgA6ADUALAAiAEUAeAB0AHIAZQBtAGUAUgBvAHUAZwBoAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAVAByAGUAZQBzAEIAbwBnAGUAeQAiADoANQAsACIAVAByAGUAZQBzAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAVwBhAHQAZQByAEgAYQB6AGEAcgBkAEIAbwBnAGUAeQAiADoANQAsACIAVwBhAHQAZQByAEgAYQB6AGEAcgBkAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAUABzAHkAYwBoAG8AbABvAGcAaQBjAGEAbABCAG8AZwBlAHkAIgA6ADUALAAiAFAAcwB5AGMAaABvAGwAbwBnAGkAYwBhAGwAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAMAAsACIAQwBvAHUAcgBzAGUASQBkACIAOgAiADIANQAxADgAMQAiACwAIgBIAG8AbABlAEkAZAAiADoAMgAxADIAOQA2ADQALAAiAEgAbwBsAGUASQBkAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAGUAZQBCAG8AeABJAGQAIgA6ADEAMAAyADEANAA4ACwAIgBUAGUAZQBCAG8AeABJAGQAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEcAZQBuAGQAZQByACIAOgAiAE0AYQBsAGUAIgAsACIAUwBoAG8AcgB0AEMAbwB1AHIAcwBlAEkAbgBkACIAOgBmAGEAbABzAGUALAAiAEwAZQBuAGcAdABoACIAOgA2ACwAIgBMAGUAbgBnAHQAaABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAUABhAHIAIgA6ADMALAAiAFAAYQByAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAGUAZQBOAGEAbQBlACIAOgAiAEgAbwBsAGUAIAAyACAALQAgAG4AZQB3ADIANgBhAHUAZwB0AGUAZQAiACwAIgBSAG8AbABsACIAOgAzACwAIgBSAG8AbABsAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBFAGwAZQB2AGEAdABpAG8AbgAiADoAMgAyACwAIgBFAGwAZQB2AGEAdABpAG8AbgBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARABvAGcAbABlAGcAIgA6ADAALAAiAEQAbwBnAEwAZQBnAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBQAHIAZQB2AGEAaQBsAGkAbgBnAFcAaQBuAGQAIgA6ADAALAAiAFAAcgBlAHYAYQBpAGwAaQBuAGcAVwBpAG4AZABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAVABvAHAAbwBnAHIAYQBwAGgAeQAiADoAMwAsACIAVABvAHAAbwBnAHIAYQBwAGgAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARgBhAGkAcgB3AGEAeQAiADoAMAAsACIARgBhAGkAcgB3AGEAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARwByAGUAZQBuAFQAYQByAGcAZQB0ACIAOgA0ACwAIgBEAG8AZwBsAGUAZwBCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFIAZQBjAG8AdgBlAHIAUgBvAHUAZwBoACIAOgA1ACwAIgBSAGUAYwBvAHYAZQByAFIAbwB1AGcAaABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAQgB1AG4AawBlAHIAcwAiADoANAAsACIAQgB1AG4AawBlAHIAcwBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARQB4AHQAcgBlAG0AZQBSAG8AdQBnAGgAIgA6ADQALAAiAEUAeAB0AHIAZQBtAGUAUgBvAHUAZwBoAFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBXAGEAdABlAHIASABhAHoAYQByAGQAIgA6ADQALAAiAFcAYQB0AGUAcgBIAGEAegBhAHIAZABTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIAVAByAGUAZQBzACIAOgA0ACwAIgBUAHIAZQBlAHMAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFAAcwB5AGMAaABvAGwAbwBnAGkAYwBhAGwAIgA6ADQALAAiAFAAcwB5AGMAaABvAGwAbwBnAGkAYwBhAGwAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEcAcgBlAGUAbgBUAG8AVABlAGUAIgA6ADQALAAiAEcAcgBlAGUAbgBUAG8AVABlAGUAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEUAeABjAGwAdQBkAGUAQQBsAHQAaQB0AHUAZABlACIAOgBmAGEAbABzAGUALAAiAEQAbwBnAEwAZQBnAEIAbwBnAGUAeQAiADoANQAsACIAUgBvAGwAbABCAG8AZwBlAHkAIgA6ADQALAAiAFIAbwBsAGwAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBUAG8AcABvAGcAcgBhAHAAaAB5AEIAbwBnAGUAeQAiADoANQAsACIAVABvAHAAbwBnAHIAYQBwAGgAeQBCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAEIAdQBuAGsAZQByAHMAQgBvAGcAZQB5ACIAOgA1ACwAIgBCAHUAbgBrAGUAcgBzAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARgBhAGkAcgB3AGEAeQBCAG8AZwBlAHkAIgA6ADAALAAiAEYAYQBpAHIAdwBhAHkAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBHAHIAZQBlAG4AVABhAHIAZwBlAHQAQgBvAGcAZQB5ACIAOgA0ACwAIgBHAHIAZQBlAG4AVABhAHIAZwBlAHQAQgBvAGcAZQB5AFMAcABlAGMAaQBmAGkAZQBkACIAOgB0AHIAdQBlACwAIgBSAGUAYwBvAHYAZQByAFIAbwB1AGcAaABCAG8AZwBlAHkAIgA6ADQALAAiAFIAZQBjAG8AdgBlAHIAUgBvAHUAZwBoAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQAsACIARQB4AHQAcgBlAG0AZQBSAG8AdQBnAGgAQgBvAGcAZQB5ACIAOgA1ACwAIgBFAHgAdAByAGUAbQBlAFIAbwB1AGcAaABCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFQAcgBlAGUAcwBCAG8AZwBlAHkAIgA6ADQALAAiAFQAcgBlAGUAcwBCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFcAYQB0AGUAcgBIAGEAegBhAHIAZABCAG8AZwBlAHkAIgA6ADMALAAiAFcAYQB0AGUAcgBIAGEAegBhAHIAZABCAG8AZwBlAHkAUwBwAGUAYwBpAGYAaQBlAGQAIgA6AHQAcgB1AGUALAAiAFAAcwB5AGMAaABvAGwAbwBnAGkAYwBhAGwAQgBvAGcAZQB5ACIAOgA0ACwAIgBQAHMAeQBjAGgAbwBsAG8AZwBpAGMAYQBsAEIAbwBnAGUAeQBTAHAAZQBjAGkAZgBpAGUAZAAiADoAdAByAHUAZQB9AF0AfQA=</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="f0dedeb8-a48e-4723-9d7d-a55df865974d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSets" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f4ffde89-d330-42ca-8e1e-91768457c22a" Version="1.1" Url="https://beta2.ghin.com/api/Facilities/21654/Courses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b09e4131-6c23-445a-bc29-62c75d84798f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c8a1edd6-1a42-4aba-a894-cc92fb003f08" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSets/140220" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bb7d736a-128b-463f-ac51-2b4ccb8536c9" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25163/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="dbce82cd-73ee-4ef0-bb9d-ccc380d5dcda" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25164/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0eb79295-97dd-48a6-aff4-3d710781abaf" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25165/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9a946394-27ec-4167-9652-4a0a1fdccc14" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeHoles" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4b9cb4e9-148e-48f7-91b1-8e9c3f852d9e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25163/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4d419ed4-88ae-4805-9b3d-c079edc6e7e8" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25164/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="67b9bf98-690e-4807-b3cb-d87e26d7113e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25165/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="dcced740-1420-489d-a259-0cb2dcab0260" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="42cecf44-cb95-4eac-817d-91a7bf46255a" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Tees" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ebcc02f6-e83c-46d9-8e10-0095cc4471a4" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212964" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="82c77bd9-3660-44fa-8239-4bb5960996dc" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212965" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5520b807-771e-4bad-ba07-a77a27abdb30" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212966" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e07881c7-5ebb-495c-ac0f-f419ea62b5ca" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212967" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f417ac99-c71a-4127-9c2f-9bc64c1d2079" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212968" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9866a6ed-05db-4392-8e3f-487ffb6836b3" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212969" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2cf71cf6-40ee-40a7-ae61-635ac42c7869" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212970" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e58922f4-7b0b-46d2-a001-d45d2e490ccf" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212971" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="955f8e47-b8d4-48b6-87f3-7768bbef605d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212972" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ab8391d1-c005-4abd-95ee-5503e7ad28de" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212973" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="85d57de3-1a23-4a0e-a5c1-f1f8beb653ec" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212974" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="80705fd3-d26b-4379-a347-f0311810505f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212975" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8b1d4df1-e38e-4364-9898-2f2c0b2ef1c0" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212976" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ceabc7cf-dde1-4153-b92d-cf447d6a569d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212977" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ab0f6009-5d83-4117-a764-b10877abfedc" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212978" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5b0871a5-39e0-42e0-b41e-ecc0381dc6b6" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212979" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5c2cd32c-a019-4156-ade7-650aa35274f1" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/212980" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="274dba05-65a3-411d-851b-83c2ed0eb777" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214674" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3d540063-9e10-424c-ada3-72aef59c87dd" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214676" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1ea09af9-27c8-4955-b0c3-b1979dd301c2" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214679" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="de994d84-e1e5-4636-bb5f-0d06e2c8982d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214685" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3100937b-cbcf-4900-b6e2-024972a8244e" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214690" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="73cb6752-9302-4d69-b96c-bfb0d93f64d3" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214696" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="10349d4d-185f-48fa-aa17-bcedf1892754" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214699" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="dec6f533-4a4a-47a0-864d-2b13c5aba549" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214703" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bd10fd5b-2c5a-49c1-bc37-ba06c064803d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214708" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a6d866a8-1bc8-4a52-9f30-b5d4a5f72ef0" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214712" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2ff462d9-ce1d-4b58-8d24-9c821a5184d2" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214717" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ace40b83-8991-4018-bd57-d30291e7c8cc" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214720" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="359a0a62-e581-4f34-9839-4955e9bb1fde" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214729" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b4d6f867-7b6c-4490-9cd1-a57c1e6999d6" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214734" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4f4f9790-fc36-433a-ad62-ec1c76fa28cc" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214737" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="378837f4-bf15-48de-9f28-e5cdef974d50" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/Holes/214748" ThinkTime="57" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+    </Request>
+    <Comment CommentText="click rating" />
+    <Request Method="POST" Guid="e1796910-dcc4-4ec8-957e-d57caf5d0259" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="cd6e2cdb-c8a3-4bef-ae82-d954217df4ba" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="063e7d52-4f5c-41a3-b6c3-a0e5de2c6b8f" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="172" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIALAAiADEAMgA1ADAAOAA1ADYAIgAsACIAMQAyADUAMAA4ADUANgAiACwAIgAxADIANQAwADgANQA2ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="8ff733cd-cd80-4fab-be9c-f2773f72b258" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANQA1ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="7b095eee-02e4-473d-a342-73bd421dc02d" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANQA1ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="d0a2022d-e7d8-4404-b3ee-c169aa03e7db" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSetRating" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">WwAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANQA1ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANwA2ACIALAAiADEAMgA1ADAAOAA3ADYAIgAsACIAMQAyADUAMAA4ADcANgAiACwAIgAxADIANQAwADgANQA1ACIAXQA=</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="b97735fc-8fc7-41e1-86ed-ef97e9a19144" Version="1.1" Url="https://beta2.ghin.com/api/Courses/25181/TeeSets/Upsert" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=utf-8" InsertByteOrderMark="False">ewAiAFUAcABzAGUAcgB0AFQAZQBlAFMAZQB0AHMAIgA6AFsAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAQQBkAGQAIgAsACIAVABlAGUAUwBlAHQATgBhAG0AZQAiADoAIgBzAGUAdABuAGEAbQBlADIANgBhAHUAZwAiACwAIgBHAGUAbgBkAGUAcgAiADoAIgBNAGEAbABlACIALAAiAE4AdQBtAGIAZQByAE8AZgBIAG8AbABlAHMAIgA6ADEAOAB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQASQBkACIAOgAxADQAMAAyADIAMAAsACIAVABlAGUAUwBlAHQATgBhAG0AZQAiADoAIgBOAGUAdwBUAGUAZQBzAGUAdAAiACwAIgBHAGUAbgBkAGUAcgAiADoAIgBNAGEAbABlACIALAAiAFAAdQBiAGwAaQBzAGgASQBuAGQAIgA6AHQAcgB1AGUALAAiAEYAdQB0AHUAcgBlAFAAdQBiAGwAaQBzAGgAIgA6AHQAcgB1AGUALAAiAFUAbgBwAHUAYgBsAGkAcwBoAEkAbgBkAGkAYwBhAHQAbwByACIAOgBmAGEAbABzAGUALAAiAEYAdQB0AHUAcgBlAFAAdQBiAGwAaQBzAGgARABhAHQAZQAiADoAIgA4AC8AMgA2AC8AMgAwADEANQAiACwAIgBOAHUAbQBiAGUAcgBPAGYASABvAGwAZQBzACIAOgAxADgALAAiAFQAbwB0AGEAbABZAGEAcgBkAGEAZwBlACIAOgAyADEANgAsACIAVABlAGUASABvAGwAZQBUAGUAZQBTAGUAdABNAGEAcABwAGkAbgBnAHMAIgA6AFsAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQAzADIALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwAzACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAyAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADMANAAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMwB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQAzADUALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADQAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwA2ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgA1AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADMANwAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoANgB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQAzADgALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADcAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwA5ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgA4AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQAMAAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA1ADUALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAOQB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADEALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADAAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAAyACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQAxAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQAMwAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEAMgB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADQALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADMAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAA1ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQA0AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQANgAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEANQB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADcALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADYAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAA4ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQA3AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQAOQAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA1ADUALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEAOAB9AF0AfQBdAH0A</StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="8f40e0d1-928d-418f-8cc9-d7597bc0ae2b" Version="1.1" Url="https://beta.ghin.com/Error/LogExceptionDetails" ThinkTime="24" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://beta.ghin.com/#/home/coursedetails/crp/25181/facility/21657/Association/157" />
+      </Headers>
+      <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">ewAiAG0AZQBzAHMAYQBnAGUAIgA6AHsAIgBkAGEAdABhACIAOgAiAE8AcABlAHIAYQB0AGkAbwBuACAAYwBhAG4AbgBvAHQAIABiAGUAIABjAG8AbQBwAGwAZQB0AGUAZAAgAGIAZQBjAGEAdQBzAGUAIABvAGYAIABhACAAdABlAGMAaABpAG4AaQBjAGEAbAAgAEkAcwBzAHUAZQAuACAAUABsAGUAYQBzAGUAIAB0AHIAeQAgAGEAZwBhAGkAbgAgAGwAYQB0AGUAcgAuACIALAAiAHMAdABhAHQAdQBzACIAOgA1ADAAMAAsACIAYwBvAG4AZgBpAGcAIgA6AHsAIgBtAGUAdABoAG8AZAAiADoAIgBQAE8AUwBUACIALAAiAHQAcgBhAG4AcwBmAG8AcgBtAFIAZQBxAHUAZQBzAHQAIgA6AFsAbgB1AGwAbABdACwAIgB0AHIAYQBuAHMAZgBvAHIAbQBSAGUAcwBwAG8AbgBzAGUAIgA6AFsAbgB1AGwAbABdACwAIgB1AHIAbAAiADoAIgBoAHQAdABwAHMAOgAvAC8AYgBlAHQAYQAyAC4AZwBoAGkAbgAuAGMAbwBtAC8AYQBwAGkALwBDAG8AdQByAHMAZQBzAC8AMgA1ADEAOAAxAC8AVABlAGUAUwBlAHQAcwAvAFUAcABzAGUAcgB0ACIALAAiAGQAYQB0AGEAIgA6AHsAIgBVAHAAcwBlAHIAdABUAGUAZQBTAGUAdABzACIAOgBbAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAEEAZABkACIALAAiAFQAZQBlAFMAZQB0AE4AYQBtAGUAIgA6ACIAcwBlAHQAbgBhAG0AZQAyADYAYQB1AGcAIgAsACIARwBlAG4AZABlAHIAIgA6ACIATQBhAGwAZQAiACwAIgBOAHUAbQBiAGUAcgBPAGYASABvAGwAZQBzACIAOgAxADgAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AEkAZAAiADoAMQA0ADAAMgAyADAALAAiAFQAZQBlAFMAZQB0AE4AYQBtAGUAIgA6ACIATgBlAHcAVABlAGUAcwBlAHQAIgAsACIARwBlAG4AZABlAHIAIgA6ACIATQBhAGwAZQAiACwAIgBQAHUAYgBsAGkAcwBoAEkAbgBkACIAOgB0AHIAdQBlACwAIgBGAHUAdAB1AHIAZQBQAHUAYgBsAGkAcwBoACIAOgB0AHIAdQBlACwAIgBVAG4AcAB1AGIAbABpAHMAaABJAG4AZABpAGMAYQB0AG8AcgAiADoAZgBhAGwAcwBlACwAIgBGAHUAdAB1AHIAZQBQAHUAYgBsAGkAcwBoAEQAYQB0AGUAIgA6ACIAOAAvADIANgAvADIAMAAxADUAIgAsACIATgB1AG0AYgBlAHIATwBmAEgAbwBsAGUAcwAiADoAMQA4ACwAIgBUAG8AdABhAGwAWQBhAHIAZABhAGcAZQAiADoAMgAxADYALAAiAFQAZQBlAEgAbwBsAGUAVABlAGUAUwBlAHQATQBhAHAAcABpAG4AZwBzACIAOgBbAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwAyACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADMAMwAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMgB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQAzADQALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADMAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwA1ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgA0AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADMANgAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoANQB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQAzADcALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADYAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEAMwA4ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBmAHIAbwBuAHQAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgA3AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADMAOQAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAZgByAG8AbgB0ACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAOAB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADAALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANQA1ACwAIgBTAGkAZABlACIAOgAiAGYAcgBvAG4AdAAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADkAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAAxACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQAwAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQAMgAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEAMQB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADMALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADIAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAA0ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQAzAH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQANQAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEANAB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADYALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANwA2ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADUAfQAsAHsAIgBBAGMAdABpAG8AbgBUAHkAcABlACIAOgAiAFUAcABkAGEAdABlACIALAAiAFQAZQBlAFMAZQB0AFQAZQBlAEgAbwBsAGUATQBhAHAASQBkACIAOgAxADIAMwA2ADEANAA3ACwAIgBUAGUAZQBIAG8AbABlAEkAZAAiADoAMQAyADUAMAA4ADcANgAsACIAUwBpAGQAZQAiADoAIgBiAGEAYwBrACIALAAiAE8AcgBkAGUAcgBPAGYAUABsAGEAeQAiADoAMQA2AH0ALAB7ACIAQQBjAHQAaQBvAG4AVAB5AHAAZQAiADoAIgBVAHAAZABhAHQAZQAiACwAIgBUAGUAZQBTAGUAdABUAGUAZQBIAG8AbABlAE0AYQBwAEkAZAAiADoAMQAyADMANgAxADQAOAAsACIAVABlAGUASABvAGwAZQBJAGQAIgA6ADEAMgA1ADAAOAA3ADYALAAiAFMAaQBkAGUAIgA6ACIAYgBhAGMAawAiACwAIgBPAHIAZABlAHIATwBmAFAAbABhAHkAIgA6ADEANwB9ACwAewAiAEEAYwB0AGkAbwBuAFQAeQBwAGUAIgA6ACIAVQBwAGQAYQB0AGUAIgAsACIAVABlAGUAUwBlAHQAVABlAGUASABvAGwAZQBNAGEAcABJAGQAIgA6ADEAMgAzADYAMQA0ADkALAAiAFQAZQBlAEgAbwBsAGUASQBkACIAOgAxADIANQAwADgANQA1ACwAIgBTAGkAZABlACIAOgAiAGIAYQBjAGsAIgAsACIATwByAGQAZQByAE8AZgBQAGwAYQB5ACIAOgAxADgAfQBdAH0AXQB9ACwAIgBoAGUAYQBkAGUAcgBzACIAOgB7ACIAQQBjAGMAZQBwAHQAIgA6ACIAYQBwAHAAbABpAGMAYQB0AGkAbwBuAC8AagBzAG8AbgAsACAAdABlAHgAdAAvAHAAbABhAGkAbgAsACAAKgAvACoAIgAsACIAWAAtAFIAZQBxAHUAZQBzAHQAZQBkAC0AVwBpAHQAaAAiADoAIgBYAE0ATABIAHQAdABwAFIAZQBxAHUAZQBzAHQAIgAsACIAQQBjAGMAZQBzAHMALQBDAG8AbgB0AHIAbwBsAC0AQQBsAGwAbwB3AC0ASABlAGEAZABlAHIAcwAiADoAIgAqACIALAAiAEMAbwBuAHQAZQBuAHQALQBUAHkAcABlACIAOgAiAGEAcABwAGwAaQBjAGEAdABpAG8AbgAvAGoAcwBvAG4AOwBjAGgAYQByAHMAZQB0AD0AdQB0AGYALQA4ACIALAAiAFQAaQBtAGUAegBvAG4AZQAiADoAMAAsACIAQQB1AHQAaABvAHIAaQB6AGEAdABpAG8AbgAiADoAIgBCAGUAYQByAGUAcgAgAGUAeQBKADAAZQBYAEEAaQBPAGkASgBLAFYAMQBRAGkATABDAEoAaABiAEcAYwBpAE8AaQBKAFMAVQB6AEkAMQBOAGkASQBzAEkAbQB0AHAAWgBDAEkANgBJAGsAbABrAFYARwA5AHIAWgBXADUAVABhAFcAZAB1AGEAVwA1AG4AUwAyAFYANQBRADIAOQB1AGQARwBGAHAAYgBtAFYAeQBJAG4AMAAuAGUAeQBKAGwAZQBIAEEAaQBPAGoARQAwAE4ARABBADEATgBqAGsAdwBOAGoARQBzAEkAbQA1AGkAWgBpAEkANgBNAFQAUQAwAE0ARABVADIATgBUAFEAMgBNAFMAdwBpAGQAbQBWAHkASQBqAG8AaQBNAFMANAB3AEkAaQB3AGkAYQBYAE4AegBJAGoAbwBpAGEASABSADAAYwBIAE0ANgBMAHkAOQBzAGIAMgBkAHAAYgBpADUAdABhAFcATgB5AGIAMwBOAHYAWgBuAFIAdgBiAG0AeABwAGIAbQBVAHUAWQAyADkAdABMADIAUgBpAFoARABjADEAWgBEAEIAaABMAFcATgBsAE8ARABrAHQATgBHAEkAdwBNAFMAMQBoAE0AMgBaAGwATABXAE0ANQBOAFQAZwAxAE0AMgBZADUATgB6AEkAeQBNAFMAOABpAEwAQwBKAGgAWQAzAEkAaQBPAGkASgBpAE0AbQBOAGYATQBWADkAaQBNAG0ATgB6AGEAVwBkAHUAYQBXADQAaQBMAEMASgB6AGQAVwBJAGkATwBpAEoATwBiADMAUQBnAGMAMwBWAHcAYwBHADkAeQBkAEcAVgBrAEkARwBOADEAYwBuAEoAbABiAG4AUgBzAGUAUwA0AGcAVgBYAE4AbABJAEcAOQBwAFoAQwBCAGoAYgBHAEYAcABiAFMANABpAEwAQwBKAGgAZABXAFEAaQBPAGkASgBrAFkAVABCAGgAWgBUAFoAawBZAGkAMAAwAFoAagBZADIATABUAFEAeQBZAHoAQQB0AE8ARwBZADAAWgBTADAAdwBZAFQAawAzAFkAVABNADQAWQBtAFUAMABZAHoAQQBpAEwAQwBKAHUAYgAyADUAagBaAFMASQA2AEkAagBZAHoATgBUAGMAMgBNAFQAWQB5AE0AagBNAHoATgBEAFUAMwBOAHoAawA0AE0AeQA1AFoAZQBtAGQANABUAFcAMQBSAE0AVQAxAFgAUgBYAFIATwBhAGsAawAwAFQAVgBNAHcATQBFADEANgBaADMAcABNAFYAMABrAHkAVABVAFIAVgBkAEUANQBIAFMAVABKAE8AUgAxAFUAMQBXAG0AcABqAGQAMAA1ADYAVQBYAHAAYQBiAFUANQBvAFcAVwAxAGEAYQAwADkAVQBaADMAUgBhAFYARgBsADQAVABrAE0AdwBNAEUANQBFAFEAWABwAE0AVgAwAGsAeABUADEAUgBaAGQARgBrAHkAVwBUAEYAWgBNAGsAVgA2AFcAWABwAEIAZAAwADUASABUAG0AdwBpAEwAQwBKAHAAWQBYAFEAaQBPAGoARQAwAE4ARABBADEATgBqAFUAMABOAGoARQBzAEkAbQBGADEAZABHAGgAZgBkAEcAbAB0AFoAUwBJADYATQBUAFEAMABNAEQAVQAyAE4AVABRADIATQBTAHcAaQBiADIAbABrAEkAagBvAGkATgBEAFYAagBPAEQAYwAzAE8AVABBAHQATQBHAE0AMABNAEMAMAAwAFoARABZAHoATABXAEUAMwBOAFcATQB0AE8ARABBAHkAWQBUAFYAagBOAFQATQB6AE4AVwBWAG0ASQBpAHcAaQBiAG0ARgB0AFoAUwBJADYASQBuAFYAdQBhADIANQB2AGQAMgA0AGkATABDAEoAbABiAFcARgBwAGIASABNAGkATwBsAHMAaQBZAFcANQAxAGEAbQB0AHoAYQBHAEYAeQBiAFcARgBBAFoARwBWAHMAYgAyAGwAMABkAEcAVQB1AFkAMgA5AHQASQBsADAAcwBJAG0ATgBmAGEARwBGAHoAYQBDAEkANgBJAG0ARgBqAGEARwAxAE4AUwBtAHcAegBRADAAeABYAGMAMAB4AEgATgBWAE4AVwBOAFgASgBPAFYAVQBFAGkATABDAEoAaABkAEYAOQBvAFkAWABOAG8ASQBqAG8AaQBWAFgAawB0AFUAagBkAFMAVwBtADgAMQBWAFQAZAB4AE4AMgBoAHMATQAwAHgANgBOAGsANQBpAFUAUwBKADkALgBDAE0AMABlAE0AeQAzAGMARgBJAGMAVABlADAATQBOADkAQgBvAGQARwBMAEoAdgBPADgAWgBVAHEAbABtAHgAMQAxAG8AMABfAEIAZABjAEsAWABZAEEAYwBNAEkANwBsAFcAOAA0AE8AZQBoAEMAaQBYAGMAZABHAE4AOABZADIAMAB6AEIAaAB5AFMAWgA1AGIASgBaAEkAWQBXAHgANQBYADYAdQBVAEgAbABiAFkATwBTAEkAdgBrAEUAegBrAEgAVABEAEsAcwAtAGwATQB5AEYATABoAEIAZQBFAHUAQgBKAGkATgB3ADYARQA1AGIAVABVADMAVwA4AFYAOABZAFMAZQBTADEAYQBlAEUAVwBaAEYAXwBDADUAVwB0AGMAbQBqADQAbQBnAHMAbwBKADEAQgBKAGgANwBRAG4AQQA4AEYAOAAwAGkAUgAyAHEAQQA4AGgAMQBxAHkASABnAHcAdgBsADgAeABzAEsAQgBMAEsAbgBPAGkAdgA0AGcAeQAtAHIATABjAEgAdABZAFcAdgBLAEgAWABoAEMAaQBlAFcARwAxAGcAUgA5AGYAWgAzAEsAcABmADQAdQA4ADUAYgBLAFcATABEAGoAWQBQAFMAVQBTAG0AcgBqAGkAQgBpAHIAdQBqAEsAagAyAGkAeABtAGYAaABDAEIAXwB5AHkALQB2ADUASQBRAGcAOAB1AGsARQAzAFgAOABoAFAAYgBHADAARABwAE8AcwB5AEkAcQBxAEEAaQBoAHUAMABRAHgAdwB1AEkARABxADcARQBjAE4AOAAxAFcARQA3AGsAVgBXAE0AUQBtAEcARAA1AGIAUgBpADIAeQBFAFIAWgBGAEEAMABCAFgAdQBYAGUAXwB4AE0AZgBBAGcASwBNAGMAZwAiAH0ALAAiACQAXwBiAGwAbwBjAGsAcwAiADoAWwB7ACIAXwBpAGQAIgA6ACIAbQBhAGkAbgAiACwAIgBfAHIAZQBmAHMAIgA6ADAALAAiAGkAbgBzAHQAYQBuAGMAZQBzACIAOgBbAHsAIgBfAGkAZAAiADoAIgBtAGEAaQBuACIALAAiAF8AcgBlAGYAcwAiADoAMAB9AF0ALAAiAF8AcgBlAHMAdABvAHIAZQBGAG8AYwB1AHMAIgA6AHsAfQB9AF0AfQAsACIAcwB0AGEAdAB1AHMAVABlAHgAdAAiADoAIgBVAG4AaABhAG4AZABsAGUAZAAgAEUAeABjAGUAcAB0AGkAbwBuACIAfQB9AA==</StringHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="PluginToAddAuthBearerInAllRequest.AddHeadersreq, PluginToAddAuthBearerInAllRequest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="AddHeadersreq" Description="" />
+  </WebTestPlugins>
+</WebTest>
