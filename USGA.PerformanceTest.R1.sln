@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGA.PerformanceTest.R1", "USGA.PerformanceTest.R1\USGA.PerformanceTest.R1.csproj", "{DE400348-FD3B-4A18-ADE0-BD22715B15F4}"
 EndProject
@@ -122,60 +122,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{51960DA2-6AB2-4A50-8147-993CEDC12050} = {CD1F1311-3D87-4804-8D21-A22C92520BC0}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 17
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://anujtest.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = CreateGuid\\CreateGuid.csproj
-		SccProjectName1 = CreateGuid
-		SccLocalPath1 = CreateGuid
-		SccProjectUniqueName2 = CustomeValidationDemo1MaxSizeValidation\\CustomeValidationDemo1MaxSizeValidation.csproj
-		SccProjectName2 = CustomeValidationDemo1MaxSizeValidation
-		SccLocalPath2 = CustomeValidationDemo1MaxSizeValidation
-		SccProjectUniqueName3 = CustomValidationRuke1\\CustomValidationRuke1.csproj
-		SccProjectName3 = CustomValidationRuke1
-		SccLocalPath3 = CustomValidationRuke1
-		SccProjectUniqueName4 = DateCurrent\\DateCurrent.csproj
-		SccProjectName4 = DateCurrent
-		SccLocalPath4 = DateCurrent
-		SccProjectUniqueName5 = Deletemeplugin\\Deletemeplugin.csproj
-		SccProjectName5 = Deletemeplugin
-		SccLocalPath5 = Deletemeplugin
-		SccProjectUniqueName6 = MaxReqValidationRule_DemoDay3\\MaxReqValidationRule_DemoDay3.csproj
-		SccProjectName6 = MaxReqValidationRule_DemoDay3
-		SccLocalPath6 = MaxReqValidationRule_DemoDay3
-		SccProjectUniqueName7 = ParseDependentReq\\ParseDependentReq.csproj
-		SccProjectName7 = ParseDependentReq
-		SccLocalPath7 = ParseDependentReq
-		SccProjectUniqueName8 = PluginToAddAuthBearerInAllRequest\\PluginToAddAuthBearerInAllRequest.csproj
-		SccProjectName8 = PluginToAddAuthBearerInAllRequest
-		SccLocalPath8 = PluginToAddAuthBearerInAllRequest
-		SccProjectUniqueName9 = Random\\Random.csproj
-		SccProjectName9 = Random
-		SccLocalPath9 = Random
-		SccProjectUniqueName10 = RemoveCache\\RemoveCache.csproj
-		SccProjectName10 = RemoveCache
-		SccLocalPath10 = RemoveCache
-		SccProjectUniqueName11 = TestPlginForMaxTestRunTime\\TestPlginForMaxTestRunTime.csproj
-		SccProjectName11 = TestPlginForMaxTestRunTime
-		SccLocalPath11 = TestPlginForMaxTestRunTime
-		SccProjectUniqueName12 = TestPluginForProxy\\TestPluginForProxy.csproj
-		SccProjectName12 = TestPluginForProxy
-		SccLocalPath12 = TestPluginForProxy
-		SccProjectUniqueName13 = USGA.PerformanceTest.R1\\USGA.PerformanceTest.R1.csproj
-		SccProjectName13 = USGA.PerformanceTest.R1
-		SccLocalPath13 = USGA.PerformanceTest.R1
-		SccProjectUniqueName14 = WebRequestPlginForGrabTheRequestURL\\WebRequestPlginForGrabTheRequestURL.csproj
-		SccProjectName14 = WebRequestPlginForGrabTheRequestURL
-		SccLocalPath14 = WebRequestPlginForGrabTheRequestURL
-		SccProjectUniqueName15 = Demo2017\\Demo2017.csproj
-		SccProjectTopLevelParentUniqueName15 = USGA.PerformanceTest.R1.sln
-		SccProjectName15 = Demo2017
-		SccLocalPath15 = Demo2017
-		SccProjectUniqueName16 = plugins\\plugins.csproj
-		SccProjectName16 = plugins
-		SccLocalPath16 = plugins
 	EndGlobalSection
 EndGlobal
