@@ -211,9 +211,6 @@
     <None Include="WebPerformanceTest\sampleRun-Anuj.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="WebPerformanceTest\Score1-Add.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="WebPerformanceTest\Score2-View.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -222,9 +219,6 @@
     </None>
     <None Include="WebPerformanceTest\Score4-Delete.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="WebPerformanceTest\SearchPlayer_Name_GHIN%28LL%29.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="WebPerformanceTest\signOut.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -306,14 +300,6 @@
     <ProjectReference Include="..\DateCurrent\DateCurrent.csproj">
       <Project>{1a7efb9c-35c7-41b9-802b-2b0983062db3}</Project>
       <Name>DateCurrent</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Deletemeplugin\Deletemeplugin.csproj">
-      <Project>{e6bbfdba-5649-4f67-8068-9b57f3b30f34}</Project>
-      <Name>Deletemeplugin</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MaxReqValidationRule_DemoDay3\MaxReqValidationRule_DemoDay3.csproj">
-      <Project>{018c7ba2-01fc-42c9-bf81-57e99e60a1d4}</Project>
-      <Name>MaxReqValidationRule_DemoDay3</Name>
     </ProjectReference>
     <ProjectReference Include="..\ParseDependentReq\ParseDependentReq.csproj">
       <Project>{dfc67ce9-845d-4c81-8376-0c4fdb0e9622}</Project>

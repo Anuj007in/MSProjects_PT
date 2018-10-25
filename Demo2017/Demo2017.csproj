@@ -69,9 +69,9 @@
       <Project>{1a7efb9c-35c7-41b9-802b-2b0983062db3}</Project>
       <Name>DateCurrent</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ParseDependentReq\ParseDependentReq.csproj">
-      <Project>{dfc67ce9-845d-4c81-8376-0c4fdb0e9622}</Project>
-      <Name>ParseDependentReq</Name>
+    <ProjectReference Include="..\DemoWebTestPluginParseDep\DemoWebTestPluginParseDep.csproj">
+      <Project>{b725565f-26c9-4a01-a20a-9028c93f0e7f}</Project>
+      <Name>DemoWebTestPluginParseDep</Name>
     </ProjectReference>
     <ProjectReference Include="..\plugins\plugins.csproj">
       <Project>{2ecb2707-2b56-45de-b66a-4c4f1bf8d305}</Project>
@@ -81,6 +81,10 @@
       <Project>{13855e21-6cc2-4a03-866f-2ea9c3b81229}</Project>
       <Name>PluginToAddAuthBearerInAllRequest</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebTestPlgProxyNew\WebTestPlgProxyNew.csproj">
+      <Project>{c9a7701b-965d-4978-8620-f2ea4ac6c723}</Project>
+      <Name>WebTestPlgProxyNew</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="DataSource\OkPlayQunatity.csv" />
@@ -88,6 +92,9 @@
     <None Include="DataSource\OkPlayCred.csv" />
     <None Include="DataSource\EbayCred.csv" />
     <None Include="Demo2017LoadTest\LoadTest1.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Demo2017LoadTest\LoadTest2.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="WebTestScenarios\EbaySO1.WebTest">
@@ -102,10 +109,13 @@
     <None Include="WebTestScenarios\OkPlayLoginnExplore.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="WebTestScenarios\WebTest1.webtest">
+    <None Include="WebTestScenarios\OkPlay2.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="WebTestScenarios\OkPlay2.webtest">
+    <None Include="WebTestScenarios\1JulyDemoRunA.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WebTestScenarios\WebTest1.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -11,7 +11,7 @@ namespace ParseDependentReq
     public class ParseDependentWebTestPlugin: WebTestPlugin
     {
        
-        [System.ComponentModel.DisplayName("ParseDepRequestFlag"),System.ComponentModel.Description("select the False if you wwant to parse the dependent request value to be not included in your each web request in a web test"),System.ComponentModel.DefaultValue("True")]
+        [System.ComponentModel.DisplayName("ParseDepRequestFlag"),System.ComponentModel.Description("select the False if you want to parse the dependent request value to be not included in your each web request in a web test"),System.ComponentModel.DefaultValue("True")]
         public bool parDepsevalue {get;set;}
         //since this web test is for each web request use the PreRequestEventArgs instead of the PreWebtesteventargs.
         //public override void PreWebTest(object sender, PreWebTestEventArgs e)
